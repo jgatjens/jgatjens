@@ -7,7 +7,7 @@ const ForkMe = styled.a`
 `
 
 export default () => (
-    <ForkMe href="https://github.com/jgatjens/jgatjens.github.io">
+    <ForkMe href="https://github.com/jgatjens/jgatjens.github.io/tree/develop">
         <img src={img} alt="Fork me on GitHub" 
              datacanonicalsrc="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" />
     </ForkMe>
