@@ -67,7 +67,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/";
+/******/ 	__webpack_require__.p = "//";
 /******/
 /******/ 	// Load entry module and return exports
 /******/ 	return __webpack_require__(__webpack_require__.s = 11);
@@ -291,11 +291,13 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 // components
 var Desc = _styledComponents2.default.p.withConfig({
-  displayName: 'Home__Desc'
+  displayName: 'Home__Desc',
+  componentId: 'isjbmx-0'
 })(['margin:0;padding:15px 0 25px 0;line-height:22px;font-weight:200;color:#777777;font-size:13px;text-align:center;']);
 
 var HomePage = _styledComponents2.default.div.withConfig({
-  displayName: 'Home__HomePage'
+  displayName: 'Home__HomePage',
+  componentId: 'isjbmx-1'
 })(['display:flex;align-items:center;align-items:center;height:100%;flex-direction:column;justify-content:center;']);
 
 exports.default = function () {
@@ -367,15 +369,18 @@ var _styledComponents2 = _interopRequireDefault(_styledComponents);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Links = _styledComponents2.default.a.withConfig({
-  displayName: 'ShareLinks__Links'
-})(['text-decoration:none;text-transform:uppercase;color:#202255;display:inline-block;']);
+  displayName: 'ShareLinks__Links',
+  componentId: 'hr2vms-0'
+})(['text-decoration:none;text-transform:uppercase;color:#3B3E49;display:inline-block;']);
 
 var Svg = _styledComponents2.default.svg.withConfig({
-  displayName: 'ShareLinks__Svg'
-})(['width:auto;height:30px;margin:0 15px;color:#CDCFD4;&:hover{color:#472482;}']);
+  displayName: 'ShareLinks__Svg',
+  componentId: 'hr2vms-1'
+})(['width:auto;height:30px;margin:0 15px;color:#CDCFD4;&:hover{color:#3B3E49;}']);
 
 var ShareLinks = _styledComponents2.default.div.withConfig({
-  displayName: 'ShareLinks'
+  displayName: 'ShareLinks',
+  componentId: 'hr2vms-2'
 })(['text-align:center;']);
 
 exports.default = function () {
@@ -450,21 +455,25 @@ var _PromoHeader = __webpack_require__(30);
 
 var _PromoHeader2 = _interopRequireDefault(_PromoHeader);
 
-var _sharePromo = __webpack_require__(33);
+var _Schedule = __webpack_require__(33);
+
+var _Schedule2 = _interopRequireDefault(_Schedule);
+
+var _sharePromo = __webpack_require__(34);
 
 var _sharePromo2 = _interopRequireDefault(_sharePromo);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var PromoPage = _styledComponents2.default.div.withConfig({
-  displayName: 'Promo__PromoPage'
-})(['display:block;height:100%;.container{max-width:440px;margin:0 auto;padding:35px 30px;color:#3B3E48;}h2{font-size:20px;font-weight:normal;}ul{font-size:14px;line-height:22px;list-style:disc;padding-left:18px;a{color:#472482;}}div[class*="ShareLinks"]{margin-top:30px;text-align:left;}.schedule{a{display:flex;align-items:center;padding-bottom:5px;text-decoration:none;&:hover{svg{left:3px;}}}svg{position:relative;transition:left ease-in-out 300ms;margin-left:5px;left:0;transform:rotate(180deg) scale(0.7);}}']);
-
 // components
-
+var PromoPage = _styledComponents2.default.div.withConfig({
+  displayName: 'Promo__PromoPage',
+  componentId: 'sc-1chc8xc-0'
+})(['display:block;height:100%;.container{max-width:440px;margin:0 auto;padding-top:35px;padding-left:20px;padding-right:20px;color:#3B3E48;}h2{font-size:20px;font-weight:normal;}ul{font-size:14px;line-height:22px;list-style:disc;padding-left:18px;}div[class*="ShareLinks"]{margin-top:30px;text-align:left;}']);
 
 var Desc = _styledComponents2.default.p.withConfig({
-  displayName: 'Promo__Desc'
+  displayName: 'Promo__Desc',
+  componentId: 'sc-1chc8xc-1'
 })(['color:#3B3E48;font-size:16px;line-height:1.4;margin-top:0;margin-bottom:25px;']);
 
 exports.default = function () {
@@ -477,7 +486,7 @@ exports.default = function () {
       _react2.default.createElement(
         'title',
         null,
-        'League of Legends Free Skin - jgatjens'
+        'Twitch Promo - Jairo G\xE4tjens'
       ),
       _react2.default.createElement('meta', { name: 'description', content: 'Estaremos sorteando un skin de League of legends cada semana en el stream de los viernes a las 9:00 pm (-06  CST)' }),
       _react2.default.createElement('meta', { name: 'keywords', content: 'Promo, twitch, jgatjens, Lol, League, Legends, Games' }),
@@ -500,37 +509,13 @@ exports.default = function () {
       _react2.default.createElement(
         Desc,
         null,
-        'Estaremos sorteando un skin de League of Legends cada semana en el stream de los ',
-        _react2.default.createElement(
-          'b',
-          null,
-          'Viernes'
-        ),
-        '.'
+        'Estaremos sorteando un skin de League of legends cada semana.'
       ),
-      _react2.default.createElement(
-        'div',
-        { className: 'schedule' },
-        _react2.default.createElement(
-          'a',
-          { href: 'https://www.twitch.tv/popout/jgatjens/extensions/naty2zwfp7vecaivuve8ef1hohh6bo/panel', target: '_blank' },
-          'Horario',
-          _react2.default.createElement(
-            'svg',
-            { width: '25', height: '14' },
-            _react2.default.createElement(
-              'g',
-              { stroke: 'currentColor', strokeWidth: '2', fill: 'transparent' },
-              _react2.default.createElement('path', { d: 'M23.02 7H2', strokeLinecap: 'square' }),
-              _react2.default.createElement('path', { d: 'M5.5 12.5l-4-5.377 4-5.623' })
-            )
-          )
-        )
-      ),
+      _react2.default.createElement(_Schedule2.default, null),
       _react2.default.createElement(
         'h2',
         null,
-        'Mecanica del Concurso:'
+        'Reglas del concurso'
       ),
       _react2.default.createElement(
         'ul',
@@ -538,7 +523,7 @@ exports.default = function () {
         _react2.default.createElement(
           'li',
           null,
-          'Ser follower (seguidor) del stream ',
+          'Ser follower del stream ',
           _react2.default.createElement(
             'a',
             { href: 'https://www.twitch.tv/jgatjens', target: '_blank' },
@@ -549,28 +534,22 @@ exports.default = function () {
         _react2.default.createElement(
           'li',
           null,
-          'Se abrir\xE1 un giveaway (rifa) al que pueden unirse en el stream de los viernes. '
+          'Se hara una rifa entre los followers.'
         ),
         _react2.default.createElement(
           'li',
           null,
-          'Cuando el stream esta en vivo, en la parte inferior derecha aparece un overlay (imagen) en cual pueden hacer click y unirse a la rifa. '
+          'Estar presente el dia del sorteo.'
+        ),
+        _react2.default.createElement(
+          'li',
+          null,
+          'Dudas por discord o bien los d\xEDas del stream.'
         ),
         _react2.default.createElement(
           'li',
           null,
           'Al final del stream se dara a conocer el ganador.'
-        ),
-        _react2.default.createElement(
-          'li',
-          null,
-          'Dudas por ',
-          _react2.default.createElement(
-            'a',
-            { target: '_blank', href: 'https://discord.gg/vXptmC' },
-            'discord'
-          ),
-          ' o bien los d\xEDas del stream.'
         ),
         _react2.default.createElement(
           'li',
@@ -790,7 +769,7 @@ var universalOptions = {
 
 var t_0 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
   id: '../src/containers/Home',
-  file: '/Users/jgatjens/Dev/home/jgatjens.com/dist/react-static-routes.js',
+  file: 'C:/Users/jgatjens/Dev/jgatjens.github.io/dist/react-static-routes.js',
   load: function load() {
     return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 6)), (0, _importCss3.default)('src/containers/Home', {
       disableWarnings: true
@@ -810,7 +789,7 @@ var t_0 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
 }), universalOptions);
 var t_1 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
   id: '../src/containers/Promo',
-  file: '/Users/jgatjens/Dev/home/jgatjens.com/dist/react-static-routes.js',
+  file: 'C:/Users/jgatjens/Dev/jgatjens.github.io/dist/react-static-routes.js',
   load: function load() {
     return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 9)), (0, _importCss3.default)('src/containers/Promo', {
       disableWarnings: true
@@ -830,7 +809,7 @@ var t_1 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
 }), universalOptions);
 var t_2 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
   id: '../src/containers/404',
-  file: '/Users/jgatjens/Dev/home/jgatjens.com/dist/react-static-routes.js',
+  file: 'C:/Users/jgatjens/Dev/jgatjens.github.io/dist/react-static-routes.js',
   load: function load() {
     return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 10)), (0, _importCss3.default)('src/containers/404', {
       disableWarnings: true
@@ -1576,15 +1555,18 @@ var _jgatjens2 = _interopRequireDefault(_jgatjens);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Logo = _styledComponents2.default.img.withConfig({
-  displayName: 'Profile__Logo'
+  displayName: 'Profile__Logo',
+  componentId: 'sc-9a693q-0'
 })(['margin:0 auto;background-color:#F2F2F2;display:block;width:200px;height:200px;']);
 
 var Title = _styledComponents2.default.h1.withConfig({
-  displayName: 'Profile__Title'
-})(['margin:0.67em 0;color:#202255;font-size:22px;font-weight:500;word-spacing:2px;small{padding-top:5px;display:block;font-weight:200;color:#777777;font-size:13px;}']);
+  displayName: 'Profile__Title',
+  componentId: 'sc-9a693q-1'
+})(['margin:0.67em 0;color:#3B3E48;font-size:22px;font-weight:500;word-spacing:2px;small{padding-top:5px;display:block;font-weight:200;color:#777777;font-size:13px;}']);
 
 var Picture = _styledComponents2.default.div.withConfig({
-  displayName: 'Profile__Picture'
+  displayName: 'Profile__Picture',
+  componentId: 'sc-9a693q-2'
 })(['text-align:center;']);
 
 exports.default = function () {
@@ -1627,13 +1609,15 @@ var _styledComponents2 = _interopRequireDefault(_styledComponents);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var SkillList = _styledComponents2.default.div.withConfig({
-  displayName: 'SkillList'
+  displayName: 'SkillList',
+  componentId: 'sc-1qnmrb0-0'
 })(['padding-top:10px;text-align:center;']);
 
 var Button = _styledComponents2.default.a.withConfig({
-  displayName: 'SkillList__Button'
-})(['display:inline-block;font-size:15px;border-radius:20px;padding:9px 18px 7px 18px;border:1px solid #CDCFD4;margin:0 2px 10px;font-weight:200;letter-spacing:1.1px;color:#777777;text-decoration:none;text-transform:uppercase;&:hover{background-color:#202255;border-color:#202255;color:white;}', ''], function (props) {
-  return props.active && (0, _styledComponents.css)(['background-color:#202255;border-color:#202255;color:white;']);
+  displayName: 'SkillList__Button',
+  componentId: 'sc-1qnmrb0-1'
+})(['display:inline-block;font-size:15px;border-radius:20px;padding:7px 18px;border:1px solid #CDCFD4;margin:0 2px 10px;font-weight:200;color:#777777;text-decoration:none;text-transform:uppercase;', ''], function (props) {
+  return props.active && (0, _styledComponents.css)(['background-color:#3B3E49;border-color:#3B3E49;color:white;']);
 });
 
 exports.default = function () {
@@ -1685,8 +1669,9 @@ var _styledComponents2 = _interopRequireDefault(_styledComponents);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Footer = _styledComponents2.default.div.withConfig({
-  displayName: 'Footer'
-})(['text-decoration:none;text-transform:uppercase;color:#3B3E49;display:inline-block;width:100%;text-align:center;.line{margin:40px auto 20px auto;height:1px;display:block;width:150px;background-color:#E6E7E9;}a{text-decoration:none;text-transform:uppercase;color:#202255;padding:10px 0;display:block;font-weight:800;}']);
+  displayName: 'Footer',
+  componentId: 'sc-1qy0s7h-0'
+})(['text-decoration:none;text-transform:uppercase;color:#3B3E49;display:inline-block;width:100%;text-align:center;.line{margin:40px auto 20px auto;height:1px;display:block;width:150px;background-color:#E6E7E9;}a{text-decoration:none;text-transform:uppercase;color:#3B3E49;padding:10px 0;display:block;font-weight:800;}']);
 
 exports.default = function () {
   return _react2.default.createElement(
@@ -1727,7 +1712,8 @@ var _forkme2 = _interopRequireDefault(_forkme);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var ForkMe = _styledComponents2.default.a.withConfig({
-    displayName: 'ForkMe'
+    displayName: 'ForkMe',
+    componentId: 'sc-1kd4ieh-0'
 })(['  position:absolute;top:0;right:0;border:0;']);
 
 exports.default = function () {
@@ -1777,15 +1763,18 @@ var _headerRight2 = _interopRequireDefault(_headerRight);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var PromoHeader = _styledComponents2.default.div.withConfig({
-  displayName: 'PromoHeader'
+  displayName: 'PromoHeader',
+  componentId: 'cpo0n-0'
 })(['display:flex;flex-direction:column;align-items:center;justify-content:center;width:100%;background-color:#202255;min-height:396px;position:relative;color:white;.bg-left,.bg-right{background-size:contain;background-repeat:no-repeat;background-position-y:bottom;position:absolute;height:100%;width:260px;top:0;z-index:0;}.bg-left{background-image:url(', ');background-position-x:left;left:0;}.bg-right{background-image:url(', ');background-position-x:right;right:0;}svg,a,h1,div{z-index:1;}'], _headerLeft2.default, _headerRight2.default);
 
 var Title = _styledComponents2.default.h1.withConfig({
-  displayName: 'PromoHeader__Title'
+  displayName: 'PromoHeader__Title',
+  componentId: 'cpo0n-1'
 })(['font-size:40px;line-height:1;max-width:266px;margin:0 auto;text-align:center;margin-top:30px;text-transform:capitalize;@media (max-width:480px){font-size:25px;}']);
 
 var Winner = _styledComponents2.default.div.withConfig({
-  displayName: 'PromoHeader__Winner'
+  displayName: 'PromoHeader__Winner',
+  componentId: 'cpo0n-2'
 })(['font-size:13px;line-height:1.3;text-align:center;padding-top:30px;padding-bottom:50px;@media (max-width:480px){padding-bottom:25px;}a{color:white;}span{font-weight:bold;}']);
 
 exports.default = function () {
@@ -1802,7 +1791,7 @@ exports.default = function () {
         { width: '25', height: '14' },
         _react2.default.createElement(
           'g',
-          { stroke: '#FFF', strokeWidth: '2', fill: 'transparent' },
+          { stroke: '#FFF', strokeWidth: '2', fill: 'currentColor' },
           _react2.default.createElement('path', { d: 'M23.02 7H2', strokeLinecap: 'square' }),
           _react2.default.createElement('path', { d: 'M5.5 12.5l-4-5.377 4-5.623' })
         )
@@ -1816,7 +1805,7 @@ exports.default = function () {
     _react2.default.createElement(
       Winner,
       null,
-      'Ganador ',
+      'Ganador actual ',
       _react2.default.createElement('br', null),
       'usuario: ',
       _react2.default.createElement(
@@ -1849,9 +1838,57 @@ module.exports = __webpack_require__.p + "static/header-right.9d75552f.png";
 /* 33 */
 /***/ (function(module, exports, __webpack_require__) {
 
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _styledComponents = __webpack_require__(1);
+
+var _styledComponents2 = _interopRequireDefault(_styledComponents);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Schedule = _styledComponents2.default.div.withConfig({
+  displayName: 'Schedule',
+  componentId: 'zs5z7e-0'
+})(['a{display:flex;align-items:center;padding-bottom:5px;text-decoration:none;}svg{position:relative;margin-left:5px;left:0px;transform:rotate(180deg) scale(0.7);transition:left 300ms ease-in-out 0s;}']);
+
+exports.default = function () {
+  return _react2.default.createElement(
+    Schedule,
+    null,
+    _react2.default.createElement(
+      'a',
+      { href: 'https://www.twitch.tv/popout/jgatjens/extensions/naty2zwfp7vecaivuve8ef1hohh6bo/panel', target: '_blank' },
+      'Horario',
+      _react2.default.createElement(
+        'svg',
+        { width: '25', height: '14' },
+        _react2.default.createElement(
+          'g',
+          { stroke: 'currentColor', strokeWidth: '2', fill: 'transparent' },
+          _react2.default.createElement('path', { d: 'M23.02 7H2', strokeLinecap: 'square' }),
+          _react2.default.createElement('path', { d: 'M5.5 12.5l-4-5.377 4-5.623' })
+        )
+      )
+    )
+  );
+};
+
+/***/ }),
+/* 34 */
+/***/ (function(module, exports, __webpack_require__) {
+
 module.exports = __webpack_require__.p + "static/share-promo.1de58934.png";
 
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.d7565bbb.js.map
+//# sourceMappingURL=static.f98f85a7.js.map
