@@ -2,9 +2,9 @@
   "errors": [],
   "warnings": [],
   "version": "3.12.0",
-  "hash": "8e88c91de2f183f26617",
-  "time": 3774,
-  "publicPath": "//",
+  "hash": "4a6ce20b9f66e615952d",
+  "time": 3728,
+  "publicPath": "/",
   "assetsByChunkName": {
     "src/containers/Home": [
       "templates/src/containers/Home.2ddf7512.js",
@@ -19,18 +19,18 @@
       "templates/src/containers/404.4e26fc72.js.map"
     ],
     "main": [
-      "main.e3f942aa.js",
-      "main.e3f942aa.js.map"
+      "main.f6acd8ab.js",
+      "main.f6acd8ab.js.map"
     ],
     "bootstrap": [
-      "bootstrap.3974b5ac.js",
-      "bootstrap.3974b5ac.js.map"
+      "bootstrap.e73cce04.js",
+      "bootstrap.e73cce04.js.map"
     ]
   },
   "assets": [
     {
-      "name": "main.e3f942aa.js",
-      "size": 320409,
+      "name": "main.f6acd8ab.js",
+      "size": 320404,
       "chunks": [
         3
       ],
@@ -102,8 +102,8 @@
       "emitted": true
     },
     {
-      "name": "bootstrap.3974b5ac.js",
-      "size": 1544,
+      "name": "bootstrap.e73cce04.js",
+      "size": 1543,
       "chunks": [
         4
       ],
@@ -146,8 +146,8 @@
       "emitted": true
     },
     {
-      "name": "main.e3f942aa.js.map",
-      "size": 1855065,
+      "name": "main.f6acd8ab.js.map",
+      "size": 1855058,
       "chunks": [
         3
       ],
@@ -157,8 +157,8 @@
       "emitted": true
     },
     {
-      "name": "bootstrap.3974b5ac.js.map",
-      "size": 14437,
+      "name": "bootstrap.e73cce04.js.map",
+      "size": 14435,
       "chunks": [
         4
       ],
@@ -176,10 +176,10 @@
         3
       ],
       "assets": [
-        "bootstrap.3974b5ac.js",
-        "bootstrap.3974b5ac.js.map",
-        "main.e3f942aa.js",
-        "main.e3f942aa.js.map"
+        "bootstrap.e73cce04.js",
+        "bootstrap.e73cce04.js.map",
+        "main.f6acd8ab.js",
+        "main.f6acd8ab.js.map"
       ],
       "isOverSizeLimit": true
     }
@@ -267,9 +267,9 @@
             1
           ],
           "assets": [],
-          "issuer": "C:\\Users\\jgatjens\\Dev\\jgatjens.github.io\\node_modules\\babel-loader\\lib\\index.js??ref--0-oneOf-0-0!C:\\Users\\jgatjens\\Dev\\jgatjens.github.io\\src\\containers\\Promo.js",
-          "issuerId": 52,
-          "issuerName": "./src/containers/Promo.js",
+          "issuer": "C:\\Users\\jgatjens\\Dev\\jgatjens.github.io\\node_modules\\babel-loader\\lib\\index.js??ref--0-oneOf-0-0!C:\\Users\\jgatjens\\Dev\\jgatjens.github.io\\src\\containers\\Home.js",
+          "issuerId": 51,
+          "issuerName": "./src/containers/Home.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -634,9 +634,9 @@
             1
           ],
           "assets": [],
-          "issuer": "C:\\Users\\jgatjens\\Dev\\jgatjens.github.io\\node_modules\\babel-loader\\lib\\index.js??ref--0-oneOf-0-0!C:\\Users\\jgatjens\\Dev\\jgatjens.github.io\\src\\containers\\Promo.js",
-          "issuerId": 52,
-          "issuerName": "./src/containers/Promo.js",
+          "issuer": "C:\\Users\\jgatjens\\Dev\\jgatjens.github.io\\node_modules\\babel-loader\\lib\\index.js??ref--0-oneOf-0-0!C:\\Users\\jgatjens\\Dev\\jgatjens.github.io\\src\\containers\\Home.js",
+          "issuerId": 51,
+          "issuerName": "./src/containers/Home.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -967,10 +967,10 @@
         "main"
       ],
       "files": [
-        "main.e3f942aa.js",
-        "main.e3f942aa.js.map"
+        "main.f6acd8ab.js",
+        "main.f6acd8ab.js.map"
       ],
-      "hash": "e3f942aae6cf11862591",
+      "hash": "f6acd8ab8f0cb43f7e67",
       "parents": [
         4
       ],
@@ -1806,9 +1806,9 @@
             3
           ],
           "assets": [],
-          "issuer": "C:\\Users\\jgatjens\\Dev\\jgatjens.github.io\\node_modules\\history\\createBrowserHistory.js",
-          "issuerId": 118,
-          "issuerName": "./node_modules/history/createBrowserHistory.js",
+          "issuer": "C:\\Users\\jgatjens\\Dev\\jgatjens.github.io\\node_modules\\history\\createHashHistory.js",
+          "issuerId": 120,
+          "issuerName": "./node_modules/history/createHashHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -2037,9 +2037,9 @@
             3
           ],
           "assets": [],
-          "issuer": "C:\\Users\\jgatjens\\Dev\\jgatjens.github.io\\node_modules\\history\\createBrowserHistory.js",
-          "issuerId": 118,
-          "issuerName": "./node_modules/history/createBrowserHistory.js",
+          "issuer": "C:\\Users\\jgatjens\\Dev\\jgatjens.github.io\\node_modules\\history\\createMemoryHistory.js",
+          "issuerId": 119,
+          "issuerName": "./node_modules/history/createMemoryHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -2438,9 +2438,9 @@
             3
           ],
           "assets": [],
-          "issuer": "C:\\Users\\jgatjens\\Dev\\jgatjens.github.io\\node_modules\\react-static\\lib\\client\\methods.js",
-          "issuerId": 11,
-          "issuerName": "./node_modules/react-static/lib/client/methods.js",
+          "issuer": "C:\\Users\\jgatjens\\Dev\\jgatjens.github.io\\node_modules\\react-static\\lib\\client\\components\\SiteData.js",
+          "issuerId": 113,
+          "issuerName": "./node_modules/react-static/lib/client/components/SiteData.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -3011,9 +3011,9 @@
             3
           ],
           "assets": [],
-          "issuer": "C:\\Users\\jgatjens\\Dev\\jgatjens.github.io\\node_modules\\history\\createBrowserHistory.js",
-          "issuerId": 118,
-          "issuerName": "./node_modules/history/createBrowserHistory.js",
+          "issuer": "C:\\Users\\jgatjens\\Dev\\jgatjens.github.io\\node_modules\\history\\createMemoryHistory.js",
+          "issuerId": 119,
+          "issuerName": "./node_modules/history/createMemoryHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -3132,9 +3132,9 @@
             3
           ],
           "assets": [],
-          "issuer": "C:\\Users\\jgatjens\\Dev\\jgatjens.github.io\\node_modules\\history\\es\\createHashHistory.js",
-          "issuerId": 65,
-          "issuerName": "./node_modules/history/es/createHashHistory.js",
+          "issuer": "C:\\Users\\jgatjens\\Dev\\jgatjens.github.io\\node_modules\\history\\es\\createBrowserHistory.js",
+          "issuerId": 64,
+          "issuerName": "./node_modules/history/es/createBrowserHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -3540,9 +3540,9 @@
             3
           ],
           "assets": [],
-          "issuer": "C:\\Users\\jgatjens\\Dev\\jgatjens.github.io\\node_modules\\history\\createBrowserHistory.js",
-          "issuerId": 118,
-          "issuerName": "./node_modules/history/createBrowserHistory.js",
+          "issuer": "C:\\Users\\jgatjens\\Dev\\jgatjens.github.io\\node_modules\\history\\createMemoryHistory.js",
+          "issuerId": 119,
+          "issuerName": "./node_modules/history/createMemoryHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -3596,9 +3596,9 @@
             3
           ],
           "assets": [],
-          "issuer": "C:\\Users\\jgatjens\\Dev\\jgatjens.github.io\\node_modules\\history\\createBrowserHistory.js",
-          "issuerId": 118,
-          "issuerName": "./node_modules/history/createBrowserHistory.js",
+          "issuer": "C:\\Users\\jgatjens\\Dev\\jgatjens.github.io\\node_modules\\history\\createMemoryHistory.js",
+          "issuerId": 119,
+          "issuerName": "./node_modules/history/createMemoryHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -3964,9 +3964,9 @@
             3
           ],
           "assets": [],
-          "issuer": "C:\\Users\\jgatjens\\Dev\\jgatjens.github.io\\node_modules\\history\\es\\createHashHistory.js",
-          "issuerId": 65,
-          "issuerName": "./node_modules/history/es/createHashHistory.js",
+          "issuer": "C:\\Users\\jgatjens\\Dev\\jgatjens.github.io\\node_modules\\history\\es\\createBrowserHistory.js",
+          "issuerId": 64,
+          "issuerName": "./node_modules/history/es/createBrowserHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -4376,9 +4376,9 @@
             3
           ],
           "assets": [],
-          "issuer": "C:\\Users\\jgatjens\\Dev\\jgatjens.github.io\\node_modules\\react-static\\lib\\client\\methods.js",
-          "issuerId": 11,
-          "issuerName": "./node_modules/react-static/lib/client/methods.js",
+          "issuer": "C:\\Users\\jgatjens\\Dev\\jgatjens.github.io\\node_modules\\react-static\\lib\\client\\components\\SiteData.js",
+          "issuerId": 113,
+          "issuerName": "./node_modules/react-static/lib/client/components/SiteData.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -4705,9 +4705,9 @@
             3
           ],
           "assets": [],
-          "issuer": "C:\\Users\\jgatjens\\Dev\\jgatjens.github.io\\node_modules\\history\\createBrowserHistory.js",
-          "issuerId": 118,
-          "issuerName": "./node_modules/history/createBrowserHistory.js",
+          "issuer": "C:\\Users\\jgatjens\\Dev\\jgatjens.github.io\\node_modules\\history\\createHashHistory.js",
+          "issuerId": 120,
+          "issuerName": "./node_modules/history/createHashHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -8413,10 +8413,10 @@
         "bootstrap"
       ],
       "files": [
-        "bootstrap.3974b5ac.js",
-        "bootstrap.3974b5ac.js.map"
+        "bootstrap.e73cce04.js",
+        "bootstrap.e73cce04.js.map"
       ],
-      "hash": "3974b5ac45daa88609ac",
+      "hash": "e73cce043d989590fd54",
       "parents": [],
       "modules": [],
       "filteredModules": 0,
@@ -9255,9 +9255,9 @@
         3
       ],
       "assets": [],
-      "issuer": "C:\\Users\\jgatjens\\Dev\\jgatjens.github.io\\node_modules\\history\\createBrowserHistory.js",
-      "issuerId": 118,
-      "issuerName": "./node_modules/history/createBrowserHistory.js",
+      "issuer": "C:\\Users\\jgatjens\\Dev\\jgatjens.github.io\\node_modules\\history\\createHashHistory.js",
+      "issuerId": 120,
+      "issuerName": "./node_modules/history/createHashHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -9486,9 +9486,9 @@
         3
       ],
       "assets": [],
-      "issuer": "C:\\Users\\jgatjens\\Dev\\jgatjens.github.io\\node_modules\\history\\createBrowserHistory.js",
-      "issuerId": 118,
-      "issuerName": "./node_modules/history/createBrowserHistory.js",
+      "issuer": "C:\\Users\\jgatjens\\Dev\\jgatjens.github.io\\node_modules\\history\\createMemoryHistory.js",
+      "issuerId": 119,
+      "issuerName": "./node_modules/history/createMemoryHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -9887,9 +9887,9 @@
         3
       ],
       "assets": [],
-      "issuer": "C:\\Users\\jgatjens\\Dev\\jgatjens.github.io\\node_modules\\react-static\\lib\\client\\methods.js",
-      "issuerId": 11,
-      "issuerName": "./node_modules/react-static/lib/client/methods.js",
+      "issuer": "C:\\Users\\jgatjens\\Dev\\jgatjens.github.io\\node_modules\\react-static\\lib\\client\\components\\SiteData.js",
+      "issuerId": 113,
+      "issuerName": "./node_modules/react-static/lib/client/components/SiteData.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -10460,9 +10460,9 @@
         3
       ],
       "assets": [],
-      "issuer": "C:\\Users\\jgatjens\\Dev\\jgatjens.github.io\\node_modules\\history\\createBrowserHistory.js",
-      "issuerId": 118,
-      "issuerName": "./node_modules/history/createBrowserHistory.js",
+      "issuer": "C:\\Users\\jgatjens\\Dev\\jgatjens.github.io\\node_modules\\history\\createMemoryHistory.js",
+      "issuerId": 119,
+      "issuerName": "./node_modules/history/createMemoryHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -10581,9 +10581,9 @@
         3
       ],
       "assets": [],
-      "issuer": "C:\\Users\\jgatjens\\Dev\\jgatjens.github.io\\node_modules\\history\\es\\createHashHistory.js",
-      "issuerId": 65,
-      "issuerName": "./node_modules/history/es/createHashHistory.js",
+      "issuer": "C:\\Users\\jgatjens\\Dev\\jgatjens.github.io\\node_modules\\history\\es\\createBrowserHistory.js",
+      "issuerId": 64,
+      "issuerName": "./node_modules/history/es/createBrowserHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -10989,9 +10989,9 @@
         3
       ],
       "assets": [],
-      "issuer": "C:\\Users\\jgatjens\\Dev\\jgatjens.github.io\\node_modules\\history\\createBrowserHistory.js",
-      "issuerId": 118,
-      "issuerName": "./node_modules/history/createBrowserHistory.js",
+      "issuer": "C:\\Users\\jgatjens\\Dev\\jgatjens.github.io\\node_modules\\history\\createMemoryHistory.js",
+      "issuerId": 119,
+      "issuerName": "./node_modules/history/createMemoryHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -11045,9 +11045,9 @@
         3
       ],
       "assets": [],
-      "issuer": "C:\\Users\\jgatjens\\Dev\\jgatjens.github.io\\node_modules\\history\\createBrowserHistory.js",
-      "issuerId": 118,
-      "issuerName": "./node_modules/history/createBrowserHistory.js",
+      "issuer": "C:\\Users\\jgatjens\\Dev\\jgatjens.github.io\\node_modules\\history\\createMemoryHistory.js",
+      "issuerId": 119,
+      "issuerName": "./node_modules/history/createMemoryHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -11413,9 +11413,9 @@
         3
       ],
       "assets": [],
-      "issuer": "C:\\Users\\jgatjens\\Dev\\jgatjens.github.io\\node_modules\\history\\es\\createHashHistory.js",
-      "issuerId": 65,
-      "issuerName": "./node_modules/history/es/createHashHistory.js",
+      "issuer": "C:\\Users\\jgatjens\\Dev\\jgatjens.github.io\\node_modules\\history\\es\\createBrowserHistory.js",
+      "issuerId": 64,
+      "issuerName": "./node_modules/history/es/createBrowserHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -11825,9 +11825,9 @@
         3
       ],
       "assets": [],
-      "issuer": "C:\\Users\\jgatjens\\Dev\\jgatjens.github.io\\node_modules\\react-static\\lib\\client\\methods.js",
-      "issuerId": 11,
-      "issuerName": "./node_modules/react-static/lib/client/methods.js",
+      "issuer": "C:\\Users\\jgatjens\\Dev\\jgatjens.github.io\\node_modules\\react-static\\lib\\client\\components\\SiteData.js",
+      "issuerId": 113,
+      "issuerName": "./node_modules/react-static/lib/client/components/SiteData.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -12154,9 +12154,9 @@
         3
       ],
       "assets": [],
-      "issuer": "C:\\Users\\jgatjens\\Dev\\jgatjens.github.io\\node_modules\\history\\createBrowserHistory.js",
-      "issuerId": 118,
-      "issuerName": "./node_modules/history/createBrowserHistory.js",
+      "issuer": "C:\\Users\\jgatjens\\Dev\\jgatjens.github.io\\node_modules\\history\\createHashHistory.js",
+      "issuerId": 120,
+      "issuerName": "./node_modules/history/createHashHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -15994,9 +15994,9 @@
         1
       ],
       "assets": [],
-      "issuer": "C:\\Users\\jgatjens\\Dev\\jgatjens.github.io\\node_modules\\babel-loader\\lib\\index.js??ref--0-oneOf-0-0!C:\\Users\\jgatjens\\Dev\\jgatjens.github.io\\src\\containers\\Promo.js",
-      "issuerId": 52,
-      "issuerName": "./src/containers/Promo.js",
+      "issuer": "C:\\Users\\jgatjens\\Dev\\jgatjens.github.io\\node_modules\\babel-loader\\lib\\index.js??ref--0-oneOf-0-0!C:\\Users\\jgatjens\\Dev\\jgatjens.github.io\\src\\containers\\Home.js",
+      "issuerId": 51,
+      "issuerName": "./src/containers/Home.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
