@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import { ServerStyleSheet } from 'styled-components'
 
 export default {
+  siteRoot: '/',
   getSiteData: () => ({
     title: 'Jairo Gätjens - Website',
   }),
@@ -14,7 +15,7 @@ export default {
       },
       {
         title: 'jgatjens - twitch promo LoL',
-        path: '/twitch-promo-league-of-legends',
+        path: '/league-of-legends-free-skin/',
         component: 'src/containers/Promo',
       },
       {

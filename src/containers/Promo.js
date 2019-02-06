@@ -5,7 +5,8 @@ import { Head } from 'react-static'
 // components
 import ShareLinks from '../components/ShareLinks'
 import PromoHeader from '../components/PromoHeader'
-import img from '../assets/share-promo.png';
+import Schedule from '../components/Schedule'
+import img from '../assets/share-promo.png'
 
 const PromoPage = styled.div`
   display: block;
@@ -68,13 +69,18 @@ export default () => (
     <PromoHeader />
 
     <div className="container">
-        <Desc>Estaremos sorteando un skin de League of legends cada semana en el stream de los <b>viernes a las 9:00 pm (-06  CST)</b>.</Desc>
+        <Desc>Estaremos sorteando un skin de League of legends cada semana.</Desc>
+
+        <Schedule />
+
         <h2>Reglas del concurso</h2>
         <ul>
             <li>Ser follower del stream <a href="https://www.twitch.tv/jgatjens" target="_blank">https://www.twitch.tv/jgatjens</a>.</li>
-            <li>Se hara una rifa entre los followers con mas puntos de lealtad.</li>
-            <li>Los puntos de lealtad se consiguen viendo el stream mayormente y con otras interacciones en el stream.</li>
+            <li>Se hara una rifa entre los followers.</li>
             <li>Estar presente el dia del sorteo.</li>
+            <li>Dudas por discord o bien los días del stream.</li>
+            <li>Al final del stream se dara a conocer el ganador.</li>
+            <li>El ganador debera tener cuenta de League of legends en LAN para resivir el skin.</li>
         </ul>
         <ShareLinks />
     </div>
