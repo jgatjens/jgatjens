@@ -3,7 +3,6 @@ import React, { Component } from 'react'
 import { ServerStyleSheet } from 'styled-components'
 
 export default {
-  siteRoot: '/',
   getSiteData: () => ({
     title: 'Jairo Gätjens - Website',
   }),
@@ -42,7 +41,7 @@ export default {
             <meta charSet="UTF-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-            <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+            <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
 
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css" type="text/css" />
             <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css" />
