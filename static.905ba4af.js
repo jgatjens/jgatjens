@@ -769,7 +769,7 @@ var universalOptions = {
 
 var t_0 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
   id: '../src/containers/Home',
-  file: 'C:/Users/jgatjens/Dev/jgatjens.github.io/dist/react-static-routes.js',
+  file: '/Users/jgatjens/Dev/jgatjens.github.io/dist/react-static-routes.js',
   load: function load() {
     return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 6)), (0, _importCss3.default)('src/containers/Home', {
       disableWarnings: true
@@ -789,7 +789,7 @@ var t_0 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
 }), universalOptions);
 var t_1 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
   id: '../src/containers/Promo',
-  file: 'C:/Users/jgatjens/Dev/jgatjens.github.io/dist/react-static-routes.js',
+  file: '/Users/jgatjens/Dev/jgatjens.github.io/dist/react-static-routes.js',
   load: function load() {
     return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 9)), (0, _importCss3.default)('src/containers/Promo', {
       disableWarnings: true
@@ -809,7 +809,7 @@ var t_1 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
 }), universalOptions);
 var t_2 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
   id: '../src/containers/404',
-  file: 'C:/Users/jgatjens/Dev/jgatjens.github.io/dist/react-static-routes.js',
+  file: '/Users/jgatjens/Dev/jgatjens.github.io/dist/react-static-routes.js',
   load: function load() {
     return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 10)), (0, _importCss3.default)('src/containers/404', {
       disableWarnings: true
@@ -1810,8 +1810,8 @@ exports.default = function () {
       'usuario: ',
       _react2.default.createElement(
         'a',
-        { href: 'https://www.twitch.tv/xnexuxx', target: '_blank' },
-        'xnexuxx'
+        { href: 'https://www.twitch.tv/ggdan01', target: '_blank' },
+        'ggdan01'
       )
     ),
     _react2.default.createElement(
@@ -1891,4 +1891,4 @@ module.exports = __webpack_require__.p + "static/share-promo.1de58934.png";
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.d6fd8322.js.map
+//# sourceMappingURL=static.905ba4af.js.map
