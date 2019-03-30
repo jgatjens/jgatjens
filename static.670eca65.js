@@ -486,19 +486,19 @@ exports.default = function () {
       _react2.default.createElement(
         'title',
         null,
-        'Twitch Promo - Jairo G\xE4tjens'
+        'Twitch Ganador - ggdan01'
       ),
       _react2.default.createElement('meta', { name: 'description', content: 'Estaremos sorteando un skin de League of legends cada semana en el stream de los viernes a las 9:00 pm (-06  CST)' }),
       _react2.default.createElement('meta', { name: 'keywords', content: 'Promo, twitch, jgatjens, Lol, League, Legends, Games' }),
-      _react2.default.createElement('meta', { name: 'author', content: 'Jairo G\xE4tjens' }),
+      _react2.default.createElement('meta', { name: 'author', content: 'Ganador ' }),
       _react2.default.createElement('meta', { property: 'og:type', content: 'website' }),
-      _react2.default.createElement('meta', { property: 'og:title', content: 'Twitch Promo - Jairo G\xE4tjens' }),
+      _react2.default.createElement('meta', { property: 'og:title', content: 'Twitch Ganador - ggdan01' }),
       _react2.default.createElement('meta', { property: 'og:description', content: 'Estaremos sorteando un skin de League of legends cada semana en el stream de los viernes a las 9:00 pm (-06  CST)' }),
       _react2.default.createElement('meta', { property: 'og:image', content: _sharePromo2.default }),
       _react2.default.createElement('meta', { name: 'twitter:card', content: 'summary_large_image' }),
       _react2.default.createElement('meta', { name: 'twitter:site', content: '@jgatjens' }),
       _react2.default.createElement('meta', { name: 'twitter:creator', content: '@jgatjens' }),
-      _react2.default.createElement('meta', { name: 'twitter:title', content: 'Twitch Promo - Jairo G\xE4tjens' }),
+      _react2.default.createElement('meta', { name: 'twitter:title', content: 'Twitch Ganador - ggdan01' }),
       _react2.default.createElement('meta', { name: 'twitter:description', content: 'Estaremos sorteando un skin de League of legends cada semana en el stream de los viernes a las 9:00 pm (-06  CST)' }),
       _react2.default.createElement('meta', { name: 'twitter:image', content: _sharePromo2.default })
     ),
@@ -1891,4 +1891,4 @@ module.exports = __webpack_require__.p + "static/share-promo.1de58934.png";
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.905ba4af.js.map
+//# sourceMappingURL=static.670eca65.js.map
