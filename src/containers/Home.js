@@ -36,6 +36,7 @@ export default () => (
       <meta name="description" content="I'm an experienced Software Developer based in Costa Rica." />
       <meta name="keywords" content="Website, Resume, Profile, Github, HTML, CSS, JavaScript" />
       <meta name="author" content="Jairo Gätjens" />
+      <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
       <meta property="og:type" content="website" />
       <meta property="og:title" content="Jairo Gätjens" />
       <meta property="og:description" content="I'm an experienced Software Developer based in Costa Rica." />

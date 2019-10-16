@@ -95,7 +95,7 @@ export default () => (
 
     <Winner>
         Ganador actual <br />
-        usuario: <a href="https://www.twitch.tv/xnexuxx" target="_blank">xnexuxx</a>
+        usuario: <a href="https://www.twitch.tv/ggdan01" target="_blank">ggdan01</a>
     </Winner>
 
     <svg width="75" height="43">
