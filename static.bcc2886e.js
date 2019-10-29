@@ -70,7 +70,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.p = "/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 11);
+/******/ 	return __webpack_require__(__webpack_require__.s = 12);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -263,11 +263,11 @@ var _styledComponents = __webpack_require__(1);
 
 var _styledComponents2 = _interopRequireDefault(_styledComponents);
 
-var _Profile = __webpack_require__(25);
+var _Profile = __webpack_require__(26);
 
 var _Profile2 = _interopRequireDefault(_Profile);
 
-var _SkillList = __webpack_require__(26);
+var _SkillList = __webpack_require__(27);
 
 var _SkillList2 = _interopRequireDefault(_SkillList);
 
@@ -275,11 +275,11 @@ var _ShareLinks = __webpack_require__(8);
 
 var _ShareLinks2 = _interopRequireDefault(_ShareLinks);
 
-var _Footer = __webpack_require__(27);
+var _Footer = __webpack_require__(28);
 
 var _Footer2 = _interopRequireDefault(_Footer);
 
-var _ForkMe = __webpack_require__(28);
+var _ForkMe = __webpack_require__(29);
 
 var _ForkMe2 = _interopRequireDefault(_ForkMe);
 
@@ -452,25 +452,29 @@ var _ShareLinks = __webpack_require__(8);
 
 var _ShareLinks2 = _interopRequireDefault(_ShareLinks);
 
-var _PromoHeader = __webpack_require__(30);
+var _PromoHeader = __webpack_require__(31);
 
 var _PromoHeader2 = _interopRequireDefault(_PromoHeader);
 
-var _Schedule = __webpack_require__(33);
+var _Schedule = __webpack_require__(34);
 
 var _Schedule2 = _interopRequireDefault(_Schedule);
 
-var _sharePromo = __webpack_require__(34);
+var _sharePromo = __webpack_require__(35);
 
 var _sharePromo2 = _interopRequireDefault(_sharePromo);
 
+var _config = __webpack_require__(10);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-// components
 var PromoPage = _styledComponents2.default.div.withConfig({
   displayName: 'Promo__PromoPage',
   componentId: 'sc-1chc8xc-0'
 })(['display:block;height:100%;.container{max-width:440px;margin:0 auto;padding-top:35px;padding-left:20px;padding-right:20px;color:#3B3E48;}h2{font-size:20px;font-weight:normal;}ul{font-size:14px;line-height:22px;list-style:disc;padding-left:18px;}div[class*="ShareLinks"]{margin-top:30px;text-align:left;}']);
+
+// components
+
 
 var Desc = _styledComponents2.default.p.withConfig({
   displayName: 'Promo__Desc',
@@ -487,19 +491,20 @@ exports.default = function () {
       _react2.default.createElement(
         'title',
         null,
-        'Twitch Ganador - ggdan01'
+        'Ganador - ',
+        _config.winner
       ),
       _react2.default.createElement('meta', { name: 'description', content: 'Estaremos sorteando un skin de League of legends cada semana en el stream de los viernes a las 9:00 pm (-06  CST)' }),
       _react2.default.createElement('meta', { name: 'keywords', content: 'Promo, twitch, jgatjens, Lol, League, Legends, Games' }),
       _react2.default.createElement('meta', { name: 'author', content: 'Ganador ' }),
       _react2.default.createElement('meta', { property: 'og:type', content: 'website' }),
-      _react2.default.createElement('meta', { property: 'og:title', content: 'Twitch Ganador - ggdan01' }),
+      _react2.default.createElement('meta', { property: 'og:title', content: "Ganador" + _config.winner }),
       _react2.default.createElement('meta', { property: 'og:description', content: 'Estaremos sorteando un skin de League of legends cada semana en el stream de los viernes a las 9:00 pm (-06  CST)' }),
       _react2.default.createElement('meta', { property: 'og:image', content: _sharePromo2.default }),
       _react2.default.createElement('meta', { name: 'twitter:card', content: 'summary_large_image' }),
       _react2.default.createElement('meta', { name: 'twitter:site', content: '@jgatjens' }),
       _react2.default.createElement('meta', { name: 'twitter:creator', content: '@jgatjens' }),
-      _react2.default.createElement('meta', { name: 'twitter:title', content: 'Twitch Ganador - ggdan01' }),
+      _react2.default.createElement('meta', { name: 'twitter:title', content: "Ganador" + _config.winner }),
       _react2.default.createElement('meta', { name: 'twitter:description', content: 'Estaremos sorteando un skin de League of legends cada semana en el stream de los viernes a las 9:00 pm (-06  CST)' }),
       _react2.default.createElement('meta', { name: 'twitter:image', content: _sharePromo2.default }),
       _react2.default.createElement('link', { href: 'data:image/x-icon;base64,AAABAAEAEBAAAAAAAABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAACGNwgAxloDAHcTAAAVFRoAWrzFAGkrAABGproAUXaOAClxkgAPO14ADgAAAMVkDwAfWXgAkD4CAB9aewA7a4kAmDsCANqHHQDhiA4AJBogADmUuwA2lsEAiR8AAH4sDAA8dZUAhygAAA9OfAAtX4EAOFxvAJEoAABkhpoAsTsCADFoigBnip0ANQAAAEIgFwCUNAAAy2AEADVmjQA/zP8AQqjTACJYdgAdXn8AzGYNAECv3wCTPRIAOBADAEet2QC1HAAAeSsTADQTFQBXJBoAL2B8AIwkBwCFLgoAMWCFAL0oAACGLxYAxF8CABwQFgAYFBkACF2YALw0AAAiDxMAQKbOAAc/bADcdR8APqnXANJcAgAwcZQABkdyABp+sgAfXX0AUYCcACpVdwAtl88AyDoAADdzkQBBbZEAMxsTACdqiQBqIQAAMmV6ADFjhgBEGxMAx2QAAMpfAwAolMcAdCcAADVrjAA6TU4AskwBADRyhgDDbgwAOWmPAD+r3gDHYRsAJ3qeAJw0AgAkGB0AaSwqAC4VFADLZxsANneVACtZewCLHgAAMBkXAIYmBgA2FRQAhSESACVmhwAHNF8AK2OHAKJJAgBqRS0AKQUAAJAqAABEFg4AjjMAAEEZFwCONgAARxUUABtXdgBEGRcAWXd6AJonAABDHBcALW+QADhKTwDYgxUAMnKHADdojQCbNgAAIxobAHokCgCYPwAAIV98AEWu1gC9SQIAPgsAAC9bcAAjZYUASG6EAKc5AAACNGAAsy0AADl9nwAba6AAzXMlAIcwCgAgi8kATrXiAAEiNAC9LQAAizUHAMchAABZBgMAQ8f0AEYYFQAvcpEANa3vAA9imAA5cpEAUbDCAOqFCgC5VQMAz20dACVmiQBSJycAMGCAAAk1WwA3HBkALmKGANxsEQA7GxYAP6HDADyAoAAgL0AAJA0RAB9YcgCDDwMAgRAGADNvkgA9bn0AfCMAADFzlQBRGhMAhCAAAAArWQA5dZIAL57WACFpigAnHywAKWV+AB5MagAAAAcAohoAAK9FAgDTdicAK6v0AEmkuwAqcZAAMWqNACVWbQCIPBUATKi+AHMmEwAHQ30Akj0PACwUFQB1KxAAOW2WAEBsigDUaAcA0G4HAKQ1AAB8JhMAQXWBACRDUACiOwAANhcVACodJwA1GxgA2HEHAAoyXQAkbY4AVAQAAHYRAgCtPwMAMSItAFu9xwAeERYAxmEFAC5tjgAwq+wADzpjAEOtxQAkERYAJxATAEgdFQBuLggAbygRAEyqvAAudpcAwUQAABpfkgBCLiQAMxMTAAQtWACkMRAAtloMADx+iwAjaIkAhisIAFeKpQAzYncAgv4eIUkYvaJZIMq2RemwXMmo2G21nLTjNWuaAJX5ZAhQsiKYerOMy/+32ftaTM6/4XuZI6FLV76g6scn7Ls5Z/zc9Bm8FRTPQUY9lp1yLU2N7j6R+EDmwwpzLsBHfBduKvebxJCJBIsfrUQdddozSIhsMGlvL6MxQqQSXXbw9gzBVDi465fI8ZTfgRHVik8OUq59JAksBtJmVlXWJddlKRw8UYeqQ/LMxis66AHbasKOAwUN4CjN0KYLpVvFhN6pB4WP/Rpfr4Zg+nEQYnSr1A/R4oBh9ZOxNuR4WBYCP1OD3TITO+ftY3e6736eeeUmStNeTjdoG6xwp3+585+SNAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=', rel: 'icon', type: 'image/x-icon' })
@@ -580,6 +585,19 @@ exports.default = function () {
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+var winner = exports.winner = 'tripyboy';
+var urlWinner = exports.urlWinner = 'https://lol.mobalytics.gg/summoner/lan/tripyboy';
+
+/***/ }),
+/* 11 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
 
 var _react = __webpack_require__(0);
 
@@ -602,7 +620,7 @@ exports.default = function () {
 };
 
 /***/ }),
-/* 11 */
+/* 12 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -616,11 +634,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(12);
+var _reactDom = __webpack_require__(13);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _App = __webpack_require__(13);
+var _App = __webpack_require__(14);
 
 var _App2 = _interopRequireDefault(_App);
 
@@ -645,13 +663,13 @@ if (typeof document !== 'undefined') {
 }
 
 /***/ }),
-/* 12 */
+/* 13 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-dom");
 
 /***/ }),
-/* 13 */
+/* 14 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -671,13 +689,13 @@ var _reactStatic = __webpack_require__(2);
 
 var _styledComponents = __webpack_require__(1);
 
-var _styledNormalize = __webpack_require__(14);
+var _styledNormalize = __webpack_require__(15);
 
 var _styledNormalize2 = _interopRequireDefault(_styledNormalize);
 
-var _reactHotLoader = __webpack_require__(15);
+var _reactHotLoader = __webpack_require__(16);
 
-var _reactStaticRoutes = __webpack_require__(16);
+var _reactStaticRoutes = __webpack_require__(17);
 
 var _reactStaticRoutes2 = _interopRequireDefault(_reactStaticRoutes);
 
@@ -701,19 +719,19 @@ exports.default = (0, _reactHotLoader.hot)(module)(App);
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)(module)))
 
 /***/ }),
-/* 14 */
+/* 15 */
 /***/ (function(module, exports) {
 
 module.exports = require("styled-normalize");
 
 /***/ }),
-/* 15 */
+/* 16 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-hot-loader");
 
 /***/ }),
-/* 16 */
+/* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -723,15 +741,15 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _path2 = __webpack_require__(17);
+var _path2 = __webpack_require__(18);
 
 var _path3 = _interopRequireDefault(_path2);
 
-var _importCss2 = __webpack_require__(18);
+var _importCss2 = __webpack_require__(19);
 
 var _importCss3 = _interopRequireDefault(_importCss2);
 
-var _universalImport2 = __webpack_require__(19);
+var _universalImport2 = __webpack_require__(20);
 
 var _universalImport3 = _interopRequireDefault(_universalImport2);
 
@@ -743,9 +761,9 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(20);
+var _reactRouterDom = __webpack_require__(21);
 
-var _reactUniversalComponent = __webpack_require__(21);
+var _reactUniversalComponent = __webpack_require__(22);
 
 var _reactUniversalComponent2 = _interopRequireDefault(_reactUniversalComponent);
 
@@ -819,7 +837,7 @@ var t_2 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
   id: '../src/containers/404',
   file: '/Users/jgatjens/Dev/jgatjens.github.io/dist/react-static-routes.js',
   load: function load() {
-    return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 10)), (0, _importCss3.default)('src/containers/404', {
+    return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 11)), (0, _importCss3.default)('src/containers/404', {
       disableWarnings: true
     })]).then(function (proms) {
       return proms[0];
@@ -829,7 +847,7 @@ var t_2 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
     return _path3.default.join(__dirname, '../src/containers/404');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(10);
+    return /*require.resolve*/(11);
   },
   chunkName: function chunkName() {
     return 'src/containers/404';
@@ -916,31 +934,31 @@ exports.default = Routes;
 /* WEBPACK VAR INJECTION */}.call(exports, "/"))
 
 /***/ }),
-/* 17 */
+/* 18 */
 /***/ (function(module, exports) {
 
 module.exports = require("path");
 
 /***/ }),
-/* 18 */
+/* 19 */
 /***/ (function(module, exports) {
 
 module.exports = require("babel-plugin-universal-import/importCss");
 
 /***/ }),
-/* 19 */
+/* 20 */
 /***/ (function(module, exports) {
 
 module.exports = require("babel-plugin-universal-import/universalImport");
 
 /***/ }),
-/* 20 */
+/* 21 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-router-dom");
 
 /***/ }),
-/* 21 */
+/* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -955,7 +973,7 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _requireUniversalModule = __webpack_require__(22);
+var _requireUniversalModule = __webpack_require__(23);
 
 Object.defineProperty(exports, 'CHUNK_NAMES', {
   enumerable: true,
@@ -970,7 +988,7 @@ Object.defineProperty(exports, 'MODULE_IDS', {
   }
 });
 
-var _reportChunks = __webpack_require__(23);
+var _reportChunks = __webpack_require__(24);
 
 Object.defineProperty(exports, 'ReportChunks', {
   enumerable: true,
@@ -987,7 +1005,7 @@ var _propTypes = __webpack_require__(5);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _hoistNonReactStatics = __webpack_require__(24);
+var _hoistNonReactStatics = __webpack_require__(25);
 
 var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 
@@ -1287,7 +1305,7 @@ exports.default = universal;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)(module)))
 
 /***/ }),
-/* 22 */
+/* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1469,7 +1487,7 @@ var getConfig = function getConfig(isDynamic, universalConfig, options, props) {
 };
 
 /***/ }),
-/* 23 */
+/* 24 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1532,13 +1550,13 @@ ReportChunks.childContextTypes = {
 exports.default = ReportChunks;
 
 /***/ }),
-/* 24 */
+/* 25 */
 /***/ (function(module, exports) {
 
 module.exports = require("hoist-non-react-statics");
 
 /***/ }),
-/* 25 */
+/* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1596,7 +1614,7 @@ exports.default = function () {
 };
 
 /***/ }),
-/* 26 */
+/* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1656,7 +1674,7 @@ exports.default = function () {
 };
 
 /***/ }),
-/* 27 */
+/* 28 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1695,7 +1713,7 @@ exports.default = function () {
 };
 
 /***/ }),
-/* 28 */
+/* 29 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1713,7 +1731,7 @@ var _styledComponents = __webpack_require__(1);
 
 var _styledComponents2 = _interopRequireDefault(_styledComponents);
 
-var _forkme = __webpack_require__(29);
+var _forkme = __webpack_require__(30);
 
 var _forkme2 = _interopRequireDefault(_forkme);
 
@@ -1734,13 +1752,13 @@ exports.default = function () {
 };
 
 /***/ }),
-/* 29 */
+/* 30 */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNy4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iMTQ5cHgiIGhlaWdodD0iMTQ5cHgiIHZpZXdCb3g9IjAgMCAxNDkgMTQ5IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAxNDkgMTQ5OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8Zz4NCgk8cmVjdCBzdHlsZT0iZmlsbDpub25lOyIgd2lkdGg9IjE0OSIgaGVpZ2h0PSIxNDkiLz4NCgkNCgkJPHRleHQgdHJhbnNmb3JtPSJtYXRyaXgoMC43MDcxIDAuNzA3MSAtMC43MDcxIDAuNzA3MSA0My40NzM3IDIyLjM3MykiIHN0eWxlPSJmaWxsOiM3ODc4Nzg7IGZvbnQtZmFtaWx5OidSb2JvdG8tUmVndWxhcic7IGZvbnQtc2l6ZToxNC45MDAxOyI+Rm9yayBtZSBvbiBHaXRIdWI8L3RleHQ+DQoJPGc+DQoJCTxnPg0KCQkJPHBvbHlnb24gc3R5bGU9ImZpbGw6I0NFRDBENDsiIHBvaW50cz0iNDguOTY1LDAgMTQ5LDEwMC4wMzUgMTQ5LDk3LjkyOCA1MS4wNzIsMCAJCQkiLz4NCgkJCTxwb2x5Z29uIHN0eWxlPSJmaWxsOiNDRUQwRDQ7IiBwb2ludHM9IjE0OSwxNDQuMjg2IDQuNzE0LDAgMi42MDcsMCAxNDksMTQ2LjM5MyAJCQkiLz4NCgkJPC9nPg0KCTwvZz4NCjwvZz4NCjwvc3ZnPg0K"
 
 /***/ }),
-/* 30 */
+/* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1756,15 +1774,17 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactStatic = __webpack_require__(2);
 
+var _config = __webpack_require__(10);
+
 var _styledComponents = __webpack_require__(1);
 
 var _styledComponents2 = _interopRequireDefault(_styledComponents);
 
-var _headerLeft = __webpack_require__(31);
+var _headerLeft = __webpack_require__(32);
 
 var _headerLeft2 = _interopRequireDefault(_headerLeft);
 
-var _headerRight = __webpack_require__(32);
+var _headerRight = __webpack_require__(33);
 
 var _headerRight2 = _interopRequireDefault(_headerRight);
 
@@ -1818,8 +1838,8 @@ exports.default = function () {
       'usuario: ',
       _react2.default.createElement(
         'a',
-        { href: 'https://lol.mobalytics.gg/summoner/lan/tripyboy', target: '_blank' },
-        'tripyBoy'
+        { href: _config.urlWinner, target: '_blank' },
+        _config.winner
       )
     ),
     _react2.default.createElement(
@@ -1831,19 +1851,19 @@ exports.default = function () {
 };
 
 /***/ }),
-/* 31 */
+/* 32 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/header-left.57ece537.png";
 
 /***/ }),
-/* 32 */
+/* 33 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/header-right.9d75552f.png";
 
 /***/ }),
-/* 33 */
+/* 34 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1891,7 +1911,7 @@ exports.default = function () {
 };
 
 /***/ }),
-/* 34 */
+/* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/share-promo.1de58934.png";
@@ -1899,4 +1919,4 @@ module.exports = __webpack_require__.p + "static/share-promo.1de58934.png";
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.a7c84fe6.js.map
+//# sourceMappingURL=static.bcc2886e.js.map
