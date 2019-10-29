@@ -1,9 +1,11 @@
 
 import React from 'react'
 import { Link } from 'react-static'
+import { winner, urlWinner } from '../config'
 import styled from 'styled-components'
 import leftImage from '../assets/header-left.png';
 import rightImage from '../assets/header-right.png';
+
 
 const PromoHeader = styled.div`
   display: flex;
@@ -95,7 +97,7 @@ export default () => (
 
     <Winner>
         Ganador actual <br />
-        usuario: <a href="https://www.twitch.tv/ggdan01" target="_blank">ggdan01</a>
+        usuario: <a href={urlWinner} target="_blank">{winner}</a>
     </Winner>
 
     <svg width="75" height="43">
