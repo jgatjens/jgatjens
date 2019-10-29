@@ -1818,8 +1818,8 @@ exports.default = function () {
       'usuario: ',
       _react2.default.createElement(
         'a',
-        { href: 'https://www.twitch.tv/ggdan01', target: '_blank' },
-        'ggdan01'
+        { href: 'https://lol.mobalytics.gg/summoner/lan/tripyboy', target: '_blank' },
+        'tripyBoy'
       )
     ),
     _react2.default.createElement(
@@ -1899,4 +1899,4 @@ module.exports = __webpack_require__.p + "static/share-promo.1de58934.png";
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.ec39aa68.js.map
+//# sourceMappingURL=static.a7c84fe6.js.map

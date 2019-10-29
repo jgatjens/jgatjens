@@ -2,8 +2,8 @@
   "errors": [],
   "warnings": [],
   "version": "3.12.0",
-  "hash": "7569389f260fb2ed66c5",
-  "time": 3900,
+  "hash": "fcb54b4d2e41e1538480",
+  "time": 4190,
   "publicPath": "/",
   "assetsByChunkName": {
     "src/containers/Home": [
@@ -11,8 +11,8 @@
       "templates/src/containers/Home.9a3b1931.js.map"
     ],
     "src/containers/Promo": [
-      "templates/src/containers/Promo.500ac8fb.js",
-      "templates/src/containers/Promo.500ac8fb.js.map"
+      "templates/src/containers/Promo.0c951d26.js",
+      "templates/src/containers/Promo.0c951d26.js.map"
     ],
     "src/containers/404": [
       "templates/src/containers/404.4e26fc72.js",
@@ -23,8 +23,8 @@
       "main.8a0d9659.js.map"
     ],
     "bootstrap": [
-      "bootstrap.ad26aa1f.js",
-      "bootstrap.ad26aa1f.js.map"
+      "bootstrap.2362e9c7.js",
+      "bootstrap.2362e9c7.js.map"
     ]
   },
   "assets": [
@@ -73,8 +73,8 @@
       "emitted": true
     },
     {
-      "name": "templates/src/containers/Promo.500ac8fb.js",
-      "size": 13470,
+      "name": "templates/src/containers/Promo.0c951d26.js",
+      "size": 13489,
       "chunks": [
         1
       ],
@@ -102,7 +102,7 @@
       "emitted": true
     },
     {
-      "name": "bootstrap.ad26aa1f.js",
+      "name": "bootstrap.2362e9c7.js",
       "size": 1543,
       "chunks": [
         4
@@ -124,8 +124,8 @@
       "emitted": true
     },
     {
-      "name": "templates/src/containers/Promo.500ac8fb.js.map",
-      "size": 38618,
+      "name": "templates/src/containers/Promo.0c951d26.js.map",
+      "size": 38656,
       "chunks": [
         1
       ],
@@ -157,7 +157,7 @@
       "emitted": true
     },
     {
-      "name": "bootstrap.ad26aa1f.js.map",
+      "name": "bootstrap.2362e9c7.js.map",
       "size": 14435,
       "chunks": [
         4
@@ -176,8 +176,8 @@
         3
       ],
       "assets": [
-        "bootstrap.ad26aa1f.js",
-        "bootstrap.ad26aa1f.js.map",
+        "bootstrap.2362e9c7.js",
+        "bootstrap.2362e9c7.js.map",
         "main.8a0d9659.js",
         "main.8a0d9659.js.map"
       ],
@@ -267,9 +267,9 @@
             1
           ],
           "assets": [],
-          "issuer": "/Users/jgatjens/Dev/jgatjens.github.io/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/Users/jgatjens/Dev/jgatjens.github.io/src/containers/Home.js",
-          "issuerId": 51,
-          "issuerName": "./src/containers/Home.js",
+          "issuer": "/Users/jgatjens/Dev/jgatjens.github.io/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/Users/jgatjens/Dev/jgatjens.github.io/src/containers/Promo.js",
+          "issuerId": 52,
+          "issuerName": "./src/containers/Promo.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -558,15 +558,15 @@
       "initial": false,
       "entry": false,
       "extraAsync": false,
-      "size": 17657,
+      "size": 17676,
       "names": [
         "src/containers/Promo"
       ],
       "files": [
-        "templates/src/containers/Promo.500ac8fb.js",
-        "templates/src/containers/Promo.500ac8fb.js.map"
+        "templates/src/containers/Promo.0c951d26.js",
+        "templates/src/containers/Promo.0c951d26.js.map"
       ],
-      "hash": "500ac8fb3e67e8ffdeaf",
+      "hash": "0c951d26d06c6f7389f8",
       "parents": [
         3
       ],
@@ -634,9 +634,9 @@
             1
           ],
           "assets": [],
-          "issuer": "/Users/jgatjens/Dev/jgatjens.github.io/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/Users/jgatjens/Dev/jgatjens.github.io/src/containers/Home.js",
-          "issuerId": 51,
-          "issuerName": "./src/containers/Home.js",
+          "issuer": "/Users/jgatjens/Dev/jgatjens.github.io/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/Users/jgatjens/Dev/jgatjens.github.io/src/containers/Promo.js",
+          "issuerId": 52,
+          "issuerName": "./src/containers/Promo.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -672,7 +672,7 @@
           "name": "./src/components/PromoHeader.js",
           "index": 149,
           "index2": 147,
-          "size": 4329,
+          "size": 4348,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -702,7 +702,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 4,
-          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _headerLeft = require('../assets/header-left.png');\n\nvar _headerLeft2 = _interopRequireDefault(_headerLeft);\n\nvar _headerRight = require('../assets/header-right.png');\n\nvar _headerRight2 = _interopRequireDefault(_headerRight);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar PromoHeader = _styledComponents2.default.div.withConfig({\n  displayName: 'PromoHeader',\n  componentId: 'cpo0n-0'\n})(['display:flex;flex-direction:column;align-items:center;justify-content:center;width:100%;background-color:#202255;min-height:396px;position:relative;color:white;.bg-left,.bg-right{background-size:contain;background-repeat:no-repeat;background-position-y:bottom;position:absolute;height:100%;width:260px;top:0;z-index:0;}.bg-left{background-image:url(', ');background-position-x:left;left:0;}.bg-right{background-image:url(', ');background-position-x:right;right:0;}svg,a,h1,div{z-index:1;}'], _headerLeft2.default, _headerRight2.default);\n\nvar Title = _styledComponents2.default.h1.withConfig({\n  displayName: 'PromoHeader__Title',\n  componentId: 'cpo0n-1'\n})(['font-size:40px;line-height:1;max-width:266px;margin:0 auto;text-align:center;margin-top:30px;text-transform:capitalize;@media (max-width:480px){font-size:25px;}']);\n\nvar Winner = _styledComponents2.default.div.withConfig({\n  displayName: 'PromoHeader__Winner',\n  componentId: 'cpo0n-2'\n})(['font-size:13px;line-height:1.3;text-align:center;padding-top:30px;padding-bottom:50px;@media (max-width:480px){padding-bottom:25px;}a{color:white;}span{font-weight:bold;}']);\n\nexports.default = function () {\n  return _react2.default.createElement(\n    PromoHeader,\n    null,\n    _react2.default.createElement('div', { className: 'bg-left' }),\n    _react2.default.createElement('div', { className: 'bg-right' }),\n    _react2.default.createElement(\n      _reactStatic.Link,\n      { exact: true, to: '/' },\n      _react2.default.createElement(\n        'svg',\n        { width: '25', height: '14' },\n        _react2.default.createElement(\n          'g',\n          { stroke: '#FFF', strokeWidth: '2', fill: 'currentColor' },\n          _react2.default.createElement('path', { d: 'M23.02 7H2', strokeLinecap: 'square' }),\n          _react2.default.createElement('path', { d: 'M5.5 12.5l-4-5.377 4-5.623' })\n        )\n      )\n    ),\n    _react2.default.createElement(\n      Title,\n      null,\n      'Skin Gratis cada semana'\n    ),\n    _react2.default.createElement(\n      Winner,\n      null,\n      'Ganador actual ',\n      _react2.default.createElement('br', null),\n      'usuario: ',\n      _react2.default.createElement(\n        'a',\n        { href: 'https://www.twitch.tv/ggdan01', target: '_blank' },\n        'ggdan01'\n      )\n    ),\n    _react2.default.createElement(\n      'svg',\n      { width: '75', height: '43' },\n      _react2.default.createElement('path', { d: 'M46.713 0l-1.038 3.14.026 14.495h3.866v1.932h2.077l2.076-1.932h3.633l6.747-6.281V0H46.713zm15.57 10.388l-2.854 2.657h-4.671l-2.595 2.416v-2.416H48.27V1.69h14.014v8.697zm-4.67-5.557h1.816v4.832h-1.817V4.83zm-4.672 0h1.817v4.832H52.94V4.83zM75 27.298v11.354L68.253 43H64.1v-1.933L60.986 43h-3.633v-1.933L55.017 43H48.27l-2.076-1.933-.52 1.933-5.942-.024-2.362-1.909L37.11 43l-6.747-.024-.26-1.909-1.816 1.909-10.38.024-2.077-.966V43h-5.709l-6.228-3.624L0 35.753V19.809h8.045l3.893 3.624h17.647v-3.624h14.533v3.624h3.633v1.932l2.076-1.932h4.412l3.892-3.624h8.305v3.624h4.412L75 27.298zm-64.879-2.174H6.488V21.5H1.817v13.528l2.854 2.899h5.45v-4.59H6.488v-3.865h3.633v-4.348zm19.464 0h-4.672v8.213h-1.816v-8.213h-4.412v8.213H16.87v-8.213h-4.931v12.803H26.47l3.114-2.899v-9.904zm6.228 0h-4.412v12.803h4.412V25.124zm0-3.624h-4.412v1.933h4.412V21.5zm10.121 3.624h-3.633V21.5H37.63v13.528l2.854 2.899h5.45v-4.59h-3.633v-3.865h3.633v-4.348zm11.938 0h-7.266L47.75 27.78v7.247l3.114 2.899h7.007v-4.59h-5.19v-3.865h5.19v-4.348zm15.311 2.657l-3.114-2.657h-5.45V21.5h-4.93v16.427h4.93v-8.455h3.634v8.455h4.93V27.781z', fill: '#FFF' })\n    )\n  );\n};"
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _headerLeft = require('../assets/header-left.png');\n\nvar _headerLeft2 = _interopRequireDefault(_headerLeft);\n\nvar _headerRight = require('../assets/header-right.png');\n\nvar _headerRight2 = _interopRequireDefault(_headerRight);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar PromoHeader = _styledComponents2.default.div.withConfig({\n  displayName: 'PromoHeader',\n  componentId: 'cpo0n-0'\n})(['display:flex;flex-direction:column;align-items:center;justify-content:center;width:100%;background-color:#202255;min-height:396px;position:relative;color:white;.bg-left,.bg-right{background-size:contain;background-repeat:no-repeat;background-position-y:bottom;position:absolute;height:100%;width:260px;top:0;z-index:0;}.bg-left{background-image:url(', ');background-position-x:left;left:0;}.bg-right{background-image:url(', ');background-position-x:right;right:0;}svg,a,h1,div{z-index:1;}'], _headerLeft2.default, _headerRight2.default);\n\nvar Title = _styledComponents2.default.h1.withConfig({\n  displayName: 'PromoHeader__Title',\n  componentId: 'cpo0n-1'\n})(['font-size:40px;line-height:1;max-width:266px;margin:0 auto;text-align:center;margin-top:30px;text-transform:capitalize;@media (max-width:480px){font-size:25px;}']);\n\nvar Winner = _styledComponents2.default.div.withConfig({\n  displayName: 'PromoHeader__Winner',\n  componentId: 'cpo0n-2'\n})(['font-size:13px;line-height:1.3;text-align:center;padding-top:30px;padding-bottom:50px;@media (max-width:480px){padding-bottom:25px;}a{color:white;}span{font-weight:bold;}']);\n\nexports.default = function () {\n  return _react2.default.createElement(\n    PromoHeader,\n    null,\n    _react2.default.createElement('div', { className: 'bg-left' }),\n    _react2.default.createElement('div', { className: 'bg-right' }),\n    _react2.default.createElement(\n      _reactStatic.Link,\n      { exact: true, to: '/' },\n      _react2.default.createElement(\n        'svg',\n        { width: '25', height: '14' },\n        _react2.default.createElement(\n          'g',\n          { stroke: '#FFF', strokeWidth: '2', fill: 'currentColor' },\n          _react2.default.createElement('path', { d: 'M23.02 7H2', strokeLinecap: 'square' }),\n          _react2.default.createElement('path', { d: 'M5.5 12.5l-4-5.377 4-5.623' })\n        )\n      )\n    ),\n    _react2.default.createElement(\n      Title,\n      null,\n      'Skin Gratis cada semana'\n    ),\n    _react2.default.createElement(\n      Winner,\n      null,\n      'Ganador actual ',\n      _react2.default.createElement('br', null),\n      'usuario: ',\n      _react2.default.createElement(\n        'a',\n        { href: 'https://lol.mobalytics.gg/summoner/lan/tripyboy', target: '_blank' },\n        'tripyBoy'\n      )\n    ),\n    _react2.default.createElement(\n      'svg',\n      { width: '75', height: '43' },\n      _react2.default.createElement('path', { d: 'M46.713 0l-1.038 3.14.026 14.495h3.866v1.932h2.077l2.076-1.932h3.633l6.747-6.281V0H46.713zm15.57 10.388l-2.854 2.657h-4.671l-2.595 2.416v-2.416H48.27V1.69h14.014v8.697zm-4.67-5.557h1.816v4.832h-1.817V4.83zm-4.672 0h1.817v4.832H52.94V4.83zM75 27.298v11.354L68.253 43H64.1v-1.933L60.986 43h-3.633v-1.933L55.017 43H48.27l-2.076-1.933-.52 1.933-5.942-.024-2.362-1.909L37.11 43l-6.747-.024-.26-1.909-1.816 1.909-10.38.024-2.077-.966V43h-5.709l-6.228-3.624L0 35.753V19.809h8.045l3.893 3.624h17.647v-3.624h14.533v3.624h3.633v1.932l2.076-1.932h4.412l3.892-3.624h8.305v3.624h4.412L75 27.298zm-64.879-2.174H6.488V21.5H1.817v13.528l2.854 2.899h5.45v-4.59H6.488v-3.865h3.633v-4.348zm19.464 0h-4.672v8.213h-1.816v-8.213h-4.412v8.213H16.87v-8.213h-4.931v12.803H26.47l3.114-2.899v-9.904zm6.228 0h-4.412v12.803h4.412V25.124zm0-3.624h-4.412v1.933h4.412V21.5zm10.121 3.624h-3.633V21.5H37.63v13.528l2.854 2.899h5.45v-4.59h-3.633v-3.865h3.633v-4.348zm11.938 0h-7.266L47.75 27.78v7.247l3.114 2.899h7.007v-4.59h-5.19v-3.865h5.19v-4.348zm15.311 2.657l-3.114-2.657h-5.45V21.5h-4.93v16.427h4.93v-8.455h3.634v8.455h4.93V27.781z', fill: '#FFF' })\n    )\n  );\n};"
         },
         {
           "id": 151,
@@ -1934,9 +1934,9 @@
             3
           ],
           "assets": [],
-          "issuer": "/Users/jgatjens/Dev/jgatjens.github.io/node_modules/react-router-dom/es/BrowserRouter.js",
-          "issuerId": 61,
-          "issuerName": "./node_modules/react-router-dom/es/BrowserRouter.js",
+          "issuer": "/Users/jgatjens/Dev/jgatjens.github.io/node_modules/react-router-dom/es/HashRouter.js",
+          "issuerId": 67,
+          "issuerName": "./node_modules/react-router-dom/es/HashRouter.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -2239,9 +2239,9 @@
             3
           ],
           "assets": [],
-          "issuer": "/Users/jgatjens/Dev/jgatjens.github.io/node_modules/react-static/lib/client/components/RouteData.js",
-          "issuerId": 91,
-          "issuerName": "./node_modules/react-static/lib/client/components/RouteData.js",
+          "issuer": "/Users/jgatjens/Dev/jgatjens.github.io/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/Users/jgatjens/Dev/jgatjens.github.io/dist/react-static-routes.js",
+          "issuerId": 137,
+          "issuerName": "./dist/react-static-routes.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -2438,9 +2438,9 @@
             3
           ],
           "assets": [],
-          "issuer": "/Users/jgatjens/Dev/jgatjens.github.io/node_modules/react-static/lib/client/components/SiteData.js",
-          "issuerId": 113,
-          "issuerName": "./node_modules/react-static/lib/client/components/SiteData.js",
+          "issuer": "/Users/jgatjens/Dev/jgatjens.github.io/node_modules/react-static/lib/client/components/Prefetch.js",
+          "issuerId": 116,
+          "issuerName": "./node_modules/react-static/lib/client/components/Prefetch.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -2530,9 +2530,9 @@
             3
           ],
           "assets": [],
-          "issuer": "/Users/jgatjens/Dev/jgatjens.github.io/node_modules/react-router-dom/es/BrowserRouter.js",
-          "issuerId": 61,
-          "issuerName": "./node_modules/react-router-dom/es/BrowserRouter.js",
+          "issuer": "/Users/jgatjens/Dev/jgatjens.github.io/node_modules/react-router-dom/es/HashRouter.js",
+          "issuerId": 67,
+          "issuerName": "./node_modules/react-router-dom/es/HashRouter.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -3964,9 +3964,9 @@
             3
           ],
           "assets": [],
-          "issuer": "/Users/jgatjens/Dev/jgatjens.github.io/node_modules/history/es/createBrowserHistory.js",
-          "issuerId": 64,
-          "issuerName": "./node_modules/history/es/createBrowserHistory.js",
+          "issuer": "/Users/jgatjens/Dev/jgatjens.github.io/node_modules/history/es/createHashHistory.js",
+          "issuerId": 65,
+          "issuerName": "./node_modules/history/es/createHashHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -4182,9 +4182,9 @@
             3
           ],
           "assets": [],
-          "issuer": "/Users/jgatjens/Dev/jgatjens.github.io/node_modules/react-router/es/matchPath.js",
-          "issuerId": 21,
-          "issuerName": "./node_modules/react-router/es/matchPath.js",
+          "issuer": "/Users/jgatjens/Dev/jgatjens.github.io/node_modules/react-router/es/generatePath.js",
+          "issuerId": 36,
+          "issuerName": "./node_modules/react-router/es/generatePath.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -8413,10 +8413,10 @@
         "bootstrap"
       ],
       "files": [
-        "bootstrap.ad26aa1f.js",
-        "bootstrap.ad26aa1f.js.map"
+        "bootstrap.2362e9c7.js",
+        "bootstrap.2362e9c7.js.map"
       ],
-      "hash": "ad26aa1f72c686f23d3a",
+      "hash": "2362e9c7b561532373b1",
       "parents": [],
       "modules": [],
       "filteredModules": 0,
@@ -9383,9 +9383,9 @@
         3
       ],
       "assets": [],
-      "issuer": "/Users/jgatjens/Dev/jgatjens.github.io/node_modules/react-router-dom/es/BrowserRouter.js",
-      "issuerId": 61,
-      "issuerName": "./node_modules/react-router-dom/es/BrowserRouter.js",
+      "issuer": "/Users/jgatjens/Dev/jgatjens.github.io/node_modules/react-router-dom/es/HashRouter.js",
+      "issuerId": 67,
+      "issuerName": "./node_modules/react-router-dom/es/HashRouter.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -9688,9 +9688,9 @@
         3
       ],
       "assets": [],
-      "issuer": "/Users/jgatjens/Dev/jgatjens.github.io/node_modules/react-static/lib/client/components/RouteData.js",
-      "issuerId": 91,
-      "issuerName": "./node_modules/react-static/lib/client/components/RouteData.js",
+      "issuer": "/Users/jgatjens/Dev/jgatjens.github.io/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/Users/jgatjens/Dev/jgatjens.github.io/dist/react-static-routes.js",
+      "issuerId": 137,
+      "issuerName": "./dist/react-static-routes.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -9887,9 +9887,9 @@
         3
       ],
       "assets": [],
-      "issuer": "/Users/jgatjens/Dev/jgatjens.github.io/node_modules/react-static/lib/client/components/SiteData.js",
-      "issuerId": 113,
-      "issuerName": "./node_modules/react-static/lib/client/components/SiteData.js",
+      "issuer": "/Users/jgatjens/Dev/jgatjens.github.io/node_modules/react-static/lib/client/components/Prefetch.js",
+      "issuerId": 116,
+      "issuerName": "./node_modules/react-static/lib/client/components/Prefetch.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -9979,9 +9979,9 @@
         3
       ],
       "assets": [],
-      "issuer": "/Users/jgatjens/Dev/jgatjens.github.io/node_modules/react-router-dom/es/BrowserRouter.js",
-      "issuerId": 61,
-      "issuerName": "./node_modules/react-router-dom/es/BrowserRouter.js",
+      "issuer": "/Users/jgatjens/Dev/jgatjens.github.io/node_modules/react-router-dom/es/HashRouter.js",
+      "issuerId": 67,
+      "issuerName": "./node_modules/react-router-dom/es/HashRouter.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -11413,9 +11413,9 @@
         3
       ],
       "assets": [],
-      "issuer": "/Users/jgatjens/Dev/jgatjens.github.io/node_modules/history/es/createBrowserHistory.js",
-      "issuerId": 64,
-      "issuerName": "./node_modules/history/es/createBrowserHistory.js",
+      "issuer": "/Users/jgatjens/Dev/jgatjens.github.io/node_modules/history/es/createHashHistory.js",
+      "issuerId": 65,
+      "issuerName": "./node_modules/history/es/createHashHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -11631,9 +11631,9 @@
         3
       ],
       "assets": [],
-      "issuer": "/Users/jgatjens/Dev/jgatjens.github.io/node_modules/react-router/es/matchPath.js",
-      "issuerId": 21,
-      "issuerName": "./node_modules/react-router/es/matchPath.js",
+      "issuer": "/Users/jgatjens/Dev/jgatjens.github.io/node_modules/react-router/es/generatePath.js",
+      "issuerId": 36,
+      "issuerName": "./node_modules/react-router/es/generatePath.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -15994,9 +15994,9 @@
         1
       ],
       "assets": [],
-      "issuer": "/Users/jgatjens/Dev/jgatjens.github.io/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/Users/jgatjens/Dev/jgatjens.github.io/src/containers/Home.js",
-      "issuerId": 51,
-      "issuerName": "./src/containers/Home.js",
+      "issuer": "/Users/jgatjens/Dev/jgatjens.github.io/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/Users/jgatjens/Dev/jgatjens.github.io/src/containers/Promo.js",
+      "issuerId": 52,
+      "issuerName": "./src/containers/Promo.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -16271,7 +16271,7 @@
       "name": "./src/components/PromoHeader.js",
       "index": 149,
       "index2": 147,
-      "size": 4329,
+      "size": 4348,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -16301,7 +16301,7 @@
       "providedExports": null,
       "optimizationBailout": [],
       "depth": 4,
-      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _headerLeft = require('../assets/header-left.png');\n\nvar _headerLeft2 = _interopRequireDefault(_headerLeft);\n\nvar _headerRight = require('../assets/header-right.png');\n\nvar _headerRight2 = _interopRequireDefault(_headerRight);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar PromoHeader = _styledComponents2.default.div.withConfig({\n  displayName: 'PromoHeader',\n  componentId: 'cpo0n-0'\n})(['display:flex;flex-direction:column;align-items:center;justify-content:center;width:100%;background-color:#202255;min-height:396px;position:relative;color:white;.bg-left,.bg-right{background-size:contain;background-repeat:no-repeat;background-position-y:bottom;position:absolute;height:100%;width:260px;top:0;z-index:0;}.bg-left{background-image:url(', ');background-position-x:left;left:0;}.bg-right{background-image:url(', ');background-position-x:right;right:0;}svg,a,h1,div{z-index:1;}'], _headerLeft2.default, _headerRight2.default);\n\nvar Title = _styledComponents2.default.h1.withConfig({\n  displayName: 'PromoHeader__Title',\n  componentId: 'cpo0n-1'\n})(['font-size:40px;line-height:1;max-width:266px;margin:0 auto;text-align:center;margin-top:30px;text-transform:capitalize;@media (max-width:480px){font-size:25px;}']);\n\nvar Winner = _styledComponents2.default.div.withConfig({\n  displayName: 'PromoHeader__Winner',\n  componentId: 'cpo0n-2'\n})(['font-size:13px;line-height:1.3;text-align:center;padding-top:30px;padding-bottom:50px;@media (max-width:480px){padding-bottom:25px;}a{color:white;}span{font-weight:bold;}']);\n\nexports.default = function () {\n  return _react2.default.createElement(\n    PromoHeader,\n    null,\n    _react2.default.createElement('div', { className: 'bg-left' }),\n    _react2.default.createElement('div', { className: 'bg-right' }),\n    _react2.default.createElement(\n      _reactStatic.Link,\n      { exact: true, to: '/' },\n      _react2.default.createElement(\n        'svg',\n        { width: '25', height: '14' },\n        _react2.default.createElement(\n          'g',\n          { stroke: '#FFF', strokeWidth: '2', fill: 'currentColor' },\n          _react2.default.createElement('path', { d: 'M23.02 7H2', strokeLinecap: 'square' }),\n          _react2.default.createElement('path', { d: 'M5.5 12.5l-4-5.377 4-5.623' })\n        )\n      )\n    ),\n    _react2.default.createElement(\n      Title,\n      null,\n      'Skin Gratis cada semana'\n    ),\n    _react2.default.createElement(\n      Winner,\n      null,\n      'Ganador actual ',\n      _react2.default.createElement('br', null),\n      'usuario: ',\n      _react2.default.createElement(\n        'a',\n        { href: 'https://www.twitch.tv/ggdan01', target: '_blank' },\n        'ggdan01'\n      )\n    ),\n    _react2.default.createElement(\n      'svg',\n      { width: '75', height: '43' },\n      _react2.default.createElement('path', { d: 'M46.713 0l-1.038 3.14.026 14.495h3.866v1.932h2.077l2.076-1.932h3.633l6.747-6.281V0H46.713zm15.57 10.388l-2.854 2.657h-4.671l-2.595 2.416v-2.416H48.27V1.69h14.014v8.697zm-4.67-5.557h1.816v4.832h-1.817V4.83zm-4.672 0h1.817v4.832H52.94V4.83zM75 27.298v11.354L68.253 43H64.1v-1.933L60.986 43h-3.633v-1.933L55.017 43H48.27l-2.076-1.933-.52 1.933-5.942-.024-2.362-1.909L37.11 43l-6.747-.024-.26-1.909-1.816 1.909-10.38.024-2.077-.966V43h-5.709l-6.228-3.624L0 35.753V19.809h8.045l3.893 3.624h17.647v-3.624h14.533v3.624h3.633v1.932l2.076-1.932h4.412l3.892-3.624h8.305v3.624h4.412L75 27.298zm-64.879-2.174H6.488V21.5H1.817v13.528l2.854 2.899h5.45v-4.59H6.488v-3.865h3.633v-4.348zm19.464 0h-4.672v8.213h-1.816v-8.213h-4.412v8.213H16.87v-8.213h-4.931v12.803H26.47l3.114-2.899v-9.904zm6.228 0h-4.412v12.803h4.412V25.124zm0-3.624h-4.412v1.933h4.412V21.5zm10.121 3.624h-3.633V21.5H37.63v13.528l2.854 2.899h5.45v-4.59h-3.633v-3.865h3.633v-4.348zm11.938 0h-7.266L47.75 27.78v7.247l3.114 2.899h7.007v-4.59h-5.19v-3.865h5.19v-4.348zm15.311 2.657l-3.114-2.657h-5.45V21.5h-4.93v16.427h4.93v-8.455h3.634v8.455h4.93V27.781z', fill: '#FFF' })\n    )\n  );\n};"
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _headerLeft = require('../assets/header-left.png');\n\nvar _headerLeft2 = _interopRequireDefault(_headerLeft);\n\nvar _headerRight = require('../assets/header-right.png');\n\nvar _headerRight2 = _interopRequireDefault(_headerRight);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar PromoHeader = _styledComponents2.default.div.withConfig({\n  displayName: 'PromoHeader',\n  componentId: 'cpo0n-0'\n})(['display:flex;flex-direction:column;align-items:center;justify-content:center;width:100%;background-color:#202255;min-height:396px;position:relative;color:white;.bg-left,.bg-right{background-size:contain;background-repeat:no-repeat;background-position-y:bottom;position:absolute;height:100%;width:260px;top:0;z-index:0;}.bg-left{background-image:url(', ');background-position-x:left;left:0;}.bg-right{background-image:url(', ');background-position-x:right;right:0;}svg,a,h1,div{z-index:1;}'], _headerLeft2.default, _headerRight2.default);\n\nvar Title = _styledComponents2.default.h1.withConfig({\n  displayName: 'PromoHeader__Title',\n  componentId: 'cpo0n-1'\n})(['font-size:40px;line-height:1;max-width:266px;margin:0 auto;text-align:center;margin-top:30px;text-transform:capitalize;@media (max-width:480px){font-size:25px;}']);\n\nvar Winner = _styledComponents2.default.div.withConfig({\n  displayName: 'PromoHeader__Winner',\n  componentId: 'cpo0n-2'\n})(['font-size:13px;line-height:1.3;text-align:center;padding-top:30px;padding-bottom:50px;@media (max-width:480px){padding-bottom:25px;}a{color:white;}span{font-weight:bold;}']);\n\nexports.default = function () {\n  return _react2.default.createElement(\n    PromoHeader,\n    null,\n    _react2.default.createElement('div', { className: 'bg-left' }),\n    _react2.default.createElement('div', { className: 'bg-right' }),\n    _react2.default.createElement(\n      _reactStatic.Link,\n      { exact: true, to: '/' },\n      _react2.default.createElement(\n        'svg',\n        { width: '25', height: '14' },\n        _react2.default.createElement(\n          'g',\n          { stroke: '#FFF', strokeWidth: '2', fill: 'currentColor' },\n          _react2.default.createElement('path', { d: 'M23.02 7H2', strokeLinecap: 'square' }),\n          _react2.default.createElement('path', { d: 'M5.5 12.5l-4-5.377 4-5.623' })\n        )\n      )\n    ),\n    _react2.default.createElement(\n      Title,\n      null,\n      'Skin Gratis cada semana'\n    ),\n    _react2.default.createElement(\n      Winner,\n      null,\n      'Ganador actual ',\n      _react2.default.createElement('br', null),\n      'usuario: ',\n      _react2.default.createElement(\n        'a',\n        { href: 'https://lol.mobalytics.gg/summoner/lan/tripyboy', target: '_blank' },\n        'tripyBoy'\n      )\n    ),\n    _react2.default.createElement(\n      'svg',\n      { width: '75', height: '43' },\n      _react2.default.createElement('path', { d: 'M46.713 0l-1.038 3.14.026 14.495h3.866v1.932h2.077l2.076-1.932h3.633l6.747-6.281V0H46.713zm15.57 10.388l-2.854 2.657h-4.671l-2.595 2.416v-2.416H48.27V1.69h14.014v8.697zm-4.67-5.557h1.816v4.832h-1.817V4.83zm-4.672 0h1.817v4.832H52.94V4.83zM75 27.298v11.354L68.253 43H64.1v-1.933L60.986 43h-3.633v-1.933L55.017 43H48.27l-2.076-1.933-.52 1.933-5.942-.024-2.362-1.909L37.11 43l-6.747-.024-.26-1.909-1.816 1.909-10.38.024-2.077-.966V43h-5.709l-6.228-3.624L0 35.753V19.809h8.045l3.893 3.624h17.647v-3.624h14.533v3.624h3.633v1.932l2.076-1.932h4.412l3.892-3.624h8.305v3.624h4.412L75 27.298zm-64.879-2.174H6.488V21.5H1.817v13.528l2.854 2.899h5.45v-4.59H6.488v-3.865h3.633v-4.348zm19.464 0h-4.672v8.213h-1.816v-8.213h-4.412v8.213H16.87v-8.213h-4.931v12.803H26.47l3.114-2.899v-9.904zm6.228 0h-4.412v12.803h4.412V25.124zm0-3.624h-4.412v1.933h4.412V21.5zm10.121 3.624h-3.633V21.5H37.63v13.528l2.854 2.899h5.45v-4.59h-3.633v-3.865h3.633v-4.348zm11.938 0h-7.266L47.75 27.78v7.247l3.114 2.899h7.007v-4.59h-5.19v-3.865h5.19v-4.348zm15.311 2.657l-3.114-2.657h-5.45V21.5h-4.93v16.427h4.93v-8.455h3.634v8.455h4.93V27.781z', fill: '#FFF' })\n    )\n  );\n};"
     },
     {
       "id": 151,
