@@ -2,13 +2,13 @@
   "errors": [],
   "warnings": [],
   "version": "3.12.0",
-  "hash": "5fff971061a1e615c31a",
-  "time": 4228,
+  "hash": "89a4c8ea81d1e629f098",
+  "time": 4542,
   "publicPath": "/",
   "assetsByChunkName": {
     "src/containers/Promo": [
-      "templates/src/containers/Promo.6f3e126c.js",
-      "templates/src/containers/Promo.6f3e126c.js.map"
+      "templates/src/containers/Promo.ec0711d5.js",
+      "templates/src/containers/Promo.ec0711d5.js.map"
     ],
     "src/containers/Home": [
       "templates/src/containers/Home.3d7dfb1e.js",
@@ -23,8 +23,8 @@
       "main.cece4033.js.map"
     ],
     "bootstrap": [
-      "bootstrap.e62f4ff5.js",
-      "bootstrap.e62f4ff5.js.map"
+      "bootstrap.f1cf91e2.js",
+      "bootstrap.f1cf91e2.js.map"
     ]
   },
   "assets": [
@@ -62,8 +62,8 @@
       "emitted": true
     },
     {
-      "name": "templates/src/containers/Promo.6f3e126c.js",
-      "size": 13611,
+      "name": "templates/src/containers/Promo.ec0711d5.js",
+      "size": 13613,
       "chunks": [
         0
       ],
@@ -102,7 +102,7 @@
       "emitted": true
     },
     {
-      "name": "bootstrap.e62f4ff5.js",
+      "name": "bootstrap.f1cf91e2.js",
       "size": 1543,
       "chunks": [
         4
@@ -113,8 +113,8 @@
       "emitted": true
     },
     {
-      "name": "templates/src/containers/Promo.6f3e126c.js.map",
-      "size": 39527,
+      "name": "templates/src/containers/Promo.ec0711d5.js.map",
+      "size": 39531,
       "chunks": [
         0
       ],
@@ -157,7 +157,7 @@
       "emitted": true
     },
     {
-      "name": "bootstrap.e62f4ff5.js.map",
+      "name": "bootstrap.f1cf91e2.js.map",
       "size": 14435,
       "chunks": [
         4
@@ -176,8 +176,8 @@
         3
       ],
       "assets": [
-        "bootstrap.e62f4ff5.js",
-        "bootstrap.e62f4ff5.js.map",
+        "bootstrap.f1cf91e2.js",
+        "bootstrap.f1cf91e2.js.map",
         "main.cece4033.js",
         "main.cece4033.js.map"
       ],
@@ -191,15 +191,15 @@
       "initial": false,
       "entry": false,
       "extraAsync": false,
-      "size": 17942,
+      "size": 17944,
       "names": [
         "src/containers/Promo"
       ],
       "files": [
-        "templates/src/containers/Promo.6f3e126c.js",
-        "templates/src/containers/Promo.6f3e126c.js.map"
+        "templates/src/containers/Promo.ec0711d5.js",
+        "templates/src/containers/Promo.ec0711d5.js.map"
       ],
-      "hash": "6f3e126ceb7dba211798",
+      "hash": "ec0711d5c80738d06fe8",
       "parents": [
         3
       ],
@@ -210,7 +210,7 @@
           "name": "./src/containers/Promo.js",
           "index": 148,
           "index2": 151,
-          "size": 7306,
+          "size": 7308,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -249,7 +249,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 3,
-          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _reactStatic = require('react-static');\n\nvar _ShareLinks = require('../components/ShareLinks');\n\nvar _ShareLinks2 = _interopRequireDefault(_ShareLinks);\n\nvar _PromoHeader = require('../components/PromoHeader');\n\nvar _PromoHeader2 = _interopRequireDefault(_PromoHeader);\n\nvar _Schedule = require('../components/Schedule');\n\nvar _Schedule2 = _interopRequireDefault(_Schedule);\n\nvar _sharePromo = require('../assets/share-promo.png');\n\nvar _sharePromo2 = _interopRequireDefault(_sharePromo);\n\nvar _config = require('../config');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar PromoPage = _styledComponents2.default.div.withConfig({\n  displayName: 'Promo__PromoPage',\n  componentId: 'sc-1chc8xc-0'\n})(['display:block;height:100%;.container{max-width:440px;margin:0 auto;padding-top:35px;padding-left:20px;padding-right:20px;color:#3B3E48;}h2{font-size:20px;font-weight:normal;}ul{font-size:14px;line-height:22px;list-style:disc;padding-left:18px;}div[class*=\"ShareLinks\"]{margin-top:30px;text-align:left;}']);\n\n// components\n\n\nvar Desc = _styledComponents2.default.p.withConfig({\n  displayName: 'Promo__Desc',\n  componentId: 'sc-1chc8xc-1'\n})(['color:#3B3E48;font-size:16px;line-height:1.4;margin-top:0;margin-bottom:25px;']);\n\nexports.default = function () {\n  return _react2.default.createElement(\n    PromoPage,\n    null,\n    _react2.default.createElement(\n      _reactStatic.Head,\n      null,\n      _react2.default.createElement(\n        'title',\n        null,\n        'Ganador - ',\n        _config.winner\n      ),\n      _react2.default.createElement('meta', { name: 'description', content: 'Estaremos sorteando un skin de League of legends cada semana en el stream de los viernes a las 9:00 pm (-06  CST)' }),\n      _react2.default.createElement('meta', { name: 'keywords', content: 'Promo, twitch, jgatjens, Lol, League, Legends, Games' }),\n      _react2.default.createElement('meta', { name: 'author', content: 'Ganador ' }),\n      _react2.default.createElement('meta', { property: 'og:type', content: 'website' }),\n      _react2.default.createElement('meta', { property: 'og:title', content: \"Ganador\" + _config.winner }),\n      _react2.default.createElement('meta', { property: 'og:description', content: 'Estaremos sorteando un skin de League of legends cada semana en el stream de los viernes a las 9:00 pm (-06  CST)' }),\n      _react2.default.createElement('meta', { property: 'og:image', content: _sharePromo2.default }),\n      _react2.default.createElement('meta', { name: 'twitter:card', content: 'summary_large_image' }),\n      _react2.default.createElement('meta', { name: 'twitter:site', content: '@jgatjens' }),\n      _react2.default.createElement('meta', { name: 'twitter:creator', content: '@jgatjens' }),\n      _react2.default.createElement('meta', { name: 'twitter:title', content: \"Ganador\" + _config.winner }),\n      _react2.default.createElement('meta', { name: 'twitter:description', content: 'Estaremos sorteando un skin de League of legends cada semana en el stream de los viernes a las 9:00 pm (-06  CST)' }),\n      _react2.default.createElement('meta', { name: 'twitter:image', content: _sharePromo2.default }),\n      _react2.default.createElement('link', { href: 'data:image/x-icon;base64,AAABAAEAEBAAAAAAAABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAACGNwgAxloDAHcTAAAVFRoAWrzFAGkrAABGproAUXaOAClxkgAPO14ADgAAAMVkDwAfWXgAkD4CAB9aewA7a4kAmDsCANqHHQDhiA4AJBogADmUuwA2lsEAiR8AAH4sDAA8dZUAhygAAA9OfAAtX4EAOFxvAJEoAABkhpoAsTsCADFoigBnip0ANQAAAEIgFwCUNAAAy2AEADVmjQA/zP8AQqjTACJYdgAdXn8AzGYNAECv3wCTPRIAOBADAEet2QC1HAAAeSsTADQTFQBXJBoAL2B8AIwkBwCFLgoAMWCFAL0oAACGLxYAxF8CABwQFgAYFBkACF2YALw0AAAiDxMAQKbOAAc/bADcdR8APqnXANJcAgAwcZQABkdyABp+sgAfXX0AUYCcACpVdwAtl88AyDoAADdzkQBBbZEAMxsTACdqiQBqIQAAMmV6ADFjhgBEGxMAx2QAAMpfAwAolMcAdCcAADVrjAA6TU4AskwBADRyhgDDbgwAOWmPAD+r3gDHYRsAJ3qeAJw0AgAkGB0AaSwqAC4VFADLZxsANneVACtZewCLHgAAMBkXAIYmBgA2FRQAhSESACVmhwAHNF8AK2OHAKJJAgBqRS0AKQUAAJAqAABEFg4AjjMAAEEZFwCONgAARxUUABtXdgBEGRcAWXd6AJonAABDHBcALW+QADhKTwDYgxUAMnKHADdojQCbNgAAIxobAHokCgCYPwAAIV98AEWu1gC9SQIAPgsAAC9bcAAjZYUASG6EAKc5AAACNGAAsy0AADl9nwAba6AAzXMlAIcwCgAgi8kATrXiAAEiNAC9LQAAizUHAMchAABZBgMAQ8f0AEYYFQAvcpEANa3vAA9imAA5cpEAUbDCAOqFCgC5VQMAz20dACVmiQBSJycAMGCAAAk1WwA3HBkALmKGANxsEQA7GxYAP6HDADyAoAAgL0AAJA0RAB9YcgCDDwMAgRAGADNvkgA9bn0AfCMAADFzlQBRGhMAhCAAAAArWQA5dZIAL57WACFpigAnHywAKWV+AB5MagAAAAcAohoAAK9FAgDTdicAK6v0AEmkuwAqcZAAMWqNACVWbQCIPBUATKi+AHMmEwAHQ30Akj0PACwUFQB1KxAAOW2WAEBsigDUaAcA0G4HAKQ1AAB8JhMAQXWBACRDUACiOwAANhcVACodJwA1GxgA2HEHAAoyXQAkbY4AVAQAAHYRAgCtPwMAMSItAFu9xwAeERYAxmEFAC5tjgAwq+wADzpjAEOtxQAkERYAJxATAEgdFQBuLggAbygRAEyqvAAudpcAwUQAABpfkgBCLiQAMxMTAAQtWACkMRAAtloMADx+iwAjaIkAhisIAFeKpQAzYncAgv4eIUkYvaJZIMq2RemwXMmo2G21nLTjNWuaAJX5ZAhQsiKYerOMy/+32ftaTM6/4XuZI6FLV76g6scn7Ls5Z/zc9Bm8FRTPQUY9lp1yLU2N7j6R+EDmwwpzLsBHfBduKvebxJCJBIsfrUQdddozSIhsMGlvL6MxQqQSXXbw9gzBVDi465fI8ZTfgRHVik8OUq59JAksBtJmVlXWJddlKRw8UYeqQ/LMxis66AHbasKOAwUN4CjN0KYLpVvFhN6pB4WP/Rpfr4Zg+nEQYnSr1A/R4oBh9ZOxNuR4WBYCP1OD3TITO+ftY3e6736eeeUmStNeTjdoG6xwp3+585+SNAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=', rel: 'icon', type: 'image/x-icon' })\n    ),\n    _react2.default.createElement(_PromoHeader2.default, null),\n    _react2.default.createElement(\n      'div',\n      { className: 'container' },\n      _react2.default.createElement(\n        Desc,\n        null,\n        'Estaremos sorteando un skin de ',\n        _react2.default.createElement(\n          'a',\n          { href: 'https://lan.leagueoflegends.com/es/', target: '_blank' },\n          'League of Legends'\n        ),\n        ' cada semana.'\n      ),\n      _react2.default.createElement(_Schedule2.default, null),\n      _react2.default.createElement(\n        'h2',\n        null,\n        'Reglas del concurso'\n      ),\n      _react2.default.createElement(\n        'ul',\n        null,\n        _react2.default.createElement(\n          'li',\n          null,\n          'Ser follower del stream ',\n          _react2.default.createElement(\n            'a',\n            { href: 'https://www.twitch.tv/jgatjens', target: '_blank' },\n            'https://www.twitch.tv/jgatjens'\n          ),\n          '.'\n        ),\n        _react2.default.createElement(\n          'li',\n          null,\n          'Se hara una rifa entre los followers.'\n        ),\n        _react2.default.createElement(\n          'li',\n          null,\n          'Estar presente el dia del sorteo.'\n        ),\n        _react2.default.createElement(\n          'li',\n          null,\n          'Dudas por discord o bien los d\\xEDas del stream.'\n        ),\n        _react2.default.createElement(\n          'li',\n          null,\n          'Al final del stream se dara a conocer el ganador.'\n        ),\n        _react2.default.createElement(\n          'li',\n          null,\n          'El ganador debera tener cuenta de League of Legends en LAN para resivir el skin.'\n        )\n      ),\n      _react2.default.createElement(_ShareLinks2.default, null)\n    )\n  );\n};"
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _reactStatic = require('react-static');\n\nvar _ShareLinks = require('../components/ShareLinks');\n\nvar _ShareLinks2 = _interopRequireDefault(_ShareLinks);\n\nvar _PromoHeader = require('../components/PromoHeader');\n\nvar _PromoHeader2 = _interopRequireDefault(_PromoHeader);\n\nvar _Schedule = require('../components/Schedule');\n\nvar _Schedule2 = _interopRequireDefault(_Schedule);\n\nvar _sharePromo = require('../assets/share-promo.png');\n\nvar _sharePromo2 = _interopRequireDefault(_sharePromo);\n\nvar _config = require('../config');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar PromoPage = _styledComponents2.default.div.withConfig({\n  displayName: 'Promo__PromoPage',\n  componentId: 'sc-1chc8xc-0'\n})(['display:block;height:100%;.container{max-width:440px;margin:0 auto;padding-top:35px;padding-left:20px;padding-right:20px;color:#3B3E48;}h2{font-size:20px;font-weight:normal;}ul{font-size:14px;line-height:22px;list-style:disc;padding-left:18px;}div[class*=\"ShareLinks\"]{margin-top:30px;text-align:left;}']);\n\n// components\n\n\nvar Desc = _styledComponents2.default.p.withConfig({\n  displayName: 'Promo__Desc',\n  componentId: 'sc-1chc8xc-1'\n})(['color:#3B3E48;font-size:16px;line-height:1.4;margin-top:0;margin-bottom:25px;']);\n\nexports.default = function () {\n  return _react2.default.createElement(\n    PromoPage,\n    null,\n    _react2.default.createElement(\n      _reactStatic.Head,\n      null,\n      _react2.default.createElement(\n        'title',\n        null,\n        'Ganador - ',\n        _config.winner\n      ),\n      _react2.default.createElement('meta', { name: 'description', content: 'Estaremos sorteando un skin de League of legends cada semana en el stream de los viernes a las 9:00 pm (-06  CST)' }),\n      _react2.default.createElement('meta', { name: 'keywords', content: 'Promo, twitch, jgatjens, Lol, League, Legends, Games' }),\n      _react2.default.createElement('meta', { name: 'author', content: 'Ganador ' }),\n      _react2.default.createElement('meta', { property: 'og:type', content: 'website' }),\n      _react2.default.createElement('meta', { property: 'og:title', content: \"Ganador \" + _config.winner }),\n      _react2.default.createElement('meta', { property: 'og:description', content: 'Estaremos sorteando un skin de League of legends cada semana en el stream de los viernes a las 9:00 pm (-06  CST)' }),\n      _react2.default.createElement('meta', { property: 'og:image', content: _sharePromo2.default }),\n      _react2.default.createElement('meta', { name: 'twitter:card', content: 'summary_large_image' }),\n      _react2.default.createElement('meta', { name: 'twitter:site', content: '@jgatjens' }),\n      _react2.default.createElement('meta', { name: 'twitter:creator', content: '@jgatjens' }),\n      _react2.default.createElement('meta', { name: 'twitter:title', content: \"Ganador \" + _config.winner }),\n      _react2.default.createElement('meta', { name: 'twitter:description', content: 'Estaremos sorteando un skin de League of legends cada semana en el stream de los viernes a las 9:00 pm (-06  CST)' }),\n      _react2.default.createElement('meta', { name: 'twitter:image', content: _sharePromo2.default }),\n      _react2.default.createElement('link', { href: 'data:image/x-icon;base64,AAABAAEAEBAAAAAAAABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAACGNwgAxloDAHcTAAAVFRoAWrzFAGkrAABGproAUXaOAClxkgAPO14ADgAAAMVkDwAfWXgAkD4CAB9aewA7a4kAmDsCANqHHQDhiA4AJBogADmUuwA2lsEAiR8AAH4sDAA8dZUAhygAAA9OfAAtX4EAOFxvAJEoAABkhpoAsTsCADFoigBnip0ANQAAAEIgFwCUNAAAy2AEADVmjQA/zP8AQqjTACJYdgAdXn8AzGYNAECv3wCTPRIAOBADAEet2QC1HAAAeSsTADQTFQBXJBoAL2B8AIwkBwCFLgoAMWCFAL0oAACGLxYAxF8CABwQFgAYFBkACF2YALw0AAAiDxMAQKbOAAc/bADcdR8APqnXANJcAgAwcZQABkdyABp+sgAfXX0AUYCcACpVdwAtl88AyDoAADdzkQBBbZEAMxsTACdqiQBqIQAAMmV6ADFjhgBEGxMAx2QAAMpfAwAolMcAdCcAADVrjAA6TU4AskwBADRyhgDDbgwAOWmPAD+r3gDHYRsAJ3qeAJw0AgAkGB0AaSwqAC4VFADLZxsANneVACtZewCLHgAAMBkXAIYmBgA2FRQAhSESACVmhwAHNF8AK2OHAKJJAgBqRS0AKQUAAJAqAABEFg4AjjMAAEEZFwCONgAARxUUABtXdgBEGRcAWXd6AJonAABDHBcALW+QADhKTwDYgxUAMnKHADdojQCbNgAAIxobAHokCgCYPwAAIV98AEWu1gC9SQIAPgsAAC9bcAAjZYUASG6EAKc5AAACNGAAsy0AADl9nwAba6AAzXMlAIcwCgAgi8kATrXiAAEiNAC9LQAAizUHAMchAABZBgMAQ8f0AEYYFQAvcpEANa3vAA9imAA5cpEAUbDCAOqFCgC5VQMAz20dACVmiQBSJycAMGCAAAk1WwA3HBkALmKGANxsEQA7GxYAP6HDADyAoAAgL0AAJA0RAB9YcgCDDwMAgRAGADNvkgA9bn0AfCMAADFzlQBRGhMAhCAAAAArWQA5dZIAL57WACFpigAnHywAKWV+AB5MagAAAAcAohoAAK9FAgDTdicAK6v0AEmkuwAqcZAAMWqNACVWbQCIPBUATKi+AHMmEwAHQ30Akj0PACwUFQB1KxAAOW2WAEBsigDUaAcA0G4HAKQ1AAB8JhMAQXWBACRDUACiOwAANhcVACodJwA1GxgA2HEHAAoyXQAkbY4AVAQAAHYRAgCtPwMAMSItAFu9xwAeERYAxmEFAC5tjgAwq+wADzpjAEOtxQAkERYAJxATAEgdFQBuLggAbygRAEyqvAAudpcAwUQAABpfkgBCLiQAMxMTAAQtWACkMRAAtloMADx+iwAjaIkAhisIAFeKpQAzYncAgv4eIUkYvaJZIMq2RemwXMmo2G21nLTjNWuaAJX5ZAhQsiKYerOMy/+32ftaTM6/4XuZI6FLV76g6scn7Ls5Z/zc9Bm8FRTPQUY9lp1yLU2N7j6R+EDmwwpzLsBHfBduKvebxJCJBIsfrUQdddozSIhsMGlvL6MxQqQSXXbw9gzBVDi465fI8ZTfgRHVik8OUq59JAksBtJmVlXWJddlKRw8UYeqQ/LMxis66AHbasKOAwUN4CjN0KYLpVvFhN6pB4WP/Rpfr4Zg+nEQYnSr1A/R4oBh9ZOxNuR4WBYCP1OD3TITO+ftY3e6736eeeUmStNeTjdoG6xwp3+585+SNAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=', rel: 'icon', type: 'image/x-icon' })\n    ),\n    _react2.default.createElement(_PromoHeader2.default, null),\n    _react2.default.createElement(\n      'div',\n      { className: 'container' },\n      _react2.default.createElement(\n        Desc,\n        null,\n        'Estaremos sorteando un skin de ',\n        _react2.default.createElement(\n          'a',\n          { href: 'https://lan.leagueoflegends.com/es/', target: '_blank' },\n          'League of Legends'\n        ),\n        ' cada semana.'\n      ),\n      _react2.default.createElement(_Schedule2.default, null),\n      _react2.default.createElement(\n        'h2',\n        null,\n        'Reglas del concurso'\n      ),\n      _react2.default.createElement(\n        'ul',\n        null,\n        _react2.default.createElement(\n          'li',\n          null,\n          'Ser follower del stream ',\n          _react2.default.createElement(\n            'a',\n            { href: 'https://www.twitch.tv/jgatjens', target: '_blank' },\n            'https://www.twitch.tv/jgatjens'\n          ),\n          '.'\n        ),\n        _react2.default.createElement(\n          'li',\n          null,\n          'Se hara una rifa entre los followers.'\n        ),\n        _react2.default.createElement(\n          'li',\n          null,\n          'Estar presente el dia del sorteo.'\n        ),\n        _react2.default.createElement(\n          'li',\n          null,\n          'Dudas por discord o bien los d\\xEDas del stream.'\n        ),\n        _react2.default.createElement(\n          'li',\n          null,\n          'Al final del stream se dara a conocer el ganador.'\n        ),\n        _react2.default.createElement(\n          'li',\n          null,\n          'El ganador debera tener cuenta de League of Legends en LAN para resivir el skin.'\n        )\n      ),\n      _react2.default.createElement(_ShareLinks2.default, null)\n    )\n  );\n};"
         },
         {
           "id": 143,
@@ -267,9 +267,9 @@
             1
           ],
           "assets": [],
-          "issuer": "/Users/jgatjens/Dev/jgatjens.github.io/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/Users/jgatjens/Dev/jgatjens.github.io/src/containers/Promo.js",
-          "issuerId": 52,
-          "issuerName": "./src/containers/Promo.js",
+          "issuer": "/Users/jgatjens/Dev/jgatjens.github.io/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/Users/jgatjens/Dev/jgatjens.github.io/src/containers/Home.js",
+          "issuerId": 51,
+          "issuerName": "./src/containers/Home.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -638,9 +638,9 @@
             1
           ],
           "assets": [],
-          "issuer": "/Users/jgatjens/Dev/jgatjens.github.io/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/Users/jgatjens/Dev/jgatjens.github.io/src/containers/Promo.js",
-          "issuerId": 52,
-          "issuerName": "./src/containers/Promo.js",
+          "issuer": "/Users/jgatjens/Dev/jgatjens.github.io/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/Users/jgatjens/Dev/jgatjens.github.io/src/containers/Home.js",
+          "issuerId": 51,
+          "issuerName": "./src/containers/Home.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -4229,9 +4229,9 @@
             3
           ],
           "assets": [],
-          "issuer": "/Users/jgatjens/Dev/jgatjens.github.io/node_modules/react-router/es/generatePath.js",
-          "issuerId": 36,
-          "issuerName": "./node_modules/react-router/es/generatePath.js",
+          "issuer": "/Users/jgatjens/Dev/jgatjens.github.io/node_modules/react-router/es/matchPath.js",
+          "issuerId": 21,
+          "issuerName": "./node_modules/react-router/es/matchPath.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -8460,10 +8460,10 @@
         "bootstrap"
       ],
       "files": [
-        "bootstrap.e62f4ff5.js",
-        "bootstrap.e62f4ff5.js.map"
+        "bootstrap.f1cf91e2.js",
+        "bootstrap.f1cf91e2.js.map"
       ],
-      "hash": "e62f4ff565174710ac98",
+      "hash": "f1cf91e2c1f7a29927df",
       "parents": [],
       "modules": [],
       "filteredModules": 0,
@@ -11678,9 +11678,9 @@
         3
       ],
       "assets": [],
-      "issuer": "/Users/jgatjens/Dev/jgatjens.github.io/node_modules/react-router/es/generatePath.js",
-      "issuerId": 36,
-      "issuerName": "./node_modules/react-router/es/generatePath.js",
+      "issuer": "/Users/jgatjens/Dev/jgatjens.github.io/node_modules/react-router/es/matchPath.js",
+      "issuerId": 21,
+      "issuerName": "./node_modules/react-router/es/matchPath.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -12474,7 +12474,7 @@
       "name": "./src/containers/Promo.js",
       "index": 148,
       "index2": 151,
-      "size": 7306,
+      "size": 7308,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -12513,7 +12513,7 @@
       "providedExports": null,
       "optimizationBailout": [],
       "depth": 3,
-      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _reactStatic = require('react-static');\n\nvar _ShareLinks = require('../components/ShareLinks');\n\nvar _ShareLinks2 = _interopRequireDefault(_ShareLinks);\n\nvar _PromoHeader = require('../components/PromoHeader');\n\nvar _PromoHeader2 = _interopRequireDefault(_PromoHeader);\n\nvar _Schedule = require('../components/Schedule');\n\nvar _Schedule2 = _interopRequireDefault(_Schedule);\n\nvar _sharePromo = require('../assets/share-promo.png');\n\nvar _sharePromo2 = _interopRequireDefault(_sharePromo);\n\nvar _config = require('../config');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar PromoPage = _styledComponents2.default.div.withConfig({\n  displayName: 'Promo__PromoPage',\n  componentId: 'sc-1chc8xc-0'\n})(['display:block;height:100%;.container{max-width:440px;margin:0 auto;padding-top:35px;padding-left:20px;padding-right:20px;color:#3B3E48;}h2{font-size:20px;font-weight:normal;}ul{font-size:14px;line-height:22px;list-style:disc;padding-left:18px;}div[class*=\"ShareLinks\"]{margin-top:30px;text-align:left;}']);\n\n// components\n\n\nvar Desc = _styledComponents2.default.p.withConfig({\n  displayName: 'Promo__Desc',\n  componentId: 'sc-1chc8xc-1'\n})(['color:#3B3E48;font-size:16px;line-height:1.4;margin-top:0;margin-bottom:25px;']);\n\nexports.default = function () {\n  return _react2.default.createElement(\n    PromoPage,\n    null,\n    _react2.default.createElement(\n      _reactStatic.Head,\n      null,\n      _react2.default.createElement(\n        'title',\n        null,\n        'Ganador - ',\n        _config.winner\n      ),\n      _react2.default.createElement('meta', { name: 'description', content: 'Estaremos sorteando un skin de League of legends cada semana en el stream de los viernes a las 9:00 pm (-06  CST)' }),\n      _react2.default.createElement('meta', { name: 'keywords', content: 'Promo, twitch, jgatjens, Lol, League, Legends, Games' }),\n      _react2.default.createElement('meta', { name: 'author', content: 'Ganador ' }),\n      _react2.default.createElement('meta', { property: 'og:type', content: 'website' }),\n      _react2.default.createElement('meta', { property: 'og:title', content: \"Ganador\" + _config.winner }),\n      _react2.default.createElement('meta', { property: 'og:description', content: 'Estaremos sorteando un skin de League of legends cada semana en el stream de los viernes a las 9:00 pm (-06  CST)' }),\n      _react2.default.createElement('meta', { property: 'og:image', content: _sharePromo2.default }),\n      _react2.default.createElement('meta', { name: 'twitter:card', content: 'summary_large_image' }),\n      _react2.default.createElement('meta', { name: 'twitter:site', content: '@jgatjens' }),\n      _react2.default.createElement('meta', { name: 'twitter:creator', content: '@jgatjens' }),\n      _react2.default.createElement('meta', { name: 'twitter:title', content: \"Ganador\" + _config.winner }),\n      _react2.default.createElement('meta', { name: 'twitter:description', content: 'Estaremos sorteando un skin de League of legends cada semana en el stream de los viernes a las 9:00 pm (-06  CST)' }),\n      _react2.default.createElement('meta', { name: 'twitter:image', content: _sharePromo2.default }),\n      _react2.default.createElement('link', { href: 'data:image/x-icon;base64,AAABAAEAEBAAAAAAAABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAACGNwgAxloDAHcTAAAVFRoAWrzFAGkrAABGproAUXaOAClxkgAPO14ADgAAAMVkDwAfWXgAkD4CAB9aewA7a4kAmDsCANqHHQDhiA4AJBogADmUuwA2lsEAiR8AAH4sDAA8dZUAhygAAA9OfAAtX4EAOFxvAJEoAABkhpoAsTsCADFoigBnip0ANQAAAEIgFwCUNAAAy2AEADVmjQA/zP8AQqjTACJYdgAdXn8AzGYNAECv3wCTPRIAOBADAEet2QC1HAAAeSsTADQTFQBXJBoAL2B8AIwkBwCFLgoAMWCFAL0oAACGLxYAxF8CABwQFgAYFBkACF2YALw0AAAiDxMAQKbOAAc/bADcdR8APqnXANJcAgAwcZQABkdyABp+sgAfXX0AUYCcACpVdwAtl88AyDoAADdzkQBBbZEAMxsTACdqiQBqIQAAMmV6ADFjhgBEGxMAx2QAAMpfAwAolMcAdCcAADVrjAA6TU4AskwBADRyhgDDbgwAOWmPAD+r3gDHYRsAJ3qeAJw0AgAkGB0AaSwqAC4VFADLZxsANneVACtZewCLHgAAMBkXAIYmBgA2FRQAhSESACVmhwAHNF8AK2OHAKJJAgBqRS0AKQUAAJAqAABEFg4AjjMAAEEZFwCONgAARxUUABtXdgBEGRcAWXd6AJonAABDHBcALW+QADhKTwDYgxUAMnKHADdojQCbNgAAIxobAHokCgCYPwAAIV98AEWu1gC9SQIAPgsAAC9bcAAjZYUASG6EAKc5AAACNGAAsy0AADl9nwAba6AAzXMlAIcwCgAgi8kATrXiAAEiNAC9LQAAizUHAMchAABZBgMAQ8f0AEYYFQAvcpEANa3vAA9imAA5cpEAUbDCAOqFCgC5VQMAz20dACVmiQBSJycAMGCAAAk1WwA3HBkALmKGANxsEQA7GxYAP6HDADyAoAAgL0AAJA0RAB9YcgCDDwMAgRAGADNvkgA9bn0AfCMAADFzlQBRGhMAhCAAAAArWQA5dZIAL57WACFpigAnHywAKWV+AB5MagAAAAcAohoAAK9FAgDTdicAK6v0AEmkuwAqcZAAMWqNACVWbQCIPBUATKi+AHMmEwAHQ30Akj0PACwUFQB1KxAAOW2WAEBsigDUaAcA0G4HAKQ1AAB8JhMAQXWBACRDUACiOwAANhcVACodJwA1GxgA2HEHAAoyXQAkbY4AVAQAAHYRAgCtPwMAMSItAFu9xwAeERYAxmEFAC5tjgAwq+wADzpjAEOtxQAkERYAJxATAEgdFQBuLggAbygRAEyqvAAudpcAwUQAABpfkgBCLiQAMxMTAAQtWACkMRAAtloMADx+iwAjaIkAhisIAFeKpQAzYncAgv4eIUkYvaJZIMq2RemwXMmo2G21nLTjNWuaAJX5ZAhQsiKYerOMy/+32ftaTM6/4XuZI6FLV76g6scn7Ls5Z/zc9Bm8FRTPQUY9lp1yLU2N7j6R+EDmwwpzLsBHfBduKvebxJCJBIsfrUQdddozSIhsMGlvL6MxQqQSXXbw9gzBVDi465fI8ZTfgRHVik8OUq59JAksBtJmVlXWJddlKRw8UYeqQ/LMxis66AHbasKOAwUN4CjN0KYLpVvFhN6pB4WP/Rpfr4Zg+nEQYnSr1A/R4oBh9ZOxNuR4WBYCP1OD3TITO+ftY3e6736eeeUmStNeTjdoG6xwp3+585+SNAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=', rel: 'icon', type: 'image/x-icon' })\n    ),\n    _react2.default.createElement(_PromoHeader2.default, null),\n    _react2.default.createElement(\n      'div',\n      { className: 'container' },\n      _react2.default.createElement(\n        Desc,\n        null,\n        'Estaremos sorteando un skin de ',\n        _react2.default.createElement(\n          'a',\n          { href: 'https://lan.leagueoflegends.com/es/', target: '_blank' },\n          'League of Legends'\n        ),\n        ' cada semana.'\n      ),\n      _react2.default.createElement(_Schedule2.default, null),\n      _react2.default.createElement(\n        'h2',\n        null,\n        'Reglas del concurso'\n      ),\n      _react2.default.createElement(\n        'ul',\n        null,\n        _react2.default.createElement(\n          'li',\n          null,\n          'Ser follower del stream ',\n          _react2.default.createElement(\n            'a',\n            { href: 'https://www.twitch.tv/jgatjens', target: '_blank' },\n            'https://www.twitch.tv/jgatjens'\n          ),\n          '.'\n        ),\n        _react2.default.createElement(\n          'li',\n          null,\n          'Se hara una rifa entre los followers.'\n        ),\n        _react2.default.createElement(\n          'li',\n          null,\n          'Estar presente el dia del sorteo.'\n        ),\n        _react2.default.createElement(\n          'li',\n          null,\n          'Dudas por discord o bien los d\\xEDas del stream.'\n        ),\n        _react2.default.createElement(\n          'li',\n          null,\n          'Al final del stream se dara a conocer el ganador.'\n        ),\n        _react2.default.createElement(\n          'li',\n          null,\n          'El ganador debera tener cuenta de League of Legends en LAN para resivir el skin.'\n        )\n      ),\n      _react2.default.createElement(_ShareLinks2.default, null)\n    )\n  );\n};"
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _reactStatic = require('react-static');\n\nvar _ShareLinks = require('../components/ShareLinks');\n\nvar _ShareLinks2 = _interopRequireDefault(_ShareLinks);\n\nvar _PromoHeader = require('../components/PromoHeader');\n\nvar _PromoHeader2 = _interopRequireDefault(_PromoHeader);\n\nvar _Schedule = require('../components/Schedule');\n\nvar _Schedule2 = _interopRequireDefault(_Schedule);\n\nvar _sharePromo = require('../assets/share-promo.png');\n\nvar _sharePromo2 = _interopRequireDefault(_sharePromo);\n\nvar _config = require('../config');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar PromoPage = _styledComponents2.default.div.withConfig({\n  displayName: 'Promo__PromoPage',\n  componentId: 'sc-1chc8xc-0'\n})(['display:block;height:100%;.container{max-width:440px;margin:0 auto;padding-top:35px;padding-left:20px;padding-right:20px;color:#3B3E48;}h2{font-size:20px;font-weight:normal;}ul{font-size:14px;line-height:22px;list-style:disc;padding-left:18px;}div[class*=\"ShareLinks\"]{margin-top:30px;text-align:left;}']);\n\n// components\n\n\nvar Desc = _styledComponents2.default.p.withConfig({\n  displayName: 'Promo__Desc',\n  componentId: 'sc-1chc8xc-1'\n})(['color:#3B3E48;font-size:16px;line-height:1.4;margin-top:0;margin-bottom:25px;']);\n\nexports.default = function () {\n  return _react2.default.createElement(\n    PromoPage,\n    null,\n    _react2.default.createElement(\n      _reactStatic.Head,\n      null,\n      _react2.default.createElement(\n        'title',\n        null,\n        'Ganador - ',\n        _config.winner\n      ),\n      _react2.default.createElement('meta', { name: 'description', content: 'Estaremos sorteando un skin de League of legends cada semana en el stream de los viernes a las 9:00 pm (-06  CST)' }),\n      _react2.default.createElement('meta', { name: 'keywords', content: 'Promo, twitch, jgatjens, Lol, League, Legends, Games' }),\n      _react2.default.createElement('meta', { name: 'author', content: 'Ganador ' }),\n      _react2.default.createElement('meta', { property: 'og:type', content: 'website' }),\n      _react2.default.createElement('meta', { property: 'og:title', content: \"Ganador \" + _config.winner }),\n      _react2.default.createElement('meta', { property: 'og:description', content: 'Estaremos sorteando un skin de League of legends cada semana en el stream de los viernes a las 9:00 pm (-06  CST)' }),\n      _react2.default.createElement('meta', { property: 'og:image', content: _sharePromo2.default }),\n      _react2.default.createElement('meta', { name: 'twitter:card', content: 'summary_large_image' }),\n      _react2.default.createElement('meta', { name: 'twitter:site', content: '@jgatjens' }),\n      _react2.default.createElement('meta', { name: 'twitter:creator', content: '@jgatjens' }),\n      _react2.default.createElement('meta', { name: 'twitter:title', content: \"Ganador \" + _config.winner }),\n      _react2.default.createElement('meta', { name: 'twitter:description', content: 'Estaremos sorteando un skin de League of legends cada semana en el stream de los viernes a las 9:00 pm (-06  CST)' }),\n      _react2.default.createElement('meta', { name: 'twitter:image', content: _sharePromo2.default }),\n      _react2.default.createElement('link', { href: 'data:image/x-icon;base64,AAABAAEAEBAAAAAAAABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAACGNwgAxloDAHcTAAAVFRoAWrzFAGkrAABGproAUXaOAClxkgAPO14ADgAAAMVkDwAfWXgAkD4CAB9aewA7a4kAmDsCANqHHQDhiA4AJBogADmUuwA2lsEAiR8AAH4sDAA8dZUAhygAAA9OfAAtX4EAOFxvAJEoAABkhpoAsTsCADFoigBnip0ANQAAAEIgFwCUNAAAy2AEADVmjQA/zP8AQqjTACJYdgAdXn8AzGYNAECv3wCTPRIAOBADAEet2QC1HAAAeSsTADQTFQBXJBoAL2B8AIwkBwCFLgoAMWCFAL0oAACGLxYAxF8CABwQFgAYFBkACF2YALw0AAAiDxMAQKbOAAc/bADcdR8APqnXANJcAgAwcZQABkdyABp+sgAfXX0AUYCcACpVdwAtl88AyDoAADdzkQBBbZEAMxsTACdqiQBqIQAAMmV6ADFjhgBEGxMAx2QAAMpfAwAolMcAdCcAADVrjAA6TU4AskwBADRyhgDDbgwAOWmPAD+r3gDHYRsAJ3qeAJw0AgAkGB0AaSwqAC4VFADLZxsANneVACtZewCLHgAAMBkXAIYmBgA2FRQAhSESACVmhwAHNF8AK2OHAKJJAgBqRS0AKQUAAJAqAABEFg4AjjMAAEEZFwCONgAARxUUABtXdgBEGRcAWXd6AJonAABDHBcALW+QADhKTwDYgxUAMnKHADdojQCbNgAAIxobAHokCgCYPwAAIV98AEWu1gC9SQIAPgsAAC9bcAAjZYUASG6EAKc5AAACNGAAsy0AADl9nwAba6AAzXMlAIcwCgAgi8kATrXiAAEiNAC9LQAAizUHAMchAABZBgMAQ8f0AEYYFQAvcpEANa3vAA9imAA5cpEAUbDCAOqFCgC5VQMAz20dACVmiQBSJycAMGCAAAk1WwA3HBkALmKGANxsEQA7GxYAP6HDADyAoAAgL0AAJA0RAB9YcgCDDwMAgRAGADNvkgA9bn0AfCMAADFzlQBRGhMAhCAAAAArWQA5dZIAL57WACFpigAnHywAKWV+AB5MagAAAAcAohoAAK9FAgDTdicAK6v0AEmkuwAqcZAAMWqNACVWbQCIPBUATKi+AHMmEwAHQ30Akj0PACwUFQB1KxAAOW2WAEBsigDUaAcA0G4HAKQ1AAB8JhMAQXWBACRDUACiOwAANhcVACodJwA1GxgA2HEHAAoyXQAkbY4AVAQAAHYRAgCtPwMAMSItAFu9xwAeERYAxmEFAC5tjgAwq+wADzpjAEOtxQAkERYAJxATAEgdFQBuLggAbygRAEyqvAAudpcAwUQAABpfkgBCLiQAMxMTAAQtWACkMRAAtloMADx+iwAjaIkAhisIAFeKpQAzYncAgv4eIUkYvaJZIMq2RemwXMmo2G21nLTjNWuaAJX5ZAhQsiKYerOMy/+32ftaTM6/4XuZI6FLV76g6scn7Ls5Z/zc9Bm8FRTPQUY9lp1yLU2N7j6R+EDmwwpzLsBHfBduKvebxJCJBIsfrUQdddozSIhsMGlvL6MxQqQSXXbw9gzBVDi465fI8ZTfgRHVik8OUq59JAksBtJmVlXWJddlKRw8UYeqQ/LMxis66AHbasKOAwUN4CjN0KYLpVvFhN6pB4WP/Rpfr4Zg+nEQYnSr1A/R4oBh9ZOxNuR4WBYCP1OD3TITO+ftY3e6736eeeUmStNeTjdoG6xwp3+585+SNAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=', rel: 'icon', type: 'image/x-icon' })\n    ),\n    _react2.default.createElement(_PromoHeader2.default, null),\n    _react2.default.createElement(\n      'div',\n      { className: 'container' },\n      _react2.default.createElement(\n        Desc,\n        null,\n        'Estaremos sorteando un skin de ',\n        _react2.default.createElement(\n          'a',\n          { href: 'https://lan.leagueoflegends.com/es/', target: '_blank' },\n          'League of Legends'\n        ),\n        ' cada semana.'\n      ),\n      _react2.default.createElement(_Schedule2.default, null),\n      _react2.default.createElement(\n        'h2',\n        null,\n        'Reglas del concurso'\n      ),\n      _react2.default.createElement(\n        'ul',\n        null,\n        _react2.default.createElement(\n          'li',\n          null,\n          'Ser follower del stream ',\n          _react2.default.createElement(\n            'a',\n            { href: 'https://www.twitch.tv/jgatjens', target: '_blank' },\n            'https://www.twitch.tv/jgatjens'\n          ),\n          '.'\n        ),\n        _react2.default.createElement(\n          'li',\n          null,\n          'Se hara una rifa entre los followers.'\n        ),\n        _react2.default.createElement(\n          'li',\n          null,\n          'Estar presente el dia del sorteo.'\n        ),\n        _react2.default.createElement(\n          'li',\n          null,\n          'Dudas por discord o bien los d\\xEDas del stream.'\n        ),\n        _react2.default.createElement(\n          'li',\n          null,\n          'Al final del stream se dara a conocer el ganador.'\n        ),\n        _react2.default.createElement(\n          'li',\n          null,\n          'El ganador debera tener cuenta de League of Legends en LAN para resivir el skin.'\n        )\n      ),\n      _react2.default.createElement(_ShareLinks2.default, null)\n    )\n  );\n};"
     },
     {
       "id": 53,
@@ -16041,9 +16041,9 @@
         1
       ],
       "assets": [],
-      "issuer": "/Users/jgatjens/Dev/jgatjens.github.io/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/Users/jgatjens/Dev/jgatjens.github.io/src/containers/Promo.js",
-      "issuerId": 52,
-      "issuerName": "./src/containers/Promo.js",
+      "issuer": "/Users/jgatjens/Dev/jgatjens.github.io/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/Users/jgatjens/Dev/jgatjens.github.io/src/containers/Home.js",
+      "issuerId": 51,
+      "issuerName": "./src/containers/Home.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
