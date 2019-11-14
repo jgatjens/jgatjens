@@ -312,7 +312,7 @@ exports.default = function () {
         null,
         'Jairo G\xE4tjens - Website'
       ),
-      _react2.default.createElement('meta', { name: 'description', content: 'I\'m an experienced Software Developer based in Costa Rica.' }),
+      _react2.default.createElement('meta', { name: 'description', content: 'I\'m an experienced Full-Stack Developer based in Costa Rica.' }),
       _react2.default.createElement('meta', { name: 'keywords', content: 'Website, Resume, Profile, Github, HTML, CSS, JavaScript' }),
       _react2.default.createElement('meta', { name: 'author', content: 'Jairo G\xE4tjens' }),
       _react2.default.createElement('link', { rel: 'icon', href: '/favicon.ico', type: 'image/x-icon' }),
@@ -335,7 +335,7 @@ exports.default = function () {
       null,
       'Experienced Software  ',
       _react2.default.createElement('br', null),
-      'Developer based in Costa Rica.'
+      'Full-Stack Developer based in Costa Rica..'
     ),
     _react2.default.createElement(_ShareLinks2.default, null),
     _react2.default.createElement(_Footer2.default, null)
@@ -795,7 +795,7 @@ var universalOptions = {
 
 var t_0 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
   id: '../src/containers/Home',
-  file: '/Users/jgatjens/Dev/jgatjens.github.io/dist/react-static-routes.js',
+  file: '/Users/jgatjens/Desktop/Dev/jgatjens.github.io/dist/react-static-routes.js',
   load: function load() {
     return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 6)), (0, _importCss3.default)('src/containers/Home', {
       disableWarnings: true
@@ -815,7 +815,7 @@ var t_0 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
 }), universalOptions);
 var t_1 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
   id: '../src/containers/Promo',
-  file: '/Users/jgatjens/Dev/jgatjens.github.io/dist/react-static-routes.js',
+  file: '/Users/jgatjens/Desktop/Dev/jgatjens.github.io/dist/react-static-routes.js',
   load: function load() {
     return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 9)), (0, _importCss3.default)('src/containers/Promo', {
       disableWarnings: true
@@ -835,7 +835,7 @@ var t_1 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
 }), universalOptions);
 var t_2 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
   id: '../src/containers/404',
-  file: '/Users/jgatjens/Dev/jgatjens.github.io/dist/react-static-routes.js',
+  file: '/Users/jgatjens/Desktop/Dev/jgatjens.github.io/dist/react-static-routes.js',
   load: function load() {
     return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 11)), (0, _importCss3.default)('src/containers/404', {
       disableWarnings: true
@@ -1919,4 +1919,4 @@ module.exports = __webpack_require__.p + "static/share-promo.1de58934.png";
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.24d769e9.js.map
+//# sourceMappingURL=static.e1eb1c49.js.map
