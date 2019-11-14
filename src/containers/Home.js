@@ -33,7 +33,7 @@ export default () => (
 
     <Head>
       <title>Jairo Gätjens - Website</title>
-      <meta name="description" content="I'm an experienced Software Developer based in Costa Rica." />
+      <meta name="description" content="I'm an experienced Full-Stack Developer based in Costa Rica." />
       <meta name="keywords" content="Website, Resume, Profile, Github, HTML, CSS, JavaScript" />
       <meta name="author" content="Jairo Gätjens" />
       <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
@@ -55,7 +55,7 @@ export default () => (
     <SkillList />
     <Desc>
       Experienced Software  <br />
-      Developer based in Costa Rica.
+      Full-Stack Developer based in Costa Rica..
     </Desc>
     <ShareLinks />
     <Footer />
