@@ -2,21 +2,21 @@
   "errors": [],
   "warnings": [],
   "version": "3.12.0",
-  "hash": "3150084bba5b951257c8",
-  "time": 4584,
+  "hash": "3a809c0df582dda35c35",
+  "time": 4599,
   "publicPath": "/",
   "assetsByChunkName": {
     "src/containers/Home": [
-      "templates/src/containers/Home.302e2195.js",
-      "templates/src/containers/Home.302e2195.js.map"
+      "templates/src/containers/Home.5a715c82.js",
+      "templates/src/containers/Home.5a715c82.js.map"
     ],
     "src/containers/Promo": [
-      "templates/src/containers/Promo.d69f038b.js",
-      "templates/src/containers/Promo.d69f038b.js.map"
+      "templates/src/containers/Promo.82207451.js",
+      "templates/src/containers/Promo.82207451.js.map"
     ],
     "src/containers/Ping": [
-      "templates/src/containers/Ping.7647daf5.js",
-      "templates/src/containers/Ping.7647daf5.js.map"
+      "templates/src/containers/Ping.e7a9fb2e.js",
+      "templates/src/containers/Ping.e7a9fb2e.js.map"
     ],
     "src/containers/404": [
       "templates/src/containers/404.8f8fbd8e.js",
@@ -27,8 +27,8 @@
       "main.1975df28.js.map"
     ],
     "bootstrap": [
-      "bootstrap.7f3c4855.js",
-      "bootstrap.7f3c4855.js.map"
+      "bootstrap.b6a78954.js",
+      "bootstrap.b6a78954.js.map"
     ]
   },
   "assets": [
@@ -66,8 +66,8 @@
       "emitted": true
     },
     {
-      "name": "templates/src/containers/Home.302e2195.js",
-      "size": 11976,
+      "name": "templates/src/containers/Home.5a715c82.js",
+      "size": 11550,
       "chunks": [
         0
       ],
@@ -77,8 +77,8 @@
       "emitted": true
     },
     {
-      "name": "templates/src/containers/Promo.d69f038b.js",
-      "size": 13615,
+      "name": "templates/src/containers/Promo.82207451.js",
+      "size": 13632,
       "chunks": [
         1
       ],
@@ -88,8 +88,8 @@
       "emitted": true
     },
     {
-      "name": "templates/src/containers/Ping.7647daf5.js",
-      "size": 10661,
+      "name": "templates/src/containers/Ping.e7a9fb2e.js",
+      "size": 10359,
       "chunks": [
         2
       ],
@@ -117,7 +117,7 @@
       "emitted": true
     },
     {
-      "name": "bootstrap.7f3c4855.js",
+      "name": "bootstrap.b6a78954.js",
       "size": 1580,
       "chunks": [
         5
@@ -128,8 +128,8 @@
       "emitted": true
     },
     {
-      "name": "templates/src/containers/Home.302e2195.js.map",
-      "size": 36377,
+      "name": "templates/src/containers/Home.5a715c82.js.map",
+      "size": 35289,
       "chunks": [
         0
       ],
@@ -139,8 +139,8 @@
       "emitted": true
     },
     {
-      "name": "templates/src/containers/Promo.d69f038b.js.map",
-      "size": 39671,
+      "name": "templates/src/containers/Promo.82207451.js.map",
+      "size": 39711,
       "chunks": [
         1
       ],
@@ -150,8 +150,8 @@
       "emitted": true
     },
     {
-      "name": "templates/src/containers/Ping.7647daf5.js.map",
-      "size": 32068,
+      "name": "templates/src/containers/Ping.e7a9fb2e.js.map",
+      "size": 31149,
       "chunks": [
         2
       ],
@@ -183,7 +183,7 @@
       "emitted": true
     },
     {
-      "name": "bootstrap.7f3c4855.js.map",
+      "name": "bootstrap.b6a78954.js.map",
       "size": 14561,
       "chunks": [
         5
@@ -202,8 +202,8 @@
         4
       ],
       "assets": [
-        "bootstrap.7f3c4855.js",
-        "bootstrap.7f3c4855.js.map",
+        "bootstrap.b6a78954.js",
+        "bootstrap.b6a78954.js.map",
         "main.1975df28.js",
         "main.1975df28.js.map"
       ],
@@ -217,15 +217,15 @@
       "initial": false,
       "entry": false,
       "extraAsync": false,
-      "size": 16386,
+      "size": 15860,
       "names": [
         "src/containers/Home"
       ],
       "files": [
-        "templates/src/containers/Home.302e2195.js",
-        "templates/src/containers/Home.302e2195.js.map"
+        "templates/src/containers/Home.5a715c82.js",
+        "templates/src/containers/Home.5a715c82.js.map"
       ],
-      "hash": "302e21951318aa443a13",
+      "hash": "5a715c82ac9ef520a1d0",
       "parents": [
         4
       ],
@@ -341,7 +341,7 @@
           "name": "./src/components/Button.js",
           "index": 144,
           "index2": 139,
-          "size": 1322,
+          "size": 796,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -381,7 +381,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 4,
-          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.PrimaryButton = exports.Button = undefined;\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Button = exports.Button = _styledComponents2.default.a.withConfig({\n  displayName: 'Button',\n  componentId: 's1u2yv-0'\n})(['display:inline-block;font-size:15px;border-radius:20px;padding:7px 18px;border:1px solid #CDCFD4;margin:0 2px 10px;font-weight:200;color:#777777;text-decoration:none;text-transform:uppercase;', ''], function (props) {\n  return props.active && (0, _styledComponents.css)(['background-color:#3B3E49;border-color:#3B3E49;color:white;']);\n});\n\nvar PrimaryButton = exports.PrimaryButton = _styledComponents2.default.button.withConfig({\n  displayName: 'Button__PrimaryButton',\n  componentId: 's1u2yv-1'\n})(['display:inline-block;font-size:15px;border-radius:20px;padding:7px 18px;border:1px solid #CDCFD4;margin:0 2px 10px;font-weight:200;color:#777777;text-decoration:none;text-transform:uppercase;', ''], function (props) {\n  return props.active && (0, _styledComponents.css)(['background-color:#3B3E49;border-color:#3B3E49;color:white;']);\n});"
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.Button = undefined;\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Button = exports.Button = _styledComponents2.default.a.withConfig({\n  displayName: 'Button',\n  componentId: 's1u2yv-0'\n})(['display:inline-block;font-size:15px;border-radius:20px;padding:7px 18px;border:1px solid #CDCFD4;margin:0 2px 10px;font-weight:200;color:#777777;text-decoration:none;text-transform:uppercase;', ''], function (props) {\n  return props.active && (0, _styledComponents.css)(['background-color:#3B3E49;border-color:#3B3E49;color:white;']);\n});"
         },
         {
           "id": 149,
@@ -642,15 +642,15 @@
       "initial": false,
       "entry": false,
       "extraAsync": false,
-      "size": 17946,
+      "size": 17963,
       "names": [
         "src/containers/Promo"
       ],
       "files": [
-        "templates/src/containers/Promo.d69f038b.js",
-        "templates/src/containers/Promo.d69f038b.js.map"
+        "templates/src/containers/Promo.82207451.js",
+        "templates/src/containers/Promo.82207451.js.map"
       ],
-      "hash": "d69f038b808ca4ad4b88",
+      "hash": "82207451425725172c43",
       "parents": [
         4
       ],
@@ -661,7 +661,7 @@
           "name": "./src/containers/Promo.js",
           "index": 149,
           "index2": 152,
-          "size": 7310,
+          "size": 7327,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -700,7 +700,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 3,
-          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _reactStatic = require('react-static');\n\nvar _ShareLinks = require('../components/ShareLinks');\n\nvar _ShareLinks2 = _interopRequireDefault(_ShareLinks);\n\nvar _PromoHeader = require('../components/PromoHeader');\n\nvar _PromoHeader2 = _interopRequireDefault(_PromoHeader);\n\nvar _Schedule = require('../components/Schedule');\n\nvar _Schedule2 = _interopRequireDefault(_Schedule);\n\nvar _sharePromo = require('../assets/share-promo.png');\n\nvar _sharePromo2 = _interopRequireDefault(_sharePromo);\n\nvar _config = require('../config');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar PromoPage = _styledComponents2.default.div.withConfig({\n  displayName: 'Promo__PromoPage',\n  componentId: 'sc-1chc8xc-0'\n})(['display:block;height:100%;.container{max-width:440px;margin:0 auto;padding-top:35px;padding-left:20px;padding-right:20px;color:#3B3E48;}h2{font-size:20px;font-weight:normal;}ul{font-size:14px;line-height:22px;list-style:disc;padding-left:18px;}div[class*=\"ShareLinks\"]{margin-top:30px;text-align:left;}']);\n\n// components\n\n\nvar Desc = _styledComponents2.default.p.withConfig({\n  displayName: 'Promo__Desc',\n  componentId: 'sc-1chc8xc-1'\n})(['color:#3B3E48;font-size:16px;line-height:1.4;margin-top:0;margin-bottom:25px;']);\n\nexports.default = function () {\n  return _react2.default.createElement(\n    PromoPage,\n    null,\n    _react2.default.createElement(\n      _reactStatic.Head,\n      null,\n      _react2.default.createElement(\n        'title',\n        null,\n        'Ganador - ',\n        _config.winner\n      ),\n      _react2.default.createElement('meta', { name: 'description', content: 'Estaremos sorteando un skin de League of legends cada semana en el stream de los viernes a las 9:00 pm (-06  CST)' }),\n      _react2.default.createElement('meta', { name: 'keywords', content: 'Promo, twitch, jgatjens, Lol, League of Legends, Games' }),\n      _react2.default.createElement('meta', { name: 'author', content: 'Ganador ' }),\n      _react2.default.createElement('meta', { property: 'og:type', content: 'website' }),\n      _react2.default.createElement('meta', { property: 'og:title', content: \"Ganador \" + _config.winner }),\n      _react2.default.createElement('meta', { property: 'og:description', content: 'Estaremos sorteando un skin de League of legends cada semana en el stream de los viernes a las 9:00 pm (-06  CST)' }),\n      _react2.default.createElement('meta', { property: 'og:image', content: _sharePromo2.default }),\n      _react2.default.createElement('meta', { name: 'twitter:card', content: 'summary_large_image' }),\n      _react2.default.createElement('meta', { name: 'twitter:site', content: '@jgatjens' }),\n      _react2.default.createElement('meta', { name: 'twitter:creator', content: '@jgatjens' }),\n      _react2.default.createElement('meta', { name: 'twitter:title', content: \"Ganador \" + _config.winner }),\n      _react2.default.createElement('meta', { name: 'twitter:description', content: 'Estaremos sorteando un skin de League of legends cada semana en el stream de los viernes a las 9:00 pm (-06  CST)' }),\n      _react2.default.createElement('meta', { name: 'twitter:image', content: _sharePromo2.default }),\n      _react2.default.createElement('link', { href: 'data:image/x-icon;base64,AAABAAEAEBAAAAAAAABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAACGNwgAxloDAHcTAAAVFRoAWrzFAGkrAABGproAUXaOAClxkgAPO14ADgAAAMVkDwAfWXgAkD4CAB9aewA7a4kAmDsCANqHHQDhiA4AJBogADmUuwA2lsEAiR8AAH4sDAA8dZUAhygAAA9OfAAtX4EAOFxvAJEoAABkhpoAsTsCADFoigBnip0ANQAAAEIgFwCUNAAAy2AEADVmjQA/zP8AQqjTACJYdgAdXn8AzGYNAECv3wCTPRIAOBADAEet2QC1HAAAeSsTADQTFQBXJBoAL2B8AIwkBwCFLgoAMWCFAL0oAACGLxYAxF8CABwQFgAYFBkACF2YALw0AAAiDxMAQKbOAAc/bADcdR8APqnXANJcAgAwcZQABkdyABp+sgAfXX0AUYCcACpVdwAtl88AyDoAADdzkQBBbZEAMxsTACdqiQBqIQAAMmV6ADFjhgBEGxMAx2QAAMpfAwAolMcAdCcAADVrjAA6TU4AskwBADRyhgDDbgwAOWmPAD+r3gDHYRsAJ3qeAJw0AgAkGB0AaSwqAC4VFADLZxsANneVACtZewCLHgAAMBkXAIYmBgA2FRQAhSESACVmhwAHNF8AK2OHAKJJAgBqRS0AKQUAAJAqAABEFg4AjjMAAEEZFwCONgAARxUUABtXdgBEGRcAWXd6AJonAABDHBcALW+QADhKTwDYgxUAMnKHADdojQCbNgAAIxobAHokCgCYPwAAIV98AEWu1gC9SQIAPgsAAC9bcAAjZYUASG6EAKc5AAACNGAAsy0AADl9nwAba6AAzXMlAIcwCgAgi8kATrXiAAEiNAC9LQAAizUHAMchAABZBgMAQ8f0AEYYFQAvcpEANa3vAA9imAA5cpEAUbDCAOqFCgC5VQMAz20dACVmiQBSJycAMGCAAAk1WwA3HBkALmKGANxsEQA7GxYAP6HDADyAoAAgL0AAJA0RAB9YcgCDDwMAgRAGADNvkgA9bn0AfCMAADFzlQBRGhMAhCAAAAArWQA5dZIAL57WACFpigAnHywAKWV+AB5MagAAAAcAohoAAK9FAgDTdicAK6v0AEmkuwAqcZAAMWqNACVWbQCIPBUATKi+AHMmEwAHQ30Akj0PACwUFQB1KxAAOW2WAEBsigDUaAcA0G4HAKQ1AAB8JhMAQXWBACRDUACiOwAANhcVACodJwA1GxgA2HEHAAoyXQAkbY4AVAQAAHYRAgCtPwMAMSItAFu9xwAeERYAxmEFAC5tjgAwq+wADzpjAEOtxQAkERYAJxATAEgdFQBuLggAbygRAEyqvAAudpcAwUQAABpfkgBCLiQAMxMTAAQtWACkMRAAtloMADx+iwAjaIkAhisIAFeKpQAzYncAgv4eIUkYvaJZIMq2RemwXMmo2G21nLTjNWuaAJX5ZAhQsiKYerOMy/+32ftaTM6/4XuZI6FLV76g6scn7Ls5Z/zc9Bm8FRTPQUY9lp1yLU2N7j6R+EDmwwpzLsBHfBduKvebxJCJBIsfrUQdddozSIhsMGlvL6MxQqQSXXbw9gzBVDi465fI8ZTfgRHVik8OUq59JAksBtJmVlXWJddlKRw8UYeqQ/LMxis66AHbasKOAwUN4CjN0KYLpVvFhN6pB4WP/Rpfr4Zg+nEQYnSr1A/R4oBh9ZOxNuR4WBYCP1OD3TITO+ftY3e6736eeeUmStNeTjdoG6xwp3+585+SNAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=', rel: 'icon', type: 'image/x-icon' })\n    ),\n    _react2.default.createElement(_PromoHeader2.default, null),\n    _react2.default.createElement(\n      'div',\n      { className: 'container' },\n      _react2.default.createElement(\n        Desc,\n        null,\n        'Estaremos sorteando un skin de ',\n        _react2.default.createElement(\n          'a',\n          { href: 'https://lan.leagueoflegends.com/es/', target: '_blank' },\n          'League of Legends'\n        ),\n        ' cada semana.'\n      ),\n      _react2.default.createElement(_Schedule2.default, null),\n      _react2.default.createElement(\n        'h2',\n        null,\n        'Reglas del concurso'\n      ),\n      _react2.default.createElement(\n        'ul',\n        null,\n        _react2.default.createElement(\n          'li',\n          null,\n          'Ser follower del stream ',\n          _react2.default.createElement(\n            'a',\n            { href: 'https://www.twitch.tv/jgatjens', target: '_blank' },\n            'https://www.twitch.tv/jgatjens'\n          ),\n          '.'\n        ),\n        _react2.default.createElement(\n          'li',\n          null,\n          'Se hara una rifa entre los followers.'\n        ),\n        _react2.default.createElement(\n          'li',\n          null,\n          'Estar presente el dia del sorteo.'\n        ),\n        _react2.default.createElement(\n          'li',\n          null,\n          'Dudas por discord o bien los d\\xEDas del stream.'\n        ),\n        _react2.default.createElement(\n          'li',\n          null,\n          'Al final del stream se dara a conocer el ganador.'\n        ),\n        _react2.default.createElement(\n          'li',\n          null,\n          'El ganador debera tener cuenta de League of Legends en LAN para resivir el skin.'\n        )\n      ),\n      _react2.default.createElement(_ShareLinks2.default, null)\n    )\n  );\n};"
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _reactStatic = require('react-static');\n\nvar _ShareLinks = require('../components/ShareLinks');\n\nvar _ShareLinks2 = _interopRequireDefault(_ShareLinks);\n\nvar _PromoHeader = require('../components/PromoHeader');\n\nvar _PromoHeader2 = _interopRequireDefault(_PromoHeader);\n\nvar _Schedule = require('../components/Schedule');\n\nvar _Schedule2 = _interopRequireDefault(_Schedule);\n\nvar _sharePromo = require('../assets/share-promo.png');\n\nvar _sharePromo2 = _interopRequireDefault(_sharePromo);\n\nvar _config = require('../config');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar PromoPage = _styledComponents2.default.div.withConfig({\n  displayName: 'Promo__PromoPage',\n  componentId: 'sc-1chc8xc-0'\n})(['display:block;height:100%;.container{max-width:440px;margin:0 auto;padding-top:35px;padding-left:20px;padding-right:20px;color:#3B3E48;}h2{font-size:20px;font-weight:normal;}ul{font-size:14px;line-height:22px;list-style:disc;padding-left:18px;}div[class*=\"ShareLinks\"]{margin-top:30px;margin-bottom:40px;text-align:left;}']);\n\n// components\n\n\nvar Desc = _styledComponents2.default.p.withConfig({\n  displayName: 'Promo__Desc',\n  componentId: 'sc-1chc8xc-1'\n})(['color:#3B3E48;font-size:16px;line-height:1.4;margin-top:0;margin-bottom:25px;']);\n\nexports.default = function () {\n  return _react2.default.createElement(\n    PromoPage,\n    null,\n    _react2.default.createElement(\n      _reactStatic.Head,\n      null,\n      _react2.default.createElement(\n        'title',\n        null,\n        'Ganador - ',\n        _config.winner\n      ),\n      _react2.default.createElement('meta', { name: 'description', content: 'Estaremos sorteando un skin de League of legends cada semana en el stream de los viernes a las 9:00 pm (-06  CST)' }),\n      _react2.default.createElement('meta', { name: 'keywords', content: 'Promo, twitch, jgatjens, Lol, League of Legends, Games' }),\n      _react2.default.createElement('meta', { name: 'author', content: 'Ganador ' }),\n      _react2.default.createElement('meta', { property: 'og:type', content: 'website' }),\n      _react2.default.createElement('meta', { property: 'og:title', content: \"Ganador\" + _config.winner }),\n      _react2.default.createElement('meta', { property: 'og:description', content: 'Estaremos sorteando un skin de League of legends cada semana en el stream de los viernes a las 9:00 pm (-06  CST)' }),\n      _react2.default.createElement('meta', { property: 'og:image', content: _sharePromo2.default }),\n      _react2.default.createElement('meta', { name: 'twitter:card', content: 'summary_large_image' }),\n      _react2.default.createElement('meta', { name: 'twitter:site', content: '@jgatjens' }),\n      _react2.default.createElement('meta', { name: 'twitter:creator', content: '@jgatjens' }),\n      _react2.default.createElement('meta', { name: 'twitter:title', content: \"Ganador \" + _config.winner }),\n      _react2.default.createElement('meta', { name: 'twitter:description', content: 'Estaremos sorteando un skin de League of legends cada semana en el stream de los viernes a las 9:00 pm (-06  CST)' }),\n      _react2.default.createElement('meta', { name: 'twitter:image', content: _sharePromo2.default }),\n      _react2.default.createElement('link', { href: 'data:image/x-icon;base64,AAABAAEAEBAAAAAAAABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAACGNwgAxloDAHcTAAAVFRoAWrzFAGkrAABGproAUXaOAClxkgAPO14ADgAAAMVkDwAfWXgAkD4CAB9aewA7a4kAmDsCANqHHQDhiA4AJBogADmUuwA2lsEAiR8AAH4sDAA8dZUAhygAAA9OfAAtX4EAOFxvAJEoAABkhpoAsTsCADFoigBnip0ANQAAAEIgFwCUNAAAy2AEADVmjQA/zP8AQqjTACJYdgAdXn8AzGYNAECv3wCTPRIAOBADAEet2QC1HAAAeSsTADQTFQBXJBoAL2B8AIwkBwCFLgoAMWCFAL0oAACGLxYAxF8CABwQFgAYFBkACF2YALw0AAAiDxMAQKbOAAc/bADcdR8APqnXANJcAgAwcZQABkdyABp+sgAfXX0AUYCcACpVdwAtl88AyDoAADdzkQBBbZEAMxsTACdqiQBqIQAAMmV6ADFjhgBEGxMAx2QAAMpfAwAolMcAdCcAADVrjAA6TU4AskwBADRyhgDDbgwAOWmPAD+r3gDHYRsAJ3qeAJw0AgAkGB0AaSwqAC4VFADLZxsANneVACtZewCLHgAAMBkXAIYmBgA2FRQAhSESACVmhwAHNF8AK2OHAKJJAgBqRS0AKQUAAJAqAABEFg4AjjMAAEEZFwCONgAARxUUABtXdgBEGRcAWXd6AJonAABDHBcALW+QADhKTwDYgxUAMnKHADdojQCbNgAAIxobAHokCgCYPwAAIV98AEWu1gC9SQIAPgsAAC9bcAAjZYUASG6EAKc5AAACNGAAsy0AADl9nwAba6AAzXMlAIcwCgAgi8kATrXiAAEiNAC9LQAAizUHAMchAABZBgMAQ8f0AEYYFQAvcpEANa3vAA9imAA5cpEAUbDCAOqFCgC5VQMAz20dACVmiQBSJycAMGCAAAk1WwA3HBkALmKGANxsEQA7GxYAP6HDADyAoAAgL0AAJA0RAB9YcgCDDwMAgRAGADNvkgA9bn0AfCMAADFzlQBRGhMAhCAAAAArWQA5dZIAL57WACFpigAnHywAKWV+AB5MagAAAAcAohoAAK9FAgDTdicAK6v0AEmkuwAqcZAAMWqNACVWbQCIPBUATKi+AHMmEwAHQ30Akj0PACwUFQB1KxAAOW2WAEBsigDUaAcA0G4HAKQ1AAB8JhMAQXWBACRDUACiOwAANhcVACodJwA1GxgA2HEHAAoyXQAkbY4AVAQAAHYRAgCtPwMAMSItAFu9xwAeERYAxmEFAC5tjgAwq+wADzpjAEOtxQAkERYAJxATAEgdFQBuLggAbygRAEyqvAAudpcAwUQAABpfkgBCLiQAMxMTAAQtWACkMRAAtloMADx+iwAjaIkAhisIAFeKpQAzYncAgv4eIUkYvaJZIMq2RemwXMmo2G21nLTjNWuaAJX5ZAhQsiKYerOMy/+32ftaTM6/4XuZI6FLV76g6scn7Ls5Z/zc9Bm8FRTPQUY9lp1yLU2N7j6R+EDmwwpzLsBHfBduKvebxJCJBIsfrUQdddozSIhsMGlvL6MxQqQSXXbw9gzBVDi465fI8ZTfgRHVik8OUq59JAksBtJmVlXWJddlKRw8UYeqQ/LMxis66AHbasKOAwUN4CjN0KYLpVvFhN6pB4WP/Rpfr4Zg+nEQYnSr1A/R4oBh9ZOxNuR4WBYCP1OD3TITO+ftY3e6736eeeUmStNeTjdoG6xwp3+585+SNAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=', rel: 'icon', type: 'image/x-icon' })\n    ),\n    _react2.default.createElement(_PromoHeader2.default, null),\n    _react2.default.createElement(\n      'div',\n      { className: 'container' },\n      _react2.default.createElement(\n        Desc,\n        null,\n        'Estaremos sorteando un skin de',\n        _react2.default.createElement(\n          'a',\n          { href: 'https://lan.leagueoflegends.com/es/', target: '_blank' },\n          'League of Legends'\n        ),\n        ' cada semana.'\n      ),\n      _react2.default.createElement(_Schedule2.default, null),\n      _react2.default.createElement(\n        'h2',\n        null,\n        'Reglas del concurso'\n      ),\n      _react2.default.createElement(\n        'ul',\n        null,\n        _react2.default.createElement(\n          'li',\n          null,\n          'Ser follower del stream ',\n          _react2.default.createElement(\n            'a',\n            { href: 'https://www.twitch.tv/jgatjens', target: '_blank' },\n            'https://www.twitch.tv/jgatjens'\n          ),\n          '.'\n        ),\n        _react2.default.createElement(\n          'li',\n          null,\n          'Se hara una rifa entre los followers.'\n        ),\n        _react2.default.createElement(\n          'li',\n          null,\n          'Estar presente el dia del sorteo.'\n        ),\n        _react2.default.createElement(\n          'li',\n          null,\n          'Dudas por discord o bien los d\\xEDas del stream.'\n        ),\n        _react2.default.createElement(\n          'li',\n          null,\n          'Al final del stream se dara a conocer el ganador.'\n        ),\n        _react2.default.createElement(\n          'li',\n          null,\n          'El ganador debera tener cuenta de League of Legends en LAN para resivir el skin.'\n        )\n      ),\n      _react2.default.createElement(_ShareLinks2.default, null)\n    )\n  );\n};"
         },
         {
           "id": 144,
@@ -1053,15 +1053,15 @@
       "initial": false,
       "entry": false,
       "extraAsync": false,
-      "size": 14123,
+      "size": 13682,
       "names": [
         "src/containers/Ping"
       ],
       "files": [
-        "templates/src/containers/Ping.7647daf5.js",
-        "templates/src/containers/Ping.7647daf5.js.map"
+        "templates/src/containers/Ping.e7a9fb2e.js",
+        "templates/src/containers/Ping.e7a9fb2e.js.map"
       ],
-      "hash": "7647daf5b66e7ab465df",
+      "hash": "e7a9fb2e29155d15d9a8",
       "parents": [
         4
       ],
@@ -1072,7 +1072,7 @@
           "name": "./src/containers/Ping.js",
           "index": 156,
           "index2": 154,
-          "size": 4407,
+          "size": 4491,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -1111,7 +1111,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 3,
-          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _reactStatic = require('react-static');\n\nvar _ShareLinks = require('../components/ShareLinks');\n\nvar _ShareLinks2 = _interopRequireDefault(_ShareLinks);\n\nvar _PingHeader = require('../components/PingHeader');\n\nvar _PingHeader2 = _interopRequireDefault(_PingHeader);\n\nvar _Button = require('../components/Button');\n\nvar _sharePromo = require('../assets/share-promo.png');\n\nvar _sharePromo2 = _interopRequireDefault(_sharePromo);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n// import Schedule from '../components/Schedule'\n\n\n// components\nvar PromoPage = _styledComponents2.default.div.withConfig({\n  displayName: 'Ping__PromoPage',\n  componentId: 'sc-1oaoljz-0'\n})(['display:block;height:100%;.container{max-width:620px;margin:0 auto;padding-top:35px;padding-left:20px;padding-right:20px;color:#3B3E48;}h2{font-size:20px;font-weight:normal;}ul{font-size:14px;line-height:22px;list-style:disc;padding-left:18px;}div[class*=\"ShareLinks\"]{margin-top:40px;}']);\n\nvar Desc = _styledComponents2.default.p.withConfig({\n  displayName: 'Ping__Desc',\n  componentId: 'sc-1oaoljz-1'\n})(['color:#3B3E48;font-size:16px;line-height:1.6;margin-top:0;margin-bottom:25px;']);\n\nvar desc = 'PING equality is the struggle to grant fundamental rights to millions of players who currently cannot experience their favorite games with a latency of less than 100 ms';\nvar title = 'We deserved better ping';\n\nexports.default = function () {\n  return _react2.default.createElement(\n    PromoPage,\n    null,\n    _react2.default.createElement(\n      _reactStatic.Head,\n      null,\n      _react2.default.createElement(\n        'title',\n        null,\n        title\n      ),\n      _react2.default.createElement('meta', { name: 'description', content: desc }),\n      _react2.default.createElement('meta', { name: 'keywords', content: 'FPS, Apex, COD MW2, twitch, jgatjens, League of Legends, Games' }),\n      _react2.default.createElement('meta', { name: 'author', content: 'jgatjens' }),\n      _react2.default.createElement('meta', { property: 'og:type', content: 'website' }),\n      _react2.default.createElement('meta', { property: 'og:title', content: title }),\n      _react2.default.createElement('meta', { property: 'og:description', content: desc }),\n      _react2.default.createElement('meta', { property: 'og:image', content: _sharePromo2.default }),\n      _react2.default.createElement('meta', { name: 'twitter:card', content: 'summary_large_image' }),\n      _react2.default.createElement('meta', { name: 'twitter:site', content: '@jgatjens' }),\n      _react2.default.createElement('meta', { name: 'twitter:creator', content: '@jgatjens' }),\n      _react2.default.createElement('meta', { name: 'twitter:title', content: title }),\n      _react2.default.createElement('meta', { name: 'twitter:description', content: desc }),\n      _react2.default.createElement('meta', { name: 'twitter:image', content: _sharePromo2.default })\n    ),\n    _react2.default.createElement(_PingHeader2.default, null),\n    _react2.default.createElement(\n      'div',\n      { className: 'container' },\n      _react2.default.createElement(\n        Desc,\n        null,\n        'La igualdad de PING es la lucha por otorgar derechos fundamentales a millones de jugadores que actualmente no pueden experimentar sus juegos favoritos con una latencia menor a los 100 ms Queremos formular una pregunta simple:'\n      ),\n      _react2.default.createElement(\n        'h2',\n        null,\n        'Por que EA, Steam y Battle.net tienen servers en Sur y Norte America pero aqui en America central NO?'\n      ),\n      _react2.default.createElement(\n        Desc,\n        null,\n        'La comunidad gamer latina alza su voz por esta causa, La desigualdad de PING equivale al estancamiento del progreso de nuestra comunidad a nivel competitivo y casual. Ayudanos con un click y tu firma para juntos lograr un cambio.'\n      ),\n      _react2.default.createElement(\n        _Button.PrimaryButton,\n        null,\n        'We need your help here !'\n      ),\n      _react2.default.createElement(_ShareLinks2.default, null)\n    )\n  );\n};"
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _reactStatic = require('react-static');\n\nvar _ShareLinks = require('../components/ShareLinks');\n\nvar _ShareLinks2 = _interopRequireDefault(_ShareLinks);\n\nvar _PingHeader = require('../components/PingHeader');\n\nvar _PingHeader2 = _interopRequireDefault(_PingHeader);\n\nvar _Button = require('../components/Button');\n\nvar _sharePromo = require('../assets/share-promo.png');\n\nvar _sharePromo2 = _interopRequireDefault(_sharePromo);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n// components\nvar PromoPage = _styledComponents2.default.div.withConfig({\n  displayName: 'Ping__PromoPage',\n  componentId: 'sc-1oaoljz-0'\n})(['display:block;height:100%;.container{max-width:620px;margin:0 auto;padding-top:35px;padding-left:20px;padding-right:20px;color:#3B3E48;}h2{font-size:20px;font-weight:normal;}ul{font-size:14px;line-height:22px;list-style:disc;padding-left:18px;}div[class*=\"ShareLinks\"]{margin-top:40px;margin-bottom:40px;}']);\n\nvar Desc = _styledComponents2.default.p.withConfig({\n  displayName: 'Ping__Desc',\n  componentId: 'sc-1oaoljz-1'\n})(['color:#3B3E48;font-size:16px;line-height:1.6;margin-top:0;margin-bottom:25px;']);\n\nvar desc = 'La igualdad de PING es la lucha por otorgar derechos fundamentales a millones de jugadores que actualmente no pueden experimentar sus juegos favoritos con una latencia menor a los 100 ms';\nvar title = 'Merecemos un mejor PING';\n\nexports.default = function () {\n  return _react2.default.createElement(\n    PromoPage,\n    null,\n    _react2.default.createElement(\n      _reactStatic.Head,\n      null,\n      _react2.default.createElement(\n        'title',\n        null,\n        title\n      ),\n      _react2.default.createElement('meta', { name: 'description', content: desc }),\n      _react2.default.createElement('meta', { name: 'keywords', content: 'FPS, Apex, COD MW2, twitch, jgatjens, League of Legends, Games' }),\n      _react2.default.createElement('meta', { name: 'author', content: 'jgatjens' }),\n      _react2.default.createElement('meta', { property: 'og:type', content: 'website' }),\n      _react2.default.createElement('meta', { property: 'og:title', content: title }),\n      _react2.default.createElement('meta', { property: 'og:description', content: desc }),\n      _react2.default.createElement('meta', { property: 'og:image', content: _sharePromo2.default }),\n      _react2.default.createElement('meta', { name: 'twitter:card', content: 'summary_large_image' }),\n      _react2.default.createElement('meta', { name: 'twitter:site', content: '@jgatjens' }),\n      _react2.default.createElement('meta', { name: 'twitter:creator', content: '@jgatjens' }),\n      _react2.default.createElement('meta', { name: 'twitter:title', content: title }),\n      _react2.default.createElement('meta', { name: 'twitter:description', content: desc }),\n      _react2.default.createElement('meta', { name: 'twitter:image', content: _sharePromo2.default })\n    ),\n    _react2.default.createElement(_PingHeader2.default, { title: title }),\n    _react2.default.createElement(\n      'div',\n      { className: 'container' },\n      _react2.default.createElement(\n        Desc,\n        null,\n        'La igualdad de PING es la lucha por otorgar derechos fundamentales a millones de jugadores que actualmente no pueden experimentar sus juegos favoritos con una latencia menor a los 100 ms, Queremos formular una pregunta simple:'\n      ),\n      _react2.default.createElement(\n        'h2',\n        null,\n        'Por que EA, Steam y Battle.net tienen servers en Sur y Norte America pero aqui en America central NO?'\n      ),\n      _react2.default.createElement(\n        Desc,\n        null,\n        'La comunidad gamer latina alza su voz por esta causa, La desigualdad de PING equivale al estancamiento del progreso de nuestra comunidad a nivel competitivo y casual. Ayudanos con un click y tu firma para juntos lograr un cambio.'\n      ),\n      _react2.default.createElement(\n        _Button.Button,\n        { href: 'https://secure.avaaz.org/es/community_petitions/EA_La_igualdad_de_PING', target: '_blank' },\n        'Necesitamos tu ayuda'\n      ),\n      _react2.default.createElement(_ShareLinks2.default, null)\n    )\n  );\n};"
         },
         {
           "id": 144,
@@ -1177,7 +1177,7 @@
           "name": "./src/components/Button.js",
           "index": 144,
           "index2": 139,
-          "size": 1322,
+          "size": 796,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -1217,7 +1217,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 4,
-          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.PrimaryButton = exports.Button = undefined;\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Button = exports.Button = _styledComponents2.default.a.withConfig({\n  displayName: 'Button',\n  componentId: 's1u2yv-0'\n})(['display:inline-block;font-size:15px;border-radius:20px;padding:7px 18px;border:1px solid #CDCFD4;margin:0 2px 10px;font-weight:200;color:#777777;text-decoration:none;text-transform:uppercase;', ''], function (props) {\n  return props.active && (0, _styledComponents.css)(['background-color:#3B3E49;border-color:#3B3E49;color:white;']);\n});\n\nvar PrimaryButton = exports.PrimaryButton = _styledComponents2.default.button.withConfig({\n  displayName: 'Button__PrimaryButton',\n  componentId: 's1u2yv-1'\n})(['display:inline-block;font-size:15px;border-radius:20px;padding:7px 18px;border:1px solid #CDCFD4;margin:0 2px 10px;font-weight:200;color:#777777;text-decoration:none;text-transform:uppercase;', ''], function (props) {\n  return props.active && (0, _styledComponents.css)(['background-color:#3B3E49;border-color:#3B3E49;color:white;']);\n});"
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.Button = undefined;\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Button = exports.Button = _styledComponents2.default.a.withConfig({\n  displayName: 'Button',\n  componentId: 's1u2yv-0'\n})(['display:inline-block;font-size:15px;border-radius:20px;padding:7px 18px;border:1px solid #CDCFD4;margin:0 2px 10px;font-weight:200;color:#777777;text-decoration:none;text-transform:uppercase;', ''], function (props) {\n  return props.active && (0, _styledComponents.css)(['background-color:#3B3E49;border-color:#3B3E49;color:white;']);\n});"
         },
         {
           "id": 146,
@@ -1375,7 +1375,7 @@
           "name": "./src/components/PingHeader.js",
           "index": 157,
           "index2": 153,
-          "size": 3738,
+          "size": 3739,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -1405,7 +1405,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 4,
-          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _headerLeft = require('../assets/header-left.png');\n\nvar _headerLeft2 = _interopRequireDefault(_headerLeft);\n\nvar _headerRight = require('../assets/header-right.png');\n\nvar _headerRight2 = _interopRequireDefault(_headerRight);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar PingHeader = _styledComponents2.default.div.withConfig({\n  displayName: 'PingHeader',\n  componentId: 'batu4c-0'\n})(['display:flex;flex-direction:column;align-items:center;justify-content:center;width:100%;background-color:#202255;min-height:396px;position:relative;color:white;.bg-left,.bg-right{background-size:contain;background-repeat:no-repeat;background-position-y:bottom;position:absolute;height:100%;width:260px;top:0;z-index:0;}.bg-left{background-image:url(', ');background-position-x:left;left:0;}.bg-right{background-image:url(', ');background-position-x:right;right:0;}svg,a,h1,div{z-index:1;}'], _headerLeft2.default, _headerRight2.default);\n\nvar Title = _styledComponents2.default.h1.withConfig({\n  displayName: 'PingHeader__Title',\n  componentId: 'batu4c-1'\n})(['font-size:40px;line-height:1;max-width:266px;margin:0 auto;text-align:center;margin-top:30px;margin-bottom:20px;text-transform:capitalize;@media (max-width:480px){font-size:25px;}']);\n\nexports.default = function () {\n  return _react2.default.createElement(\n    PingHeader,\n    null,\n    _react2.default.createElement('div', { className: 'bg-left' }),\n    _react2.default.createElement('div', { className: 'bg-right' }),\n    _react2.default.createElement(\n      _reactStatic.Link,\n      { exact: true, to: '/' },\n      _react2.default.createElement(\n        'svg',\n        { width: '25', height: '14' },\n        _react2.default.createElement(\n          'g',\n          { stroke: '#FFF', strokeWidth: '2', fill: 'currentColor' },\n          _react2.default.createElement('path', { d: 'M23.02 7H2', strokeLinecap: 'square' }),\n          _react2.default.createElement('path', { d: 'M5.5 12.5l-4-5.377 4-5.623' })\n        )\n      )\n    ),\n    _react2.default.createElement(\n      Title,\n      null,\n      'We deserve Better Ping'\n    ),\n    _react2.default.createElement(\n      'svg',\n      { width: '75', height: '43' },\n      _react2.default.createElement('path', { d: 'M46.713 0l-1.038 3.14.026 14.495h3.866v1.932h2.077l2.076-1.932h3.633l6.747-6.281V0H46.713zm15.57 10.388l-2.854 2.657h-4.671l-2.595 2.416v-2.416H48.27V1.69h14.014v8.697zm-4.67-5.557h1.816v4.832h-1.817V4.83zm-4.672 0h1.817v4.832H52.94V4.83zM75 27.298v11.354L68.253 43H64.1v-1.933L60.986 43h-3.633v-1.933L55.017 43H48.27l-2.076-1.933-.52 1.933-5.942-.024-2.362-1.909L37.11 43l-6.747-.024-.26-1.909-1.816 1.909-10.38.024-2.077-.966V43h-5.709l-6.228-3.624L0 35.753V19.809h8.045l3.893 3.624h17.647v-3.624h14.533v3.624h3.633v1.932l2.076-1.932h4.412l3.892-3.624h8.305v3.624h4.412L75 27.298zm-64.879-2.174H6.488V21.5H1.817v13.528l2.854 2.899h5.45v-4.59H6.488v-3.865h3.633v-4.348zm19.464 0h-4.672v8.213h-1.816v-8.213h-4.412v8.213H16.87v-8.213h-4.931v12.803H26.47l3.114-2.899v-9.904zm6.228 0h-4.412v12.803h4.412V25.124zm0-3.624h-4.412v1.933h4.412V21.5zm10.121 3.624h-3.633V21.5H37.63v13.528l2.854 2.899h5.45v-4.59h-3.633v-3.865h3.633v-4.348zm11.938 0h-7.266L47.75 27.78v7.247l3.114 2.899h7.007v-4.59h-5.19v-3.865h5.19v-4.348zm15.311 2.657l-3.114-2.657h-5.45V21.5h-4.93v16.427h4.93v-8.455h3.634v8.455h4.93V27.781z', fill: '#FFF' })\n    )\n  );\n};"
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _headerLeft = require('../assets/header-left.png');\n\nvar _headerLeft2 = _interopRequireDefault(_headerLeft);\n\nvar _headerRight = require('../assets/header-right.png');\n\nvar _headerRight2 = _interopRequireDefault(_headerRight);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar PingHeader = _styledComponents2.default.div.withConfig({\n  displayName: 'PingHeader',\n  componentId: 'batu4c-0'\n})(['display:flex;flex-direction:column;align-items:center;justify-content:center;width:100%;background-color:#202255;min-height:396px;position:relative;color:white;.bg-left,.bg-right{background-size:contain;background-repeat:no-repeat;background-position-y:bottom;position:absolute;height:100%;width:260px;top:0;z-index:0;}.bg-left{background-image:url(', ');background-position-x:left;left:0;}.bg-right{background-image:url(', ');background-position-x:right;right:0;}svg,a,h1,div{z-index:1;}'], _headerLeft2.default, _headerRight2.default);\n\nvar Title = _styledComponents2.default.h1.withConfig({\n  displayName: 'PingHeader__Title',\n  componentId: 'batu4c-1'\n})(['font-size:40px;line-height:1;max-width:266px;margin:0 auto;text-align:center;margin-top:30px;margin-bottom:20px;text-transform:capitalize;@media (max-width:480px){font-size:25px;}']);\n\nexports.default = function () {\n  return _react2.default.createElement(\n    PingHeader,\n    null,\n    _react2.default.createElement('div', { className: 'bg-left' }),\n    _react2.default.createElement('div', { className: 'bg-right' }),\n    _react2.default.createElement(\n      _reactStatic.Link,\n      { exact: true, to: '/' },\n      _react2.default.createElement(\n        'svg',\n        { width: '25', height: '14' },\n        _react2.default.createElement(\n          'g',\n          { stroke: '#FFF', strokeWidth: '2', fill: 'currentColor' },\n          _react2.default.createElement('path', { d: 'M23.02 7H2', strokeLinecap: 'square' }),\n          _react2.default.createElement('path', { d: 'M5.5 12.5l-4-5.377 4-5.623' })\n        )\n      )\n    ),\n    _react2.default.createElement(\n      Title,\n      null,\n      'Merecemos un mejor PING'\n    ),\n    _react2.default.createElement(\n      'svg',\n      { width: '75', height: '43' },\n      _react2.default.createElement('path', { d: 'M46.713 0l-1.038 3.14.026 14.495h3.866v1.932h2.077l2.076-1.932h3.633l6.747-6.281V0H46.713zm15.57 10.388l-2.854 2.657h-4.671l-2.595 2.416v-2.416H48.27V1.69h14.014v8.697zm-4.67-5.557h1.816v4.832h-1.817V4.83zm-4.672 0h1.817v4.832H52.94V4.83zM75 27.298v11.354L68.253 43H64.1v-1.933L60.986 43h-3.633v-1.933L55.017 43H48.27l-2.076-1.933-.52 1.933-5.942-.024-2.362-1.909L37.11 43l-6.747-.024-.26-1.909-1.816 1.909-10.38.024-2.077-.966V43h-5.709l-6.228-3.624L0 35.753V19.809h8.045l3.893 3.624h17.647v-3.624h14.533v3.624h3.633v1.932l2.076-1.932h4.412l3.892-3.624h8.305v3.624h4.412L75 27.298zm-64.879-2.174H6.488V21.5H1.817v13.528l2.854 2.899h5.45v-4.59H6.488v-3.865h3.633v-4.348zm19.464 0h-4.672v8.213h-1.816v-8.213h-4.412v8.213H16.87v-8.213h-4.931v12.803H26.47l3.114-2.899v-9.904zm6.228 0h-4.412v12.803h4.412V25.124zm0-3.624h-4.412v1.933h4.412V21.5zm10.121 3.624h-3.633V21.5H37.63v13.528l2.854 2.899h5.45v-4.59h-3.633v-3.865h3.633v-4.348zm11.938 0h-7.266L47.75 27.78v7.247l3.114 2.899h7.007v-4.59h-5.19v-3.865h5.19v-4.348zm15.311 2.657l-3.114-2.657h-5.45V21.5h-4.93v16.427h4.93v-8.455h3.634v8.455h4.93V27.781z', fill: '#FFF' })\n    )\n  );\n};"
         }
       ],
       "filteredModules": 0,
@@ -2369,9 +2369,9 @@
             4
           ],
           "assets": [],
-          "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/history/createBrowserHistory.js",
-          "issuerId": 119,
-          "issuerName": "./node_modules/history/createBrowserHistory.js",
+          "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/history/createHashHistory.js",
+          "issuerId": 121,
+          "issuerName": "./node_modules/history/createHashHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -2497,9 +2497,9 @@
             4
           ],
           "assets": [],
-          "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/react-router-dom/es/BrowserRouter.js",
-          "issuerId": 62,
-          "issuerName": "./node_modules/react-router-dom/es/BrowserRouter.js",
+          "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/react-router-dom/es/HashRouter.js",
+          "issuerId": 68,
+          "issuerName": "./node_modules/react-router-dom/es/HashRouter.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -2802,9 +2802,9 @@
             4
           ],
           "assets": [],
-          "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/react-static/lib/client/components/RouteData.js",
-          "issuerId": 92,
-          "issuerName": "./node_modules/react-static/lib/client/components/RouteData.js",
+          "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/Users/jgatjens/Desktop/dev/jgatjens.github.io/dist/react-static-routes.js",
+          "issuerId": 138,
+          "issuerName": "./dist/react-static-routes.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -3001,9 +3001,9 @@
             4
           ],
           "assets": [],
-          "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/react-static/lib/client/components/Prefetch.js",
-          "issuerId": 117,
-          "issuerName": "./node_modules/react-static/lib/client/components/Prefetch.js",
+          "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/react-static/lib/client/components/SiteData.js",
+          "issuerId": 114,
+          "issuerName": "./node_modules/react-static/lib/client/components/SiteData.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -3093,9 +3093,9 @@
             4
           ],
           "assets": [],
-          "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/react-router-dom/es/BrowserRouter.js",
-          "issuerId": 62,
-          "issuerName": "./node_modules/react-router-dom/es/BrowserRouter.js",
+          "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/react-router-dom/es/HashRouter.js",
+          "issuerId": 68,
+          "issuerName": "./node_modules/react-router-dom/es/HashRouter.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -4790,9 +4790,9 @@
             4
           ],
           "assets": [],
-          "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/react-router/es/generatePath.js",
-          "issuerId": 36,
-          "issuerName": "./node_modules/react-router/es/generatePath.js",
+          "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/react-router/es/matchPath.js",
+          "issuerId": 21,
+          "issuerName": "./node_modules/react-router/es/matchPath.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -5313,9 +5313,9 @@
             4
           ],
           "assets": [],
-          "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/history/createBrowserHistory.js",
-          "issuerId": 119,
-          "issuerName": "./node_modules/history/createBrowserHistory.js",
+          "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/history/createHashHistory.js",
+          "issuerId": 121,
+          "issuerName": "./node_modules/history/createHashHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -9021,10 +9021,10 @@
         "bootstrap"
       ],
       "files": [
-        "bootstrap.7f3c4855.js",
-        "bootstrap.7f3c4855.js.map"
+        "bootstrap.b6a78954.js",
+        "bootstrap.b6a78954.js.map"
       ],
-      "hash": "7f3c4855f755ea54ef1d",
+      "hash": "b6a78954b3a16c8aadce",
       "parents": [],
       "modules": [],
       "filteredModules": 0,
@@ -9881,9 +9881,9 @@
         4
       ],
       "assets": [],
-      "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/history/createBrowserHistory.js",
-      "issuerId": 119,
-      "issuerName": "./node_modules/history/createBrowserHistory.js",
+      "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/history/createHashHistory.js",
+      "issuerId": 121,
+      "issuerName": "./node_modules/history/createHashHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -10009,9 +10009,9 @@
         4
       ],
       "assets": [],
-      "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/react-router-dom/es/BrowserRouter.js",
-      "issuerId": 62,
-      "issuerName": "./node_modules/react-router-dom/es/BrowserRouter.js",
+      "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/react-router-dom/es/HashRouter.js",
+      "issuerId": 68,
+      "issuerName": "./node_modules/react-router-dom/es/HashRouter.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -10314,9 +10314,9 @@
         4
       ],
       "assets": [],
-      "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/react-static/lib/client/components/RouteData.js",
-      "issuerId": 92,
-      "issuerName": "./node_modules/react-static/lib/client/components/RouteData.js",
+      "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/Users/jgatjens/Desktop/dev/jgatjens.github.io/dist/react-static-routes.js",
+      "issuerId": 138,
+      "issuerName": "./dist/react-static-routes.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -10513,9 +10513,9 @@
         4
       ],
       "assets": [],
-      "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/react-static/lib/client/components/Prefetch.js",
-      "issuerId": 117,
-      "issuerName": "./node_modules/react-static/lib/client/components/Prefetch.js",
+      "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/react-static/lib/client/components/SiteData.js",
+      "issuerId": 114,
+      "issuerName": "./node_modules/react-static/lib/client/components/SiteData.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -10605,9 +10605,9 @@
         4
       ],
       "assets": [],
-      "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/react-router-dom/es/BrowserRouter.js",
-      "issuerId": 62,
-      "issuerName": "./node_modules/react-router-dom/es/BrowserRouter.js",
+      "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/react-router-dom/es/HashRouter.js",
+      "issuerId": 68,
+      "issuerName": "./node_modules/react-router-dom/es/HashRouter.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -12302,9 +12302,9 @@
         4
       ],
       "assets": [],
-      "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/react-router/es/generatePath.js",
-      "issuerId": 36,
-      "issuerName": "./node_modules/react-router/es/generatePath.js",
+      "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/react-router/es/matchPath.js",
+      "issuerId": 21,
+      "issuerName": "./node_modules/react-router/es/matchPath.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -12825,9 +12825,9 @@
         4
       ],
       "assets": [],
-      "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/history/createBrowserHistory.js",
-      "issuerId": 119,
-      "issuerName": "./node_modules/history/createBrowserHistory.js",
+      "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/history/createHashHistory.js",
+      "issuerId": 121,
+      "issuerName": "./node_modules/history/createHashHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -13098,7 +13098,7 @@
       "name": "./src/containers/Promo.js",
       "index": 149,
       "index2": 152,
-      "size": 7310,
+      "size": 7327,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -13137,7 +13137,7 @@
       "providedExports": null,
       "optimizationBailout": [],
       "depth": 3,
-      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _reactStatic = require('react-static');\n\nvar _ShareLinks = require('../components/ShareLinks');\n\nvar _ShareLinks2 = _interopRequireDefault(_ShareLinks);\n\nvar _PromoHeader = require('../components/PromoHeader');\n\nvar _PromoHeader2 = _interopRequireDefault(_PromoHeader);\n\nvar _Schedule = require('../components/Schedule');\n\nvar _Schedule2 = _interopRequireDefault(_Schedule);\n\nvar _sharePromo = require('../assets/share-promo.png');\n\nvar _sharePromo2 = _interopRequireDefault(_sharePromo);\n\nvar _config = require('../config');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar PromoPage = _styledComponents2.default.div.withConfig({\n  displayName: 'Promo__PromoPage',\n  componentId: 'sc-1chc8xc-0'\n})(['display:block;height:100%;.container{max-width:440px;margin:0 auto;padding-top:35px;padding-left:20px;padding-right:20px;color:#3B3E48;}h2{font-size:20px;font-weight:normal;}ul{font-size:14px;line-height:22px;list-style:disc;padding-left:18px;}div[class*=\"ShareLinks\"]{margin-top:30px;text-align:left;}']);\n\n// components\n\n\nvar Desc = _styledComponents2.default.p.withConfig({\n  displayName: 'Promo__Desc',\n  componentId: 'sc-1chc8xc-1'\n})(['color:#3B3E48;font-size:16px;line-height:1.4;margin-top:0;margin-bottom:25px;']);\n\nexports.default = function () {\n  return _react2.default.createElement(\n    PromoPage,\n    null,\n    _react2.default.createElement(\n      _reactStatic.Head,\n      null,\n      _react2.default.createElement(\n        'title',\n        null,\n        'Ganador - ',\n        _config.winner\n      ),\n      _react2.default.createElement('meta', { name: 'description', content: 'Estaremos sorteando un skin de League of legends cada semana en el stream de los viernes a las 9:00 pm (-06  CST)' }),\n      _react2.default.createElement('meta', { name: 'keywords', content: 'Promo, twitch, jgatjens, Lol, League of Legends, Games' }),\n      _react2.default.createElement('meta', { name: 'author', content: 'Ganador ' }),\n      _react2.default.createElement('meta', { property: 'og:type', content: 'website' }),\n      _react2.default.createElement('meta', { property: 'og:title', content: \"Ganador \" + _config.winner }),\n      _react2.default.createElement('meta', { property: 'og:description', content: 'Estaremos sorteando un skin de League of legends cada semana en el stream de los viernes a las 9:00 pm (-06  CST)' }),\n      _react2.default.createElement('meta', { property: 'og:image', content: _sharePromo2.default }),\n      _react2.default.createElement('meta', { name: 'twitter:card', content: 'summary_large_image' }),\n      _react2.default.createElement('meta', { name: 'twitter:site', content: '@jgatjens' }),\n      _react2.default.createElement('meta', { name: 'twitter:creator', content: '@jgatjens' }),\n      _react2.default.createElement('meta', { name: 'twitter:title', content: \"Ganador \" + _config.winner }),\n      _react2.default.createElement('meta', { name: 'twitter:description', content: 'Estaremos sorteando un skin de League of legends cada semana en el stream de los viernes a las 9:00 pm (-06  CST)' }),\n      _react2.default.createElement('meta', { name: 'twitter:image', content: _sharePromo2.default }),\n      _react2.default.createElement('link', { href: 'data:image/x-icon;base64,AAABAAEAEBAAAAAAAABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAACGNwgAxloDAHcTAAAVFRoAWrzFAGkrAABGproAUXaOAClxkgAPO14ADgAAAMVkDwAfWXgAkD4CAB9aewA7a4kAmDsCANqHHQDhiA4AJBogADmUuwA2lsEAiR8AAH4sDAA8dZUAhygAAA9OfAAtX4EAOFxvAJEoAABkhpoAsTsCADFoigBnip0ANQAAAEIgFwCUNAAAy2AEADVmjQA/zP8AQqjTACJYdgAdXn8AzGYNAECv3wCTPRIAOBADAEet2QC1HAAAeSsTADQTFQBXJBoAL2B8AIwkBwCFLgoAMWCFAL0oAACGLxYAxF8CABwQFgAYFBkACF2YALw0AAAiDxMAQKbOAAc/bADcdR8APqnXANJcAgAwcZQABkdyABp+sgAfXX0AUYCcACpVdwAtl88AyDoAADdzkQBBbZEAMxsTACdqiQBqIQAAMmV6ADFjhgBEGxMAx2QAAMpfAwAolMcAdCcAADVrjAA6TU4AskwBADRyhgDDbgwAOWmPAD+r3gDHYRsAJ3qeAJw0AgAkGB0AaSwqAC4VFADLZxsANneVACtZewCLHgAAMBkXAIYmBgA2FRQAhSESACVmhwAHNF8AK2OHAKJJAgBqRS0AKQUAAJAqAABEFg4AjjMAAEEZFwCONgAARxUUABtXdgBEGRcAWXd6AJonAABDHBcALW+QADhKTwDYgxUAMnKHADdojQCbNgAAIxobAHokCgCYPwAAIV98AEWu1gC9SQIAPgsAAC9bcAAjZYUASG6EAKc5AAACNGAAsy0AADl9nwAba6AAzXMlAIcwCgAgi8kATrXiAAEiNAC9LQAAizUHAMchAABZBgMAQ8f0AEYYFQAvcpEANa3vAA9imAA5cpEAUbDCAOqFCgC5VQMAz20dACVmiQBSJycAMGCAAAk1WwA3HBkALmKGANxsEQA7GxYAP6HDADyAoAAgL0AAJA0RAB9YcgCDDwMAgRAGADNvkgA9bn0AfCMAADFzlQBRGhMAhCAAAAArWQA5dZIAL57WACFpigAnHywAKWV+AB5MagAAAAcAohoAAK9FAgDTdicAK6v0AEmkuwAqcZAAMWqNACVWbQCIPBUATKi+AHMmEwAHQ30Akj0PACwUFQB1KxAAOW2WAEBsigDUaAcA0G4HAKQ1AAB8JhMAQXWBACRDUACiOwAANhcVACodJwA1GxgA2HEHAAoyXQAkbY4AVAQAAHYRAgCtPwMAMSItAFu9xwAeERYAxmEFAC5tjgAwq+wADzpjAEOtxQAkERYAJxATAEgdFQBuLggAbygRAEyqvAAudpcAwUQAABpfkgBCLiQAMxMTAAQtWACkMRAAtloMADx+iwAjaIkAhisIAFeKpQAzYncAgv4eIUkYvaJZIMq2RemwXMmo2G21nLTjNWuaAJX5ZAhQsiKYerOMy/+32ftaTM6/4XuZI6FLV76g6scn7Ls5Z/zc9Bm8FRTPQUY9lp1yLU2N7j6R+EDmwwpzLsBHfBduKvebxJCJBIsfrUQdddozSIhsMGlvL6MxQqQSXXbw9gzBVDi465fI8ZTfgRHVik8OUq59JAksBtJmVlXWJddlKRw8UYeqQ/LMxis66AHbasKOAwUN4CjN0KYLpVvFhN6pB4WP/Rpfr4Zg+nEQYnSr1A/R4oBh9ZOxNuR4WBYCP1OD3TITO+ftY3e6736eeeUmStNeTjdoG6xwp3+585+SNAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=', rel: 'icon', type: 'image/x-icon' })\n    ),\n    _react2.default.createElement(_PromoHeader2.default, null),\n    _react2.default.createElement(\n      'div',\n      { className: 'container' },\n      _react2.default.createElement(\n        Desc,\n        null,\n        'Estaremos sorteando un skin de ',\n        _react2.default.createElement(\n          'a',\n          { href: 'https://lan.leagueoflegends.com/es/', target: '_blank' },\n          'League of Legends'\n        ),\n        ' cada semana.'\n      ),\n      _react2.default.createElement(_Schedule2.default, null),\n      _react2.default.createElement(\n        'h2',\n        null,\n        'Reglas del concurso'\n      ),\n      _react2.default.createElement(\n        'ul',\n        null,\n        _react2.default.createElement(\n          'li',\n          null,\n          'Ser follower del stream ',\n          _react2.default.createElement(\n            'a',\n            { href: 'https://www.twitch.tv/jgatjens', target: '_blank' },\n            'https://www.twitch.tv/jgatjens'\n          ),\n          '.'\n        ),\n        _react2.default.createElement(\n          'li',\n          null,\n          'Se hara una rifa entre los followers.'\n        ),\n        _react2.default.createElement(\n          'li',\n          null,\n          'Estar presente el dia del sorteo.'\n        ),\n        _react2.default.createElement(\n          'li',\n          null,\n          'Dudas por discord o bien los d\\xEDas del stream.'\n        ),\n        _react2.default.createElement(\n          'li',\n          null,\n          'Al final del stream se dara a conocer el ganador.'\n        ),\n        _react2.default.createElement(\n          'li',\n          null,\n          'El ganador debera tener cuenta de League of Legends en LAN para resivir el skin.'\n        )\n      ),\n      _react2.default.createElement(_ShareLinks2.default, null)\n    )\n  );\n};"
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _reactStatic = require('react-static');\n\nvar _ShareLinks = require('../components/ShareLinks');\n\nvar _ShareLinks2 = _interopRequireDefault(_ShareLinks);\n\nvar _PromoHeader = require('../components/PromoHeader');\n\nvar _PromoHeader2 = _interopRequireDefault(_PromoHeader);\n\nvar _Schedule = require('../components/Schedule');\n\nvar _Schedule2 = _interopRequireDefault(_Schedule);\n\nvar _sharePromo = require('../assets/share-promo.png');\n\nvar _sharePromo2 = _interopRequireDefault(_sharePromo);\n\nvar _config = require('../config');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar PromoPage = _styledComponents2.default.div.withConfig({\n  displayName: 'Promo__PromoPage',\n  componentId: 'sc-1chc8xc-0'\n})(['display:block;height:100%;.container{max-width:440px;margin:0 auto;padding-top:35px;padding-left:20px;padding-right:20px;color:#3B3E48;}h2{font-size:20px;font-weight:normal;}ul{font-size:14px;line-height:22px;list-style:disc;padding-left:18px;}div[class*=\"ShareLinks\"]{margin-top:30px;margin-bottom:40px;text-align:left;}']);\n\n// components\n\n\nvar Desc = _styledComponents2.default.p.withConfig({\n  displayName: 'Promo__Desc',\n  componentId: 'sc-1chc8xc-1'\n})(['color:#3B3E48;font-size:16px;line-height:1.4;margin-top:0;margin-bottom:25px;']);\n\nexports.default = function () {\n  return _react2.default.createElement(\n    PromoPage,\n    null,\n    _react2.default.createElement(\n      _reactStatic.Head,\n      null,\n      _react2.default.createElement(\n        'title',\n        null,\n        'Ganador - ',\n        _config.winner\n      ),\n      _react2.default.createElement('meta', { name: 'description', content: 'Estaremos sorteando un skin de League of legends cada semana en el stream de los viernes a las 9:00 pm (-06  CST)' }),\n      _react2.default.createElement('meta', { name: 'keywords', content: 'Promo, twitch, jgatjens, Lol, League of Legends, Games' }),\n      _react2.default.createElement('meta', { name: 'author', content: 'Ganador ' }),\n      _react2.default.createElement('meta', { property: 'og:type', content: 'website' }),\n      _react2.default.createElement('meta', { property: 'og:title', content: \"Ganador\" + _config.winner }),\n      _react2.default.createElement('meta', { property: 'og:description', content: 'Estaremos sorteando un skin de League of legends cada semana en el stream de los viernes a las 9:00 pm (-06  CST)' }),\n      _react2.default.createElement('meta', { property: 'og:image', content: _sharePromo2.default }),\n      _react2.default.createElement('meta', { name: 'twitter:card', content: 'summary_large_image' }),\n      _react2.default.createElement('meta', { name: 'twitter:site', content: '@jgatjens' }),\n      _react2.default.createElement('meta', { name: 'twitter:creator', content: '@jgatjens' }),\n      _react2.default.createElement('meta', { name: 'twitter:title', content: \"Ganador \" + _config.winner }),\n      _react2.default.createElement('meta', { name: 'twitter:description', content: 'Estaremos sorteando un skin de League of legends cada semana en el stream de los viernes a las 9:00 pm (-06  CST)' }),\n      _react2.default.createElement('meta', { name: 'twitter:image', content: _sharePromo2.default }),\n      _react2.default.createElement('link', { href: 'data:image/x-icon;base64,AAABAAEAEBAAAAAAAABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAACGNwgAxloDAHcTAAAVFRoAWrzFAGkrAABGproAUXaOAClxkgAPO14ADgAAAMVkDwAfWXgAkD4CAB9aewA7a4kAmDsCANqHHQDhiA4AJBogADmUuwA2lsEAiR8AAH4sDAA8dZUAhygAAA9OfAAtX4EAOFxvAJEoAABkhpoAsTsCADFoigBnip0ANQAAAEIgFwCUNAAAy2AEADVmjQA/zP8AQqjTACJYdgAdXn8AzGYNAECv3wCTPRIAOBADAEet2QC1HAAAeSsTADQTFQBXJBoAL2B8AIwkBwCFLgoAMWCFAL0oAACGLxYAxF8CABwQFgAYFBkACF2YALw0AAAiDxMAQKbOAAc/bADcdR8APqnXANJcAgAwcZQABkdyABp+sgAfXX0AUYCcACpVdwAtl88AyDoAADdzkQBBbZEAMxsTACdqiQBqIQAAMmV6ADFjhgBEGxMAx2QAAMpfAwAolMcAdCcAADVrjAA6TU4AskwBADRyhgDDbgwAOWmPAD+r3gDHYRsAJ3qeAJw0AgAkGB0AaSwqAC4VFADLZxsANneVACtZewCLHgAAMBkXAIYmBgA2FRQAhSESACVmhwAHNF8AK2OHAKJJAgBqRS0AKQUAAJAqAABEFg4AjjMAAEEZFwCONgAARxUUABtXdgBEGRcAWXd6AJonAABDHBcALW+QADhKTwDYgxUAMnKHADdojQCbNgAAIxobAHokCgCYPwAAIV98AEWu1gC9SQIAPgsAAC9bcAAjZYUASG6EAKc5AAACNGAAsy0AADl9nwAba6AAzXMlAIcwCgAgi8kATrXiAAEiNAC9LQAAizUHAMchAABZBgMAQ8f0AEYYFQAvcpEANa3vAA9imAA5cpEAUbDCAOqFCgC5VQMAz20dACVmiQBSJycAMGCAAAk1WwA3HBkALmKGANxsEQA7GxYAP6HDADyAoAAgL0AAJA0RAB9YcgCDDwMAgRAGADNvkgA9bn0AfCMAADFzlQBRGhMAhCAAAAArWQA5dZIAL57WACFpigAnHywAKWV+AB5MagAAAAcAohoAAK9FAgDTdicAK6v0AEmkuwAqcZAAMWqNACVWbQCIPBUATKi+AHMmEwAHQ30Akj0PACwUFQB1KxAAOW2WAEBsigDUaAcA0G4HAKQ1AAB8JhMAQXWBACRDUACiOwAANhcVACodJwA1GxgA2HEHAAoyXQAkbY4AVAQAAHYRAgCtPwMAMSItAFu9xwAeERYAxmEFAC5tjgAwq+wADzpjAEOtxQAkERYAJxATAEgdFQBuLggAbygRAEyqvAAudpcAwUQAABpfkgBCLiQAMxMTAAQtWACkMRAAtloMADx+iwAjaIkAhisIAFeKpQAzYncAgv4eIUkYvaJZIMq2RemwXMmo2G21nLTjNWuaAJX5ZAhQsiKYerOMy/+32ftaTM6/4XuZI6FLV76g6scn7Ls5Z/zc9Bm8FRTPQUY9lp1yLU2N7j6R+EDmwwpzLsBHfBduKvebxJCJBIsfrUQdddozSIhsMGlvL6MxQqQSXXbw9gzBVDi465fI8ZTfgRHVik8OUq59JAksBtJmVlXWJddlKRw8UYeqQ/LMxis66AHbasKOAwUN4CjN0KYLpVvFhN6pB4WP/Rpfr4Zg+nEQYnSr1A/R4oBh9ZOxNuR4WBYCP1OD3TITO+ftY3e6736eeeUmStNeTjdoG6xwp3+585+SNAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=', rel: 'icon', type: 'image/x-icon' })\n    ),\n    _react2.default.createElement(_PromoHeader2.default, null),\n    _react2.default.createElement(\n      'div',\n      { className: 'container' },\n      _react2.default.createElement(\n        Desc,\n        null,\n        'Estaremos sorteando un skin de',\n        _react2.default.createElement(\n          'a',\n          { href: 'https://lan.leagueoflegends.com/es/', target: '_blank' },\n          'League of Legends'\n        ),\n        ' cada semana.'\n      ),\n      _react2.default.createElement(_Schedule2.default, null),\n      _react2.default.createElement(\n        'h2',\n        null,\n        'Reglas del concurso'\n      ),\n      _react2.default.createElement(\n        'ul',\n        null,\n        _react2.default.createElement(\n          'li',\n          null,\n          'Ser follower del stream ',\n          _react2.default.createElement(\n            'a',\n            { href: 'https://www.twitch.tv/jgatjens', target: '_blank' },\n            'https://www.twitch.tv/jgatjens'\n          ),\n          '.'\n        ),\n        _react2.default.createElement(\n          'li',\n          null,\n          'Se hara una rifa entre los followers.'\n        ),\n        _react2.default.createElement(\n          'li',\n          null,\n          'Estar presente el dia del sorteo.'\n        ),\n        _react2.default.createElement(\n          'li',\n          null,\n          'Dudas por discord o bien los d\\xEDas del stream.'\n        ),\n        _react2.default.createElement(\n          'li',\n          null,\n          'Al final del stream se dara a conocer el ganador.'\n        ),\n        _react2.default.createElement(\n          'li',\n          null,\n          'El ganador debera tener cuenta de League of Legends en LAN para resivir el skin.'\n        )\n      ),\n      _react2.default.createElement(_ShareLinks2.default, null)\n    )\n  );\n};"
     },
     {
       "id": 53,
@@ -13145,7 +13145,7 @@
       "name": "./src/containers/Ping.js",
       "index": 156,
       "index2": 154,
-      "size": 4407,
+      "size": 4491,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -13184,7 +13184,7 @@
       "providedExports": null,
       "optimizationBailout": [],
       "depth": 3,
-      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _reactStatic = require('react-static');\n\nvar _ShareLinks = require('../components/ShareLinks');\n\nvar _ShareLinks2 = _interopRequireDefault(_ShareLinks);\n\nvar _PingHeader = require('../components/PingHeader');\n\nvar _PingHeader2 = _interopRequireDefault(_PingHeader);\n\nvar _Button = require('../components/Button');\n\nvar _sharePromo = require('../assets/share-promo.png');\n\nvar _sharePromo2 = _interopRequireDefault(_sharePromo);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n// import Schedule from '../components/Schedule'\n\n\n// components\nvar PromoPage = _styledComponents2.default.div.withConfig({\n  displayName: 'Ping__PromoPage',\n  componentId: 'sc-1oaoljz-0'\n})(['display:block;height:100%;.container{max-width:620px;margin:0 auto;padding-top:35px;padding-left:20px;padding-right:20px;color:#3B3E48;}h2{font-size:20px;font-weight:normal;}ul{font-size:14px;line-height:22px;list-style:disc;padding-left:18px;}div[class*=\"ShareLinks\"]{margin-top:40px;}']);\n\nvar Desc = _styledComponents2.default.p.withConfig({\n  displayName: 'Ping__Desc',\n  componentId: 'sc-1oaoljz-1'\n})(['color:#3B3E48;font-size:16px;line-height:1.6;margin-top:0;margin-bottom:25px;']);\n\nvar desc = 'PING equality is the struggle to grant fundamental rights to millions of players who currently cannot experience their favorite games with a latency of less than 100 ms';\nvar title = 'We deserved better ping';\n\nexports.default = function () {\n  return _react2.default.createElement(\n    PromoPage,\n    null,\n    _react2.default.createElement(\n      _reactStatic.Head,\n      null,\n      _react2.default.createElement(\n        'title',\n        null,\n        title\n      ),\n      _react2.default.createElement('meta', { name: 'description', content: desc }),\n      _react2.default.createElement('meta', { name: 'keywords', content: 'FPS, Apex, COD MW2, twitch, jgatjens, League of Legends, Games' }),\n      _react2.default.createElement('meta', { name: 'author', content: 'jgatjens' }),\n      _react2.default.createElement('meta', { property: 'og:type', content: 'website' }),\n      _react2.default.createElement('meta', { property: 'og:title', content: title }),\n      _react2.default.createElement('meta', { property: 'og:description', content: desc }),\n      _react2.default.createElement('meta', { property: 'og:image', content: _sharePromo2.default }),\n      _react2.default.createElement('meta', { name: 'twitter:card', content: 'summary_large_image' }),\n      _react2.default.createElement('meta', { name: 'twitter:site', content: '@jgatjens' }),\n      _react2.default.createElement('meta', { name: 'twitter:creator', content: '@jgatjens' }),\n      _react2.default.createElement('meta', { name: 'twitter:title', content: title }),\n      _react2.default.createElement('meta', { name: 'twitter:description', content: desc }),\n      _react2.default.createElement('meta', { name: 'twitter:image', content: _sharePromo2.default })\n    ),\n    _react2.default.createElement(_PingHeader2.default, null),\n    _react2.default.createElement(\n      'div',\n      { className: 'container' },\n      _react2.default.createElement(\n        Desc,\n        null,\n        'La igualdad de PING es la lucha por otorgar derechos fundamentales a millones de jugadores que actualmente no pueden experimentar sus juegos favoritos con una latencia menor a los 100 ms Queremos formular una pregunta simple:'\n      ),\n      _react2.default.createElement(\n        'h2',\n        null,\n        'Por que EA, Steam y Battle.net tienen servers en Sur y Norte America pero aqui en America central NO?'\n      ),\n      _react2.default.createElement(\n        Desc,\n        null,\n        'La comunidad gamer latina alza su voz por esta causa, La desigualdad de PING equivale al estancamiento del progreso de nuestra comunidad a nivel competitivo y casual. Ayudanos con un click y tu firma para juntos lograr un cambio.'\n      ),\n      _react2.default.createElement(\n        _Button.PrimaryButton,\n        null,\n        'We need your help here !'\n      ),\n      _react2.default.createElement(_ShareLinks2.default, null)\n    )\n  );\n};"
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _reactStatic = require('react-static');\n\nvar _ShareLinks = require('../components/ShareLinks');\n\nvar _ShareLinks2 = _interopRequireDefault(_ShareLinks);\n\nvar _PingHeader = require('../components/PingHeader');\n\nvar _PingHeader2 = _interopRequireDefault(_PingHeader);\n\nvar _Button = require('../components/Button');\n\nvar _sharePromo = require('../assets/share-promo.png');\n\nvar _sharePromo2 = _interopRequireDefault(_sharePromo);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n// components\nvar PromoPage = _styledComponents2.default.div.withConfig({\n  displayName: 'Ping__PromoPage',\n  componentId: 'sc-1oaoljz-0'\n})(['display:block;height:100%;.container{max-width:620px;margin:0 auto;padding-top:35px;padding-left:20px;padding-right:20px;color:#3B3E48;}h2{font-size:20px;font-weight:normal;}ul{font-size:14px;line-height:22px;list-style:disc;padding-left:18px;}div[class*=\"ShareLinks\"]{margin-top:40px;margin-bottom:40px;}']);\n\nvar Desc = _styledComponents2.default.p.withConfig({\n  displayName: 'Ping__Desc',\n  componentId: 'sc-1oaoljz-1'\n})(['color:#3B3E48;font-size:16px;line-height:1.6;margin-top:0;margin-bottom:25px;']);\n\nvar desc = 'La igualdad de PING es la lucha por otorgar derechos fundamentales a millones de jugadores que actualmente no pueden experimentar sus juegos favoritos con una latencia menor a los 100 ms';\nvar title = 'Merecemos un mejor PING';\n\nexports.default = function () {\n  return _react2.default.createElement(\n    PromoPage,\n    null,\n    _react2.default.createElement(\n      _reactStatic.Head,\n      null,\n      _react2.default.createElement(\n        'title',\n        null,\n        title\n      ),\n      _react2.default.createElement('meta', { name: 'description', content: desc }),\n      _react2.default.createElement('meta', { name: 'keywords', content: 'FPS, Apex, COD MW2, twitch, jgatjens, League of Legends, Games' }),\n      _react2.default.createElement('meta', { name: 'author', content: 'jgatjens' }),\n      _react2.default.createElement('meta', { property: 'og:type', content: 'website' }),\n      _react2.default.createElement('meta', { property: 'og:title', content: title }),\n      _react2.default.createElement('meta', { property: 'og:description', content: desc }),\n      _react2.default.createElement('meta', { property: 'og:image', content: _sharePromo2.default }),\n      _react2.default.createElement('meta', { name: 'twitter:card', content: 'summary_large_image' }),\n      _react2.default.createElement('meta', { name: 'twitter:site', content: '@jgatjens' }),\n      _react2.default.createElement('meta', { name: 'twitter:creator', content: '@jgatjens' }),\n      _react2.default.createElement('meta', { name: 'twitter:title', content: title }),\n      _react2.default.createElement('meta', { name: 'twitter:description', content: desc }),\n      _react2.default.createElement('meta', { name: 'twitter:image', content: _sharePromo2.default })\n    ),\n    _react2.default.createElement(_PingHeader2.default, { title: title }),\n    _react2.default.createElement(\n      'div',\n      { className: 'container' },\n      _react2.default.createElement(\n        Desc,\n        null,\n        'La igualdad de PING es la lucha por otorgar derechos fundamentales a millones de jugadores que actualmente no pueden experimentar sus juegos favoritos con una latencia menor a los 100 ms, Queremos formular una pregunta simple:'\n      ),\n      _react2.default.createElement(\n        'h2',\n        null,\n        'Por que EA, Steam y Battle.net tienen servers en Sur y Norte America pero aqui en America central NO?'\n      ),\n      _react2.default.createElement(\n        Desc,\n        null,\n        'La comunidad gamer latina alza su voz por esta causa, La desigualdad de PING equivale al estancamiento del progreso de nuestra comunidad a nivel competitivo y casual. Ayudanos con un click y tu firma para juntos lograr un cambio.'\n      ),\n      _react2.default.createElement(\n        _Button.Button,\n        { href: 'https://secure.avaaz.org/es/community_petitions/EA_La_igualdad_de_PING', target: '_blank' },\n        'Necesitamos tu ayuda'\n      ),\n      _react2.default.createElement(_ShareLinks2.default, null)\n    )\n  );\n};"
     },
     {
       "id": 54,
@@ -16760,7 +16760,7 @@
       "name": "./src/components/Button.js",
       "index": 144,
       "index2": 139,
-      "size": 1322,
+      "size": 796,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -16800,7 +16800,7 @@
       "providedExports": null,
       "optimizationBailout": [],
       "depth": 4,
-      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.PrimaryButton = exports.Button = undefined;\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Button = exports.Button = _styledComponents2.default.a.withConfig({\n  displayName: 'Button',\n  componentId: 's1u2yv-0'\n})(['display:inline-block;font-size:15px;border-radius:20px;padding:7px 18px;border:1px solid #CDCFD4;margin:0 2px 10px;font-weight:200;color:#777777;text-decoration:none;text-transform:uppercase;', ''], function (props) {\n  return props.active && (0, _styledComponents.css)(['background-color:#3B3E49;border-color:#3B3E49;color:white;']);\n});\n\nvar PrimaryButton = exports.PrimaryButton = _styledComponents2.default.button.withConfig({\n  displayName: 'Button__PrimaryButton',\n  componentId: 's1u2yv-1'\n})(['display:inline-block;font-size:15px;border-radius:20px;padding:7px 18px;border:1px solid #CDCFD4;margin:0 2px 10px;font-weight:200;color:#777777;text-decoration:none;text-transform:uppercase;', ''], function (props) {\n  return props.active && (0, _styledComponents.css)(['background-color:#3B3E49;border-color:#3B3E49;color:white;']);\n});"
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nexports.Button = undefined;\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Button = exports.Button = _styledComponents2.default.a.withConfig({\n  displayName: 'Button',\n  componentId: 's1u2yv-0'\n})(['display:inline-block;font-size:15px;border-radius:20px;padding:7px 18px;border:1px solid #CDCFD4;margin:0 2px 10px;font-weight:200;color:#777777;text-decoration:none;text-transform:uppercase;', ''], function (props) {\n  return props.active && (0, _styledComponents.css)(['background-color:#3B3E49;border-color:#3B3E49;color:white;']);\n});"
     },
     {
       "id": 146,
@@ -17320,7 +17320,7 @@
       "name": "./src/components/PingHeader.js",
       "index": 157,
       "index2": 153,
-      "size": 3738,
+      "size": 3739,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -17350,7 +17350,7 @@
       "providedExports": null,
       "optimizationBailout": [],
       "depth": 4,
-      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _headerLeft = require('../assets/header-left.png');\n\nvar _headerLeft2 = _interopRequireDefault(_headerLeft);\n\nvar _headerRight = require('../assets/header-right.png');\n\nvar _headerRight2 = _interopRequireDefault(_headerRight);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar PingHeader = _styledComponents2.default.div.withConfig({\n  displayName: 'PingHeader',\n  componentId: 'batu4c-0'\n})(['display:flex;flex-direction:column;align-items:center;justify-content:center;width:100%;background-color:#202255;min-height:396px;position:relative;color:white;.bg-left,.bg-right{background-size:contain;background-repeat:no-repeat;background-position-y:bottom;position:absolute;height:100%;width:260px;top:0;z-index:0;}.bg-left{background-image:url(', ');background-position-x:left;left:0;}.bg-right{background-image:url(', ');background-position-x:right;right:0;}svg,a,h1,div{z-index:1;}'], _headerLeft2.default, _headerRight2.default);\n\nvar Title = _styledComponents2.default.h1.withConfig({\n  displayName: 'PingHeader__Title',\n  componentId: 'batu4c-1'\n})(['font-size:40px;line-height:1;max-width:266px;margin:0 auto;text-align:center;margin-top:30px;margin-bottom:20px;text-transform:capitalize;@media (max-width:480px){font-size:25px;}']);\n\nexports.default = function () {\n  return _react2.default.createElement(\n    PingHeader,\n    null,\n    _react2.default.createElement('div', { className: 'bg-left' }),\n    _react2.default.createElement('div', { className: 'bg-right' }),\n    _react2.default.createElement(\n      _reactStatic.Link,\n      { exact: true, to: '/' },\n      _react2.default.createElement(\n        'svg',\n        { width: '25', height: '14' },\n        _react2.default.createElement(\n          'g',\n          { stroke: '#FFF', strokeWidth: '2', fill: 'currentColor' },\n          _react2.default.createElement('path', { d: 'M23.02 7H2', strokeLinecap: 'square' }),\n          _react2.default.createElement('path', { d: 'M5.5 12.5l-4-5.377 4-5.623' })\n        )\n      )\n    ),\n    _react2.default.createElement(\n      Title,\n      null,\n      'We deserve Better Ping'\n    ),\n    _react2.default.createElement(\n      'svg',\n      { width: '75', height: '43' },\n      _react2.default.createElement('path', { d: 'M46.713 0l-1.038 3.14.026 14.495h3.866v1.932h2.077l2.076-1.932h3.633l6.747-6.281V0H46.713zm15.57 10.388l-2.854 2.657h-4.671l-2.595 2.416v-2.416H48.27V1.69h14.014v8.697zm-4.67-5.557h1.816v4.832h-1.817V4.83zm-4.672 0h1.817v4.832H52.94V4.83zM75 27.298v11.354L68.253 43H64.1v-1.933L60.986 43h-3.633v-1.933L55.017 43H48.27l-2.076-1.933-.52 1.933-5.942-.024-2.362-1.909L37.11 43l-6.747-.024-.26-1.909-1.816 1.909-10.38.024-2.077-.966V43h-5.709l-6.228-3.624L0 35.753V19.809h8.045l3.893 3.624h17.647v-3.624h14.533v3.624h3.633v1.932l2.076-1.932h4.412l3.892-3.624h8.305v3.624h4.412L75 27.298zm-64.879-2.174H6.488V21.5H1.817v13.528l2.854 2.899h5.45v-4.59H6.488v-3.865h3.633v-4.348zm19.464 0h-4.672v8.213h-1.816v-8.213h-4.412v8.213H16.87v-8.213h-4.931v12.803H26.47l3.114-2.899v-9.904zm6.228 0h-4.412v12.803h4.412V25.124zm0-3.624h-4.412v1.933h4.412V21.5zm10.121 3.624h-3.633V21.5H37.63v13.528l2.854 2.899h5.45v-4.59h-3.633v-3.865h3.633v-4.348zm11.938 0h-7.266L47.75 27.78v7.247l3.114 2.899h7.007v-4.59h-5.19v-3.865h5.19v-4.348zm15.311 2.657l-3.114-2.657h-5.45V21.5h-4.93v16.427h4.93v-8.455h3.634v8.455h4.93V27.781z', fill: '#FFF' })\n    )\n  );\n};"
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _headerLeft = require('../assets/header-left.png');\n\nvar _headerLeft2 = _interopRequireDefault(_headerLeft);\n\nvar _headerRight = require('../assets/header-right.png');\n\nvar _headerRight2 = _interopRequireDefault(_headerRight);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar PingHeader = _styledComponents2.default.div.withConfig({\n  displayName: 'PingHeader',\n  componentId: 'batu4c-0'\n})(['display:flex;flex-direction:column;align-items:center;justify-content:center;width:100%;background-color:#202255;min-height:396px;position:relative;color:white;.bg-left,.bg-right{background-size:contain;background-repeat:no-repeat;background-position-y:bottom;position:absolute;height:100%;width:260px;top:0;z-index:0;}.bg-left{background-image:url(', ');background-position-x:left;left:0;}.bg-right{background-image:url(', ');background-position-x:right;right:0;}svg,a,h1,div{z-index:1;}'], _headerLeft2.default, _headerRight2.default);\n\nvar Title = _styledComponents2.default.h1.withConfig({\n  displayName: 'PingHeader__Title',\n  componentId: 'batu4c-1'\n})(['font-size:40px;line-height:1;max-width:266px;margin:0 auto;text-align:center;margin-top:30px;margin-bottom:20px;text-transform:capitalize;@media (max-width:480px){font-size:25px;}']);\n\nexports.default = function () {\n  return _react2.default.createElement(\n    PingHeader,\n    null,\n    _react2.default.createElement('div', { className: 'bg-left' }),\n    _react2.default.createElement('div', { className: 'bg-right' }),\n    _react2.default.createElement(\n      _reactStatic.Link,\n      { exact: true, to: '/' },\n      _react2.default.createElement(\n        'svg',\n        { width: '25', height: '14' },\n        _react2.default.createElement(\n          'g',\n          { stroke: '#FFF', strokeWidth: '2', fill: 'currentColor' },\n          _react2.default.createElement('path', { d: 'M23.02 7H2', strokeLinecap: 'square' }),\n          _react2.default.createElement('path', { d: 'M5.5 12.5l-4-5.377 4-5.623' })\n        )\n      )\n    ),\n    _react2.default.createElement(\n      Title,\n      null,\n      'Merecemos un mejor PING'\n    ),\n    _react2.default.createElement(\n      'svg',\n      { width: '75', height: '43' },\n      _react2.default.createElement('path', { d: 'M46.713 0l-1.038 3.14.026 14.495h3.866v1.932h2.077l2.076-1.932h3.633l6.747-6.281V0H46.713zm15.57 10.388l-2.854 2.657h-4.671l-2.595 2.416v-2.416H48.27V1.69h14.014v8.697zm-4.67-5.557h1.816v4.832h-1.817V4.83zm-4.672 0h1.817v4.832H52.94V4.83zM75 27.298v11.354L68.253 43H64.1v-1.933L60.986 43h-3.633v-1.933L55.017 43H48.27l-2.076-1.933-.52 1.933-5.942-.024-2.362-1.909L37.11 43l-6.747-.024-.26-1.909-1.816 1.909-10.38.024-2.077-.966V43h-5.709l-6.228-3.624L0 35.753V19.809h8.045l3.893 3.624h17.647v-3.624h14.533v3.624h3.633v1.932l2.076-1.932h4.412l3.892-3.624h8.305v3.624h4.412L75 27.298zm-64.879-2.174H6.488V21.5H1.817v13.528l2.854 2.899h5.45v-4.59H6.488v-3.865h3.633v-4.348zm19.464 0h-4.672v8.213h-1.816v-8.213h-4.412v8.213H16.87v-8.213h-4.931v12.803H26.47l3.114-2.899v-9.904zm6.228 0h-4.412v12.803h4.412V25.124zm0-3.624h-4.412v1.933h4.412V21.5zm10.121 3.624h-3.633V21.5H37.63v13.528l2.854 2.899h5.45v-4.59h-3.633v-3.865h3.633v-4.348zm11.938 0h-7.266L47.75 27.78v7.247l3.114 2.899h7.007v-4.59h-5.19v-3.865h5.19v-4.348zm15.311 2.657l-3.114-2.657h-5.45V21.5h-4.93v16.427h4.93v-8.455h3.634v8.455h4.93V27.781z', fill: '#FFF' })\n    )\n  );\n};"
     }
   ],
   "filteredModules": 0,

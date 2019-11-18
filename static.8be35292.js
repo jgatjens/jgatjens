@@ -437,7 +437,7 @@ module.exports = __webpack_require__.p + "static/jgatjens.a21b6ebb.jpg";
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.PrimaryButton = exports.Button = undefined;
+exports.Button = undefined;
 
 var _styledComponents = __webpack_require__(1);
 
@@ -448,13 +448,6 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var Button = exports.Button = _styledComponents2.default.a.withConfig({
   displayName: 'Button',
   componentId: 's1u2yv-0'
-})(['display:inline-block;font-size:15px;border-radius:20px;padding:7px 18px;border:1px solid #CDCFD4;margin:0 2px 10px;font-weight:200;color:#777777;text-decoration:none;text-transform:uppercase;', ''], function (props) {
-  return props.active && (0, _styledComponents.css)(['background-color:#3B3E49;border-color:#3B3E49;color:white;']);
-});
-
-var PrimaryButton = exports.PrimaryButton = _styledComponents2.default.button.withConfig({
-  displayName: 'Button__PrimaryButton',
-  componentId: 's1u2yv-1'
 })(['display:inline-block;font-size:15px;border-radius:20px;padding:7px 18px;border:1px solid #CDCFD4;margin:0 2px 10px;font-weight:200;color:#777777;text-decoration:none;text-transform:uppercase;', ''], function (props) {
   return props.active && (0, _styledComponents.css)(['background-color:#3B3E49;border-color:#3B3E49;color:white;']);
 });
@@ -503,7 +496,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var PromoPage = _styledComponents2.default.div.withConfig({
   displayName: 'Promo__PromoPage',
   componentId: 'sc-1chc8xc-0'
-})(['display:block;height:100%;.container{max-width:440px;margin:0 auto;padding-top:35px;padding-left:20px;padding-right:20px;color:#3B3E48;}h2{font-size:20px;font-weight:normal;}ul{font-size:14px;line-height:22px;list-style:disc;padding-left:18px;}div[class*="ShareLinks"]{margin-top:30px;text-align:left;}']);
+})(['display:block;height:100%;.container{max-width:440px;margin:0 auto;padding-top:35px;padding-left:20px;padding-right:20px;color:#3B3E48;}h2{font-size:20px;font-weight:normal;}ul{font-size:14px;line-height:22px;list-style:disc;padding-left:18px;}div[class*="ShareLinks"]{margin-top:30px;margin-bottom:40px;text-align:left;}']);
 
 // components
 
@@ -530,7 +523,7 @@ exports.default = function () {
       _react2.default.createElement('meta', { name: 'keywords', content: 'Promo, twitch, jgatjens, Lol, League of Legends, Games' }),
       _react2.default.createElement('meta', { name: 'author', content: 'Ganador ' }),
       _react2.default.createElement('meta', { property: 'og:type', content: 'website' }),
-      _react2.default.createElement('meta', { property: 'og:title', content: "Ganador " + _config.winner }),
+      _react2.default.createElement('meta', { property: 'og:title', content: "Ganador" + _config.winner }),
       _react2.default.createElement('meta', { property: 'og:description', content: 'Estaremos sorteando un skin de League of legends cada semana en el stream de los viernes a las 9:00 pm (-06  CST)' }),
       _react2.default.createElement('meta', { property: 'og:image', content: _sharePromo2.default }),
       _react2.default.createElement('meta', { name: 'twitter:card', content: 'summary_large_image' }),
@@ -548,7 +541,7 @@ exports.default = function () {
       _react2.default.createElement(
         Desc,
         null,
-        'Estaremos sorteando un skin de ',
+        'Estaremos sorteando un skin de',
         _react2.default.createElement(
           'a',
           { href: 'https://lan.leagueoflegends.com/es/', target: '_blank' },
@@ -675,22 +668,19 @@ var _sharePromo2 = _interopRequireDefault(_sharePromo);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-// import Schedule from '../components/Schedule'
-
-
 // components
 var PromoPage = _styledComponents2.default.div.withConfig({
   displayName: 'Ping__PromoPage',
   componentId: 'sc-1oaoljz-0'
-})(['display:block;height:100%;.container{max-width:620px;margin:0 auto;padding-top:35px;padding-left:20px;padding-right:20px;color:#3B3E48;}h2{font-size:20px;font-weight:normal;}ul{font-size:14px;line-height:22px;list-style:disc;padding-left:18px;}div[class*="ShareLinks"]{margin-top:40px;}']);
+})(['display:block;height:100%;.container{max-width:620px;margin:0 auto;padding-top:35px;padding-left:20px;padding-right:20px;color:#3B3E48;}h2{font-size:20px;font-weight:normal;}ul{font-size:14px;line-height:22px;list-style:disc;padding-left:18px;}div[class*="ShareLinks"]{margin-top:40px;margin-bottom:40px;}']);
 
 var Desc = _styledComponents2.default.p.withConfig({
   displayName: 'Ping__Desc',
   componentId: 'sc-1oaoljz-1'
 })(['color:#3B3E48;font-size:16px;line-height:1.6;margin-top:0;margin-bottom:25px;']);
 
-var desc = 'PING equality is the struggle to grant fundamental rights to millions of players who currently cannot experience their favorite games with a latency of less than 100 ms';
-var title = 'We deserved better ping';
+var desc = 'La igualdad de PING es la lucha por otorgar derechos fundamentales a millones de jugadores que actualmente no pueden experimentar sus juegos favoritos con una latencia menor a los 100 ms';
+var title = 'Merecemos un mejor PING';
 
 exports.default = function () {
   return _react2.default.createElement(
@@ -718,14 +708,14 @@ exports.default = function () {
       _react2.default.createElement('meta', { name: 'twitter:description', content: desc }),
       _react2.default.createElement('meta', { name: 'twitter:image', content: _sharePromo2.default })
     ),
-    _react2.default.createElement(_PingHeader2.default, null),
+    _react2.default.createElement(_PingHeader2.default, { title: title }),
     _react2.default.createElement(
       'div',
       { className: 'container' },
       _react2.default.createElement(
         Desc,
         null,
-        'La igualdad de PING es la lucha por otorgar derechos fundamentales a millones de jugadores que actualmente no pueden experimentar sus juegos favoritos con una latencia menor a los 100 ms Queremos formular una pregunta simple:'
+        'La igualdad de PING es la lucha por otorgar derechos fundamentales a millones de jugadores que actualmente no pueden experimentar sus juegos favoritos con una latencia menor a los 100 ms, Queremos formular una pregunta simple:'
       ),
       _react2.default.createElement(
         'h2',
@@ -738,9 +728,9 @@ exports.default = function () {
         'La comunidad gamer latina alza su voz por esta causa, La desigualdad de PING equivale al estancamiento del progreso de nuestra comunidad a nivel competitivo y casual. Ayudanos con un click y tu firma para juntos lograr un cambio.'
       ),
       _react2.default.createElement(
-        _Button.PrimaryButton,
-        null,
-        'We need your help here !'
+        _Button.Button,
+        { href: 'https://secure.avaaz.org/es/community_petitions/EA_La_igualdad_de_PING', target: '_blank' },
+        'Necesitamos tu ayuda'
       ),
       _react2.default.createElement(_ShareLinks2.default, null)
     )
@@ -2136,7 +2126,7 @@ exports.default = function () {
     _react2.default.createElement(
       Title,
       null,
-      'We deserve Better Ping'
+      'Merecemos un mejor PING'
     ),
     _react2.default.createElement(
       'svg',
@@ -2149,4 +2139,4 @@ exports.default = function () {
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.123a0e1b.js.map
+//# sourceMappingURL=static.8be35292.js.map
