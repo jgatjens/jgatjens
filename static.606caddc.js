@@ -906,7 +906,7 @@ exports.default = function () {
       _react2.default.createElement(
         'h2',
         null,
-        'Por que EA, Steam y Battle.net tienen servers en Sur y Norte America pero aqui en America central NO?'
+        'Por que EA, Steam, Battle.net, etc.. tienen servers en Sur y Norte America pero aqui en America central NO?'
       ),
       _react2.default.createElement(
         Desc,
@@ -2212,4 +2212,4 @@ module.exports = __webpack_require__.p + "static/apex-ping.69d8c1ad.jpg";
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.2770df27.js.map
+//# sourceMappingURL=static.606caddc.js.map
