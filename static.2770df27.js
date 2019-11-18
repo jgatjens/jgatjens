@@ -870,8 +870,7 @@ var Desc = _styledComponents2.default.p.withConfig({
 var desc = 'La igualdad de PING es la lucha por otorgar derechos fundamentales a millones de jugadores que actualmente no pueden experimentar sus juegos favoritos con una latencia menor a los 100 ms';
 var title = 'Merecemos un mejor PING';
 
-exports.default = function (props) {
-  console.log(props);
+exports.default = function () {
   return _react2.default.createElement(
     PromoPage,
     null,
@@ -2213,4 +2212,4 @@ module.exports = __webpack_require__.p + "static/apex-ping.69d8c1ad.jpg";
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.fe74d87d.js.map
+//# sourceMappingURL=static.2770df27.js.map
