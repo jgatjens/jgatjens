@@ -2,9 +2,9 @@
   "errors": [],
   "warnings": [],
   "version": "3.12.0",
-  "hash": "f24ca139064fc93c95f0",
-  "time": 4532,
-  "publicPath": "/",
+  "hash": "65e1fdb04ecd19bb5b3e",
+  "time": 4486,
+  "publicPath": "https://jgatjens.com/",
   "assetsByChunkName": {
     "src/containers/Home": [
       "templates/src/containers/Home.07edf11f.js",
@@ -19,22 +19,22 @@
       "templates/src/containers/Promo.3e9bee9d.js.map"
     ],
     "src/containers/Ping": [
-      "templates/src/containers/Ping.7eee7ca6.js",
-      "templates/src/containers/Ping.7eee7ca6.js.map"
+      "templates/src/containers/Ping.81c4ef91.js",
+      "templates/src/containers/Ping.81c4ef91.js.map"
     ],
     "main": [
-      "main.a9539545.js",
-      "main.a9539545.js.map"
+      "main.756d9350.js",
+      "main.756d9350.js.map"
     ],
     "bootstrap": [
-      "bootstrap.a7724535.js",
-      "bootstrap.a7724535.js.map"
+      "bootstrap.c7cf5d8e.js",
+      "bootstrap.c7cf5d8e.js.map"
     ]
   },
   "assets": [
     {
-      "name": "templates/src/containers/Ping.7eee7ca6.js",
-      "size": 10357,
+      "name": "templates/src/containers/Ping.81c4ef91.js",
+      "size": 10237,
       "chunks": [
         3
       ],
@@ -112,8 +112,8 @@
       "emitted": true
     },
     {
-      "name": "main.a9539545.js",
-      "size": 320876,
+      "name": "main.756d9350.js",
+      "size": 320976,
       "chunks": [
         4
       ],
@@ -124,8 +124,8 @@
       "isOverSizeLimit": true
     },
     {
-      "name": "bootstrap.a7724535.js",
-      "size": 1580,
+      "name": "bootstrap.c7cf5d8e.js",
+      "size": 1600,
       "chunks": [
         5
       ],
@@ -168,8 +168,8 @@
       "emitted": true
     },
     {
-      "name": "templates/src/containers/Ping.7eee7ca6.js.map",
-      "size": 31093,
+      "name": "templates/src/containers/Ping.81c4ef91.js.map",
+      "size": 30879,
       "chunks": [
         3
       ],
@@ -179,8 +179,8 @@
       "emitted": true
     },
     {
-      "name": "main.a9539545.js.map",
-      "size": 1857615,
+      "name": "main.756d9350.js.map",
+      "size": 1857720,
       "chunks": [
         4
       ],
@@ -190,8 +190,8 @@
       "emitted": true
     },
     {
-      "name": "bootstrap.a7724535.js.map",
-      "size": 14561,
+      "name": "bootstrap.c7cf5d8e.js.map",
+      "size": 14602,
       "chunks": [
         5
       ],
@@ -209,10 +209,10 @@
         4
       ],
       "assets": [
-        "bootstrap.a7724535.js",
-        "bootstrap.a7724535.js.map",
-        "main.a9539545.js",
-        "main.a9539545.js.map"
+        "bootstrap.c7cf5d8e.js",
+        "bootstrap.c7cf5d8e.js.map",
+        "main.756d9350.js",
+        "main.756d9350.js.map"
       ],
       "isOverSizeLimit": true
     }
@@ -302,9 +302,9 @@
             3
           ],
           "assets": [],
-          "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/Users/jgatjens/Desktop/dev/jgatjens.github.io/src/containers/Ping.js",
-          "issuerId": 53,
-          "issuerName": "./src/containers/Ping.js",
+          "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/Users/jgatjens/Desktop/dev/jgatjens.github.io/src/containers/Home.js",
+          "issuerId": 51,
+          "issuerName": "./src/containers/Home.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -789,9 +789,9 @@
             3
           ],
           "assets": [],
-          "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/Users/jgatjens/Desktop/dev/jgatjens.github.io/src/containers/Ping.js",
-          "issuerId": 53,
-          "issuerName": "./src/containers/Ping.js",
+          "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/Users/jgatjens/Desktop/dev/jgatjens.github.io/src/containers/Home.js",
+          "issuerId": 51,
+          "issuerName": "./src/containers/Home.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -1276,9 +1276,9 @@
             3
           ],
           "assets": [],
-          "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/Users/jgatjens/Desktop/dev/jgatjens.github.io/src/containers/Ping.js",
-          "issuerId": 53,
-          "issuerName": "./src/containers/Ping.js",
+          "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/Users/jgatjens/Desktop/dev/jgatjens.github.io/src/containers/Home.js",
+          "issuerId": 51,
+          "issuerName": "./src/containers/Home.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -1344,9 +1344,9 @@
           "assets": [
             "static/header-left.57ece537.png"
           ],
-          "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/Users/jgatjens/Desktop/dev/jgatjens.github.io/src/components/PingHeader.js",
-          "issuerId": 158,
-          "issuerName": "./src/components/PingHeader.js",
+          "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/Users/jgatjens/Desktop/dev/jgatjens.github.io/src/components/PromoHeader.js",
+          "issuerId": 155,
+          "issuerName": "./src/components/PromoHeader.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -1394,9 +1394,9 @@
           "assets": [
             "static/header-right.9d75552f.png"
           ],
-          "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/Users/jgatjens/Desktop/dev/jgatjens.github.io/src/components/PingHeader.js",
-          "issuerId": 158,
-          "issuerName": "./src/components/PingHeader.js",
+          "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/Users/jgatjens/Desktop/dev/jgatjens.github.io/src/components/PromoHeader.js",
+          "issuerId": 155,
+          "issuerName": "./src/components/PromoHeader.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -1609,15 +1609,15 @@
       "initial": false,
       "entry": false,
       "extraAsync": false,
-      "size": 13668,
+      "size": 13514,
       "names": [
         "src/containers/Ping"
       ],
       "files": [
-        "templates/src/containers/Ping.7eee7ca6.js",
-        "templates/src/containers/Ping.7eee7ca6.js.map"
+        "templates/src/containers/Ping.81c4ef91.js",
+        "templates/src/containers/Ping.81c4ef91.js.map"
       ],
-      "hash": "7eee7ca64cb62c1e117a",
+      "hash": "81c4ef91cecef0eb64e5",
       "parents": [
         4
       ],
@@ -1628,7 +1628,7 @@
           "name": "./src/containers/Ping.js",
           "index": 156,
           "index2": 155,
-          "size": 4479,
+          "size": 4325,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -1667,7 +1667,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 3,
-          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _reactStatic = require('react-static');\n\nvar _ShareLinks = require('../components/ShareLinks');\n\nvar _ShareLinks2 = _interopRequireDefault(_ShareLinks);\n\nvar _PingHeader = require('../components/PingHeader');\n\nvar _PingHeader2 = _interopRequireDefault(_PingHeader);\n\nvar _Button = require('../components/Button');\n\nvar _apexPing = require('../assets/apex-ping.jpg');\n\nvar _apexPing2 = _interopRequireDefault(_apexPing);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n// components\nvar PromoPage = _styledComponents2.default.div.withConfig({\n  displayName: 'Ping__PromoPage',\n  componentId: 'sc-1oaoljz-0'\n})(['display:block;height:100%;.container{max-width:620px;margin:0 auto;padding-top:35px;padding-left:20px;padding-right:20px;color:#3B3E48;}h2{font-size:20px;font-weight:normal;}ul{font-size:14px;line-height:22px;list-style:disc;padding-left:18px;}div[class*=\"ShareLinks\"]{margin-top:40px;margin-bottom:40px;}']);\n\nvar Desc = _styledComponents2.default.p.withConfig({\n  displayName: 'Ping__Desc',\n  componentId: 'sc-1oaoljz-1'\n})(['color:#3B3E48;font-size:16px;line-height:1.6;margin-top:0;margin-bottom:25px;']);\n\nvar desc = 'La igualdad de PING es la lucha por otorgar derechos fundamentales a millones de jugadores que actualmente no pueden experimentar sus juegos favoritos con una latencia menor a los 100 ms';\nvar title = 'Merecemos un mejor PING';\n\nexports.default = function () {\n  return _react2.default.createElement(\n    PromoPage,\n    null,\n    _react2.default.createElement(\n      _reactStatic.Head,\n      null,\n      _react2.default.createElement(\n        'title',\n        null,\n        title\n      ),\n      _react2.default.createElement('meta', { name: 'description', content: desc }),\n      _react2.default.createElement('meta', { name: 'keywords', content: 'FPS, Apex, COD MW2, twitch, jgatjens, League of Legends, Games' }),\n      _react2.default.createElement('meta', { name: 'author', content: 'jgatjens' }),\n      _react2.default.createElement('meta', { property: 'og:type', content: 'website' }),\n      _react2.default.createElement('meta', { property: 'og:title', content: title }),\n      _react2.default.createElement('meta', { property: 'og:description', content: desc }),\n      _react2.default.createElement('meta', { property: 'og:image', content: _apexPing2.default }),\n      _react2.default.createElement('meta', { name: 'twitter:card', content: 'summary_large_image' }),\n      _react2.default.createElement('meta', { name: 'twitter:site', content: '@jgatjens' }),\n      _react2.default.createElement('meta', { name: 'twitter:creator', content: '@jgatjens' }),\n      _react2.default.createElement('meta', { name: 'twitter:title', content: title }),\n      _react2.default.createElement('meta', { name: 'twitter:description', content: desc }),\n      _react2.default.createElement('meta', { name: 'twitter:image', content: _apexPing2.default })\n    ),\n    _react2.default.createElement(_PingHeader2.default, { title: title }),\n    _react2.default.createElement(\n      'div',\n      { className: 'container' },\n      _react2.default.createElement(\n        Desc,\n        null,\n        'La igualdad de PING es la lucha por otorgar derechos fundamentales a millones de jugadores que actualmente no pueden experimentar sus juegos favoritos con una latencia menor a los 100 ms, Queremos formular una pregunta simple:'\n      ),\n      _react2.default.createElement(\n        'h2',\n        null,\n        'Por que EA, Steam y Battle.net tienen servers en Sur y Norte America pero aqui en America central NO?'\n      ),\n      _react2.default.createElement(\n        Desc,\n        null,\n        'La comunidad gamer latina alza su voz por esta causa, La desigualdad de PING equivale al estancamiento del progreso de nuestra comunidad a nivel competitivo y casual. Ayudanos con un click y tu firma para juntos lograr un cambio.'\n      ),\n      _react2.default.createElement(\n        _Button.Button,\n        { href: 'https://secure.avaaz.org/es/community_petitions/EA_La_igualdad_de_PING', target: '_blank' },\n        'Necesitamos tu ayuda'\n      ),\n      _react2.default.createElement(_ShareLinks2.default, null)\n    )\n  );\n};"
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _reactStatic = require('react-static');\n\nvar _ShareLinks = require('../components/ShareLinks');\n\nvar _ShareLinks2 = _interopRequireDefault(_ShareLinks);\n\nvar _PingHeader = require('../components/PingHeader');\n\nvar _PingHeader2 = _interopRequireDefault(_PingHeader);\n\nvar _Button = require('../components/Button');\n\nvar _apexPing = require('../assets/apex-ping.jpg');\n\nvar _apexPing2 = _interopRequireDefault(_apexPing);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n// components\nvar PromoPage = _styledComponents2.default.div.withConfig({\n  displayName: 'Ping__PromoPage',\n  componentId: 'sc-1oaoljz-0'\n})(['display:block;height:100%;.container{max-width:620px;margin:0 auto;padding-top:35px;padding-left:20px;padding-right:20px;color:#3B3E48;}h2{font-size:20px;font-weight:normal;}ul{font-size:14px;line-height:22px;list-style:disc;padding-left:18px;}div[class*=\"ShareLinks\"]{margin-top:40px;margin-bottom:40px;}']);\n\nvar Desc = _styledComponents2.default.p.withConfig({\n  displayName: 'Ping__Desc',\n  componentId: 'sc-1oaoljz-1'\n})(['color:#3B3E48;font-size:16px;line-height:1.6;margin-top:0;margin-bottom:25px;']);\n\nvar desc = 'La igualdad de PING es la lucha por otorgar derechos fundamentales a millones de jugadores que actualmente no pueden experimentar sus juegos favoritos con una latencia menor a los 100 ms';\nvar title = 'Merecemos un mejor PING';\n\nexports.default = function (props) {\n  console.log(props);\n  return _react2.default.createElement(\n    PromoPage,\n    null,\n    _react2.default.createElement(\n      _reactStatic.Head,\n      null,\n      _react2.default.createElement(\n        'title',\n        null,\n        title\n      ),\n      _react2.default.createElement('meta', { name: 'description', content: desc }),\n      _react2.default.createElement('meta', { name: 'keywords', content: 'FPS, Apex, COD MW2, twitch, jgatjens, League of Legends, Games' }),\n      _react2.default.createElement('meta', { name: 'author', content: 'jgatjens' }),\n      _react2.default.createElement('meta', { property: 'og:type', content: 'website' }),\n      _react2.default.createElement('meta', { property: 'og:title', content: title }),\n      _react2.default.createElement('meta', { property: 'og:description', content: desc }),\n      _react2.default.createElement('meta', { property: 'og:image', content: _apexPing2.default }),\n      _react2.default.createElement('meta', { name: 'twitter:card', content: 'summary_large_image' }),\n      _react2.default.createElement('meta', { name: 'twitter:site', content: '@jgatjens' }),\n      _react2.default.createElement('meta', { name: 'twitter:creator', content: '@jgatjens' }),\n      _react2.default.createElement('meta', { name: 'twitter:image', content: _apexPing2.default })\n    ),\n    _react2.default.createElement(_PingHeader2.default, { title: title }),\n    _react2.default.createElement(\n      'div',\n      { className: 'container' },\n      _react2.default.createElement(\n        Desc,\n        null,\n        'La igualdad de PING es la lucha por otorgar derechos fundamentales a millones de jugadores que actualmente no pueden experimentar sus juegos favoritos con una latencia menor a los 100 ms, Queremos formular una pregunta simple:'\n      ),\n      _react2.default.createElement(\n        'h2',\n        null,\n        'Por que EA, Steam y Battle.net tienen servers en Sur y Norte America pero aqui en America central NO?'\n      ),\n      _react2.default.createElement(\n        Desc,\n        null,\n        'La comunidad gamer latina alza su voz por esta causa, La desigualdad de PING equivale al estancamiento del progreso de nuestra comunidad a nivel competitivo y casual. Ayudanos con un click y tu firma para juntos lograr un cambio.'\n      ),\n      _react2.default.createElement(\n        _Button.Button,\n        { href: 'https://secure.avaaz.org/es/community_petitions/EA_La_igualdad_de_PING', target: '_blank' },\n        'Necesitamos tu ayuda'\n      ),\n      _react2.default.createElement(_ShareLinks2.default, null)\n    )\n  );\n};"
         },
         {
           "id": 144,
@@ -1687,9 +1687,9 @@
             3
           ],
           "assets": [],
-          "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/Users/jgatjens/Desktop/dev/jgatjens.github.io/src/containers/Ping.js",
-          "issuerId": 53,
-          "issuerName": "./src/containers/Ping.js",
+          "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/Users/jgatjens/Desktop/dev/jgatjens.github.io/src/containers/Home.js",
+          "issuerId": 51,
+          "issuerName": "./src/containers/Home.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -1804,9 +1804,9 @@
           "assets": [
             "static/header-left.57ece537.png"
           ],
-          "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/Users/jgatjens/Desktop/dev/jgatjens.github.io/src/components/PingHeader.js",
-          "issuerId": 158,
-          "issuerName": "./src/components/PingHeader.js",
+          "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/Users/jgatjens/Desktop/dev/jgatjens.github.io/src/components/PromoHeader.js",
+          "issuerId": 155,
+          "issuerName": "./src/components/PromoHeader.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -1854,9 +1854,9 @@
           "assets": [
             "static/header-right.9d75552f.png"
           ],
-          "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/Users/jgatjens/Desktop/dev/jgatjens.github.io/src/components/PingHeader.js",
-          "issuerId": 158,
-          "issuerName": "./src/components/PingHeader.js",
+          "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/Users/jgatjens/Desktop/dev/jgatjens.github.io/src/components/PromoHeader.js",
+          "issuerId": 155,
+          "issuerName": "./src/components/PromoHeader.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -1989,10 +1989,10 @@
         "main"
       ],
       "files": [
-        "main.a9539545.js",
-        "main.a9539545.js.map"
+        "main.756d9350.js",
+        "main.756d9350.js.map"
       ],
-      "hash": "a95395457eab21c0d7a1",
+      "hash": "756d935047dc66b30e9d",
       "parents": [
         5
       ],
@@ -2846,9 +2846,9 @@
             4
           ],
           "assets": [],
-          "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/history/createHashHistory.js",
-          "issuerId": 121,
-          "issuerName": "./node_modules/history/createHashHistory.js",
+          "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/history/createBrowserHistory.js",
+          "issuerId": 119,
+          "issuerName": "./node_modules/history/createBrowserHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -3478,9 +3478,9 @@
             4
           ],
           "assets": [],
-          "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/react-static/lib/client/components/Prefetch.js",
-          "issuerId": 117,
-          "issuerName": "./node_modules/react-static/lib/client/components/Prefetch.js",
+          "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/react-static/lib/client/components/SiteData.js",
+          "issuerId": 114,
+          "issuerName": "./node_modules/react-static/lib/client/components/SiteData.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -5808,9 +5808,9 @@
             4
           ],
           "assets": [],
-          "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/history/createHashHistory.js",
-          "issuerId": 121,
-          "issuerName": "./node_modules/history/createHashHistory.js",
+          "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/history/createBrowserHistory.js",
+          "issuerId": 119,
+          "issuerName": "./node_modules/history/createBrowserHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -9516,10 +9516,10 @@
         "bootstrap"
       ],
       "files": [
-        "bootstrap.a7724535.js",
-        "bootstrap.a7724535.js.map"
+        "bootstrap.c7cf5d8e.js",
+        "bootstrap.c7cf5d8e.js.map"
       ],
-      "hash": "a7724535020fb5dfbdee",
+      "hash": "c7cf5d8e873f2a20eb61",
       "parents": [],
       "modules": [],
       "filteredModules": 0,
@@ -10376,9 +10376,9 @@
         4
       ],
       "assets": [],
-      "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/history/createHashHistory.js",
-      "issuerId": 121,
-      "issuerName": "./node_modules/history/createHashHistory.js",
+      "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/history/createBrowserHistory.js",
+      "issuerId": 119,
+      "issuerName": "./node_modules/history/createBrowserHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -11008,9 +11008,9 @@
         4
       ],
       "assets": [],
-      "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/react-static/lib/client/components/Prefetch.js",
-      "issuerId": 117,
-      "issuerName": "./node_modules/react-static/lib/client/components/Prefetch.js",
+      "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/react-static/lib/client/components/SiteData.js",
+      "issuerId": 114,
+      "issuerName": "./node_modules/react-static/lib/client/components/SiteData.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -13338,9 +13338,9 @@
         4
       ],
       "assets": [],
-      "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/history/createHashHistory.js",
-      "issuerId": 121,
-      "issuerName": "./node_modules/history/createHashHistory.js",
+      "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/history/createBrowserHistory.js",
+      "issuerId": 119,
+      "issuerName": "./node_modules/history/createBrowserHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -13658,7 +13658,7 @@
       "name": "./src/containers/Ping.js",
       "index": 156,
       "index2": 155,
-      "size": 4479,
+      "size": 4325,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -13697,7 +13697,7 @@
       "providedExports": null,
       "optimizationBailout": [],
       "depth": 3,
-      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _reactStatic = require('react-static');\n\nvar _ShareLinks = require('../components/ShareLinks');\n\nvar _ShareLinks2 = _interopRequireDefault(_ShareLinks);\n\nvar _PingHeader = require('../components/PingHeader');\n\nvar _PingHeader2 = _interopRequireDefault(_PingHeader);\n\nvar _Button = require('../components/Button');\n\nvar _apexPing = require('../assets/apex-ping.jpg');\n\nvar _apexPing2 = _interopRequireDefault(_apexPing);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n// components\nvar PromoPage = _styledComponents2.default.div.withConfig({\n  displayName: 'Ping__PromoPage',\n  componentId: 'sc-1oaoljz-0'\n})(['display:block;height:100%;.container{max-width:620px;margin:0 auto;padding-top:35px;padding-left:20px;padding-right:20px;color:#3B3E48;}h2{font-size:20px;font-weight:normal;}ul{font-size:14px;line-height:22px;list-style:disc;padding-left:18px;}div[class*=\"ShareLinks\"]{margin-top:40px;margin-bottom:40px;}']);\n\nvar Desc = _styledComponents2.default.p.withConfig({\n  displayName: 'Ping__Desc',\n  componentId: 'sc-1oaoljz-1'\n})(['color:#3B3E48;font-size:16px;line-height:1.6;margin-top:0;margin-bottom:25px;']);\n\nvar desc = 'La igualdad de PING es la lucha por otorgar derechos fundamentales a millones de jugadores que actualmente no pueden experimentar sus juegos favoritos con una latencia menor a los 100 ms';\nvar title = 'Merecemos un mejor PING';\n\nexports.default = function () {\n  return _react2.default.createElement(\n    PromoPage,\n    null,\n    _react2.default.createElement(\n      _reactStatic.Head,\n      null,\n      _react2.default.createElement(\n        'title',\n        null,\n        title\n      ),\n      _react2.default.createElement('meta', { name: 'description', content: desc }),\n      _react2.default.createElement('meta', { name: 'keywords', content: 'FPS, Apex, COD MW2, twitch, jgatjens, League of Legends, Games' }),\n      _react2.default.createElement('meta', { name: 'author', content: 'jgatjens' }),\n      _react2.default.createElement('meta', { property: 'og:type', content: 'website' }),\n      _react2.default.createElement('meta', { property: 'og:title', content: title }),\n      _react2.default.createElement('meta', { property: 'og:description', content: desc }),\n      _react2.default.createElement('meta', { property: 'og:image', content: _apexPing2.default }),\n      _react2.default.createElement('meta', { name: 'twitter:card', content: 'summary_large_image' }),\n      _react2.default.createElement('meta', { name: 'twitter:site', content: '@jgatjens' }),\n      _react2.default.createElement('meta', { name: 'twitter:creator', content: '@jgatjens' }),\n      _react2.default.createElement('meta', { name: 'twitter:title', content: title }),\n      _react2.default.createElement('meta', { name: 'twitter:description', content: desc }),\n      _react2.default.createElement('meta', { name: 'twitter:image', content: _apexPing2.default })\n    ),\n    _react2.default.createElement(_PingHeader2.default, { title: title }),\n    _react2.default.createElement(\n      'div',\n      { className: 'container' },\n      _react2.default.createElement(\n        Desc,\n        null,\n        'La igualdad de PING es la lucha por otorgar derechos fundamentales a millones de jugadores que actualmente no pueden experimentar sus juegos favoritos con una latencia menor a los 100 ms, Queremos formular una pregunta simple:'\n      ),\n      _react2.default.createElement(\n        'h2',\n        null,\n        'Por que EA, Steam y Battle.net tienen servers en Sur y Norte America pero aqui en America central NO?'\n      ),\n      _react2.default.createElement(\n        Desc,\n        null,\n        'La comunidad gamer latina alza su voz por esta causa, La desigualdad de PING equivale al estancamiento del progreso de nuestra comunidad a nivel competitivo y casual. Ayudanos con un click y tu firma para juntos lograr un cambio.'\n      ),\n      _react2.default.createElement(\n        _Button.Button,\n        { href: 'https://secure.avaaz.org/es/community_petitions/EA_La_igualdad_de_PING', target: '_blank' },\n        'Necesitamos tu ayuda'\n      ),\n      _react2.default.createElement(_ShareLinks2.default, null)\n    )\n  );\n};"
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _styledComponents = require('styled-components');\n\nvar _styledComponents2 = _interopRequireDefault(_styledComponents);\n\nvar _reactStatic = require('react-static');\n\nvar _ShareLinks = require('../components/ShareLinks');\n\nvar _ShareLinks2 = _interopRequireDefault(_ShareLinks);\n\nvar _PingHeader = require('../components/PingHeader');\n\nvar _PingHeader2 = _interopRequireDefault(_PingHeader);\n\nvar _Button = require('../components/Button');\n\nvar _apexPing = require('../assets/apex-ping.jpg');\n\nvar _apexPing2 = _interopRequireDefault(_apexPing);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n// components\nvar PromoPage = _styledComponents2.default.div.withConfig({\n  displayName: 'Ping__PromoPage',\n  componentId: 'sc-1oaoljz-0'\n})(['display:block;height:100%;.container{max-width:620px;margin:0 auto;padding-top:35px;padding-left:20px;padding-right:20px;color:#3B3E48;}h2{font-size:20px;font-weight:normal;}ul{font-size:14px;line-height:22px;list-style:disc;padding-left:18px;}div[class*=\"ShareLinks\"]{margin-top:40px;margin-bottom:40px;}']);\n\nvar Desc = _styledComponents2.default.p.withConfig({\n  displayName: 'Ping__Desc',\n  componentId: 'sc-1oaoljz-1'\n})(['color:#3B3E48;font-size:16px;line-height:1.6;margin-top:0;margin-bottom:25px;']);\n\nvar desc = 'La igualdad de PING es la lucha por otorgar derechos fundamentales a millones de jugadores que actualmente no pueden experimentar sus juegos favoritos con una latencia menor a los 100 ms';\nvar title = 'Merecemos un mejor PING';\n\nexports.default = function (props) {\n  console.log(props);\n  return _react2.default.createElement(\n    PromoPage,\n    null,\n    _react2.default.createElement(\n      _reactStatic.Head,\n      null,\n      _react2.default.createElement(\n        'title',\n        null,\n        title\n      ),\n      _react2.default.createElement('meta', { name: 'description', content: desc }),\n      _react2.default.createElement('meta', { name: 'keywords', content: 'FPS, Apex, COD MW2, twitch, jgatjens, League of Legends, Games' }),\n      _react2.default.createElement('meta', { name: 'author', content: 'jgatjens' }),\n      _react2.default.createElement('meta', { property: 'og:type', content: 'website' }),\n      _react2.default.createElement('meta', { property: 'og:title', content: title }),\n      _react2.default.createElement('meta', { property: 'og:description', content: desc }),\n      _react2.default.createElement('meta', { property: 'og:image', content: _apexPing2.default }),\n      _react2.default.createElement('meta', { name: 'twitter:card', content: 'summary_large_image' }),\n      _react2.default.createElement('meta', { name: 'twitter:site', content: '@jgatjens' }),\n      _react2.default.createElement('meta', { name: 'twitter:creator', content: '@jgatjens' }),\n      _react2.default.createElement('meta', { name: 'twitter:image', content: _apexPing2.default })\n    ),\n    _react2.default.createElement(_PingHeader2.default, { title: title }),\n    _react2.default.createElement(\n      'div',\n      { className: 'container' },\n      _react2.default.createElement(\n        Desc,\n        null,\n        'La igualdad de PING es la lucha por otorgar derechos fundamentales a millones de jugadores que actualmente no pueden experimentar sus juegos favoritos con una latencia menor a los 100 ms, Queremos formular una pregunta simple:'\n      ),\n      _react2.default.createElement(\n        'h2',\n        null,\n        'Por que EA, Steam y Battle.net tienen servers en Sur y Norte America pero aqui en America central NO?'\n      ),\n      _react2.default.createElement(\n        Desc,\n        null,\n        'La comunidad gamer latina alza su voz por esta causa, La desigualdad de PING equivale al estancamiento del progreso de nuestra comunidad a nivel competitivo y casual. Ayudanos con un click y tu firma para juntos lograr un cambio.'\n      ),\n      _react2.default.createElement(\n        _Button.Button,\n        { href: 'https://secure.avaaz.org/es/community_petitions/EA_La_igualdad_de_PING', target: '_blank' },\n        'Necesitamos tu ayuda'\n      ),\n      _react2.default.createElement(_ShareLinks2.default, null)\n    )\n  );\n};"
     },
     {
       "id": 54,
@@ -17227,9 +17227,9 @@
         3
       ],
       "assets": [],
-      "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/Users/jgatjens/Desktop/dev/jgatjens.github.io/src/containers/Ping.js",
-      "issuerId": 53,
-      "issuerName": "./src/containers/Ping.js",
+      "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/Users/jgatjens/Desktop/dev/jgatjens.github.io/src/containers/Home.js",
+      "issuerId": 51,
+      "issuerName": "./src/containers/Home.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -17634,9 +17634,9 @@
       "assets": [
         "static/header-left.57ece537.png"
       ],
-      "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/Users/jgatjens/Desktop/dev/jgatjens.github.io/src/components/PingHeader.js",
-      "issuerId": 158,
-      "issuerName": "./src/components/PingHeader.js",
+      "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/Users/jgatjens/Desktop/dev/jgatjens.github.io/src/components/PromoHeader.js",
+      "issuerId": 155,
+      "issuerName": "./src/components/PromoHeader.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -17684,9 +17684,9 @@
       "assets": [
         "static/header-right.9d75552f.png"
       ],
-      "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/Users/jgatjens/Desktop/dev/jgatjens.github.io/src/components/PingHeader.js",
-      "issuerId": 158,
-      "issuerName": "./src/components/PingHeader.js",
+      "issuer": "/Users/jgatjens/Desktop/dev/jgatjens.github.io/node_modules/babel-loader/lib/index.js??ref--0-oneOf-0-0!/Users/jgatjens/Desktop/dev/jgatjens.github.io/src/components/PromoHeader.js",
+      "issuerId": 155,
+      "issuerName": "./src/components/PromoHeader.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,

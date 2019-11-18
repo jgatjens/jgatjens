@@ -67,7 +67,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/";
+/******/ 	__webpack_require__.p = "https://jgatjens.com/";
 /******/
 /******/ 	// Load entry module and return exports
 /******/ 	return __webpack_require__(__webpack_require__.s = 20);
@@ -870,7 +870,8 @@ var Desc = _styledComponents2.default.p.withConfig({
 var desc = 'La igualdad de PING es la lucha por otorgar derechos fundamentales a millones de jugadores que actualmente no pueden experimentar sus juegos favoritos con una latencia menor a los 100 ms';
 var title = 'Merecemos un mejor PING';
 
-exports.default = function () {
+exports.default = function (props) {
+  console.log(props);
   return _react2.default.createElement(
     PromoPage,
     null,
@@ -892,8 +893,6 @@ exports.default = function () {
       _react2.default.createElement('meta', { name: 'twitter:card', content: 'summary_large_image' }),
       _react2.default.createElement('meta', { name: 'twitter:site', content: '@jgatjens' }),
       _react2.default.createElement('meta', { name: 'twitter:creator', content: '@jgatjens' }),
-      _react2.default.createElement('meta', { name: 'twitter:title', content: title }),
-      _react2.default.createElement('meta', { name: 'twitter:description', content: desc }),
       _react2.default.createElement('meta', { name: 'twitter:image', content: _apexPing2.default })
     ),
     _react2.default.createElement(_PingHeader2.default, { title: title }),
@@ -2214,4 +2213,4 @@ module.exports = __webpack_require__.p + "static/apex-ping.69d8c1ad.jpg";
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.b30306d8.js.map
+//# sourceMappingURL=static.fe74d87d.js.map
