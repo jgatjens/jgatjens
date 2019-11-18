@@ -70,7 +70,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.p = "/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 17);
+/******/ 	return __webpack_require__(__webpack_require__.s = 20);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -93,34 +93,6 @@ module.exports = require("react-static");
 
 /***/ }),
 /* 3 */
-/***/ (function(module, exports) {
-
-module.exports = function(module) {
-	if(!module.webpackPolyfill) {
-		module.deprecate = function() {};
-		module.paths = [];
-		// module.parent = undefined by default
-		if(!module.children) module.children = [];
-		Object.defineProperty(module, "loaded", {
-			enumerable: true,
-			get: function() {
-				return module.l;
-			}
-		});
-		Object.defineProperty(module, "id", {
-			enumerable: true,
-			get: function() {
-				return module.i;
-			}
-		});
-		module.webpackPolyfill = 1;
-	}
-	return module;
-};
-
-
-/***/ }),
-/* 4 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -199,7 +171,41 @@ exports.default = function () {
 };
 
 /***/ }),
+/* 4 */
+/***/ (function(module, exports) {
+
+module.exports = function(module) {
+	if(!module.webpackPolyfill) {
+		module.deprecate = function() {};
+		module.paths = [];
+		// module.parent = undefined by default
+		if(!module.children) module.children = [];
+		Object.defineProperty(module, "loaded", {
+			enumerable: true,
+			get: function() {
+				return module.l;
+			}
+		});
+		Object.defineProperty(module, "id", {
+			enumerable: true,
+			get: function() {
+				return module.i;
+			}
+		});
+		module.webpackPolyfill = 1;
+	}
+	return module;
+};
+
+
+/***/ }),
 /* 5 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/jgatjens.a21b6ebb.jpg";
+
+/***/ }),
+/* 6 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -313,16 +319,16 @@ var loadFromPromiseCache = exports.loadFromPromiseCache = function loadFromPromi
 var cacheProm = exports.cacheProm = function cacheProm(pr, chunkName, props, promisecache) {
   return promisecache[callForString(chunkName, props)] = pr;
 };
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)(module)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
 
 /***/ }),
-/* 6 */
+/* 7 */
 /***/ (function(module, exports) {
 
 module.exports = require("prop-types");
 
 /***/ }),
-/* 7 */
+/* 8 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -342,27 +348,27 @@ var _styledComponents = __webpack_require__(1);
 
 var _styledComponents2 = _interopRequireDefault(_styledComponents);
 
-var _Profile = __webpack_require__(31);
+var _Profile = __webpack_require__(9);
 
 var _Profile2 = _interopRequireDefault(_Profile);
 
-var _SkillList = __webpack_require__(32);
+var _SkillList = __webpack_require__(10);
 
 var _SkillList2 = _interopRequireDefault(_SkillList);
 
-var _ShareLinks = __webpack_require__(4);
+var _ShareLinks = __webpack_require__(3);
 
 var _ShareLinks2 = _interopRequireDefault(_ShareLinks);
 
-var _Footer = __webpack_require__(33);
+var _Footer = __webpack_require__(12);
 
 var _Footer2 = _interopRequireDefault(_Footer);
 
-var _ForkMe = __webpack_require__(34);
+var _ForkMe = __webpack_require__(13);
 
 var _ForkMe2 = _interopRequireDefault(_ForkMe);
 
-var _jgatjens = __webpack_require__(8);
+var _jgatjens = __webpack_require__(5);
 
 var _jgatjens2 = _interopRequireDefault(_jgatjens);
 
@@ -392,18 +398,19 @@ exports.default = function () {
         'Jairo G\xE4tjens - Website'
       ),
       _react2.default.createElement('meta', { name: 'description', content: 'I\'m an experienced Full-Stack Developer based in Costa Rica.' }),
-      _react2.default.createElement('meta', { name: 'keywords', content: 'Website, Resume, Profile, Github, HTML, CSS, JavaScript' }),
+      _react2.default.createElement('meta', { name: 'keywords', content: 'Website, Resume, Profile, Github, HTML, CSS, JavaScript, Nodejs, React, Angular' }),
       _react2.default.createElement('meta', { name: 'author', content: 'Jairo G\xE4tjens' }),
       _react2.default.createElement('link', { rel: 'icon', href: '/favicon.ico', type: 'image/x-icon' }),
       _react2.default.createElement('meta', { property: 'og:type', content: 'website' }),
+      _react2.default.createElement('meta', { property: 'og:url', content: 'http://jgatjens.com/' }),
       _react2.default.createElement('meta', { property: 'og:title', content: 'Jairo G\xE4tjens' }),
-      _react2.default.createElement('meta', { property: 'og:description', content: 'I\'m an experienced Software Developer based in Costa Rica.' }),
+      _react2.default.createElement('meta', { property: 'og:description', content: 'I\'m an experienced Full-Stack Developer based in Costa Rica.' }),
       _react2.default.createElement('meta', { property: 'og:image', content: _jgatjens2.default }),
       _react2.default.createElement('meta', { name: 'twitter:card', content: 'summary_large_image' }),
       _react2.default.createElement('meta', { name: 'twitter:site', content: '@jgatjens' }),
       _react2.default.createElement('meta', { name: 'twitter:creator', content: '@jgatjens' }),
       _react2.default.createElement('meta', { name: 'twitter:title', content: 'Website Jairo Gatjens' }),
-      _react2.default.createElement('meta', { name: 'twitter:description', content: 'Jairo Gatjens has been web developer for 8 years, and is currently a Front End Lead in Costa Rica. He received his degree in Computer Science in 2009. Some of his current responsibilities are: developing quality software, participating in the architecture phase and serving as the platform lead on projects, advising and mentoring fellow developers, assisting in the definition of technology standards and best practices.' }),
+      _react2.default.createElement('meta', { name: 'twitter:description', content: 'Jairo Gatjens has been web developer for 10 years, and is currently a Front End Lead in Costa Rica. He received his degree in Computer Science in 2009. Some of his current responsibilities are: developing quality software, participating in the architecture phase and serving as the platform lead on projects, advising and mentoring fellow developers, assisting in the definition of technology standards and best practices.' }),
       _react2.default.createElement('meta', { name: 'twitter:image', content: _jgatjens2.default })
     ),
     _react2.default.createElement(_ForkMe2.default, null),
@@ -412,9 +419,9 @@ exports.default = function () {
     _react2.default.createElement(
       Desc,
       null,
-      'Experienced Software  ',
+      'Experienced Full-Stack  ',
       _react2.default.createElement('br', null),
-      'Full-Stack Developer based in Costa Rica..'
+      'Developer based in Costa Rica..'
     ),
     _react2.default.createElement(_ShareLinks2.default, null),
     _react2.default.createElement(_Footer2.default, null)
@@ -422,13 +429,120 @@ exports.default = function () {
 };
 
 /***/ }),
-/* 8 */
+/* 9 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "static/jgatjens.a21b6ebb.jpg";
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _styledComponents = __webpack_require__(1);
+
+var _styledComponents2 = _interopRequireDefault(_styledComponents);
+
+var _jgatjens = __webpack_require__(5);
+
+var _jgatjens2 = _interopRequireDefault(_jgatjens);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Logo = _styledComponents2.default.img.withConfig({
+  displayName: 'Profile__Logo',
+  componentId: 'sc-9a693q-0'
+})(['margin:0 auto;background-color:#F2F2F2;display:block;width:200px;height:200px;']);
+
+var Title = _styledComponents2.default.h1.withConfig({
+  displayName: 'Profile__Title',
+  componentId: 'sc-9a693q-1'
+})(['margin:0.67em 0;color:#3B3E48;font-size:22px;font-weight:500;word-spacing:2px;small{padding-top:5px;display:block;font-weight:200;color:#777777;font-size:13px;}']);
+
+var Picture = _styledComponents2.default.div.withConfig({
+  displayName: 'Profile__Picture',
+  componentId: 'sc-9a693q-2'
+})(['text-align:center;']);
+
+exports.default = function () {
+  return _react2.default.createElement(
+    Picture,
+    null,
+    _react2.default.createElement(Logo, { src: _jgatjens2.default, alt: 'Jairo Gatjens' }),
+    _react2.default.createElement(
+      Title,
+      null,
+      'Jairo G\xE4tjens ',
+      _react2.default.createElement(
+        'small',
+        null,
+        'Heredia, Costa Rica'
+      )
+    )
+  );
+};
 
 /***/ }),
-/* 9 */
+/* 10 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _styledComponents = __webpack_require__(1);
+
+var _styledComponents2 = _interopRequireDefault(_styledComponents);
+
+var _Button = __webpack_require__(11);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var SkillList = _styledComponents2.default.div.withConfig({
+  displayName: 'SkillList',
+  componentId: 'sc-1qnmrb0-0'
+})(['padding-top:10px;text-align:center;']);
+
+exports.default = function () {
+  return _react2.default.createElement(
+    SkillList,
+    null,
+    _react2.default.createElement(
+      _Button.Button,
+      { href: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/', target: '_blank' },
+      'Javascript'
+    ),
+    _react2.default.createElement(
+      _Button.Button,
+      { href: 'https://nodejs.org/', target: '_blank' },
+      'Nodejs'
+    ),
+    _react2.default.createElement(
+      _Button.Button,
+      { href: 'https://facebook.github.io/react-native/', target: '_blank' },
+      'Mobile'
+    ),
+    _react2.default.createElement(
+      _Button.Button,
+      { active: true, href: 'https://www.linkedin.com/in/jgatjens?trk=hp-identity-photo#background-skills-container', target: '_blank' },
+      '+10'
+    )
+  );
+};
+
+/***/ }),
+/* 11 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -453,7 +567,85 @@ var Button = exports.Button = _styledComponents2.default.a.withConfig({
 });
 
 /***/ }),
-/* 10 */
+/* 12 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _styledComponents = __webpack_require__(1);
+
+var _styledComponents2 = _interopRequireDefault(_styledComponents);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Footer = _styledComponents2.default.div.withConfig({
+  displayName: 'Footer',
+  componentId: 'sc-1qy0s7h-0'
+})(['text-decoration:none;text-transform:uppercase;color:#3B3E49;display:inline-block;width:100%;text-align:center;.line{margin:40px auto 20px auto;height:1px;display:block;width:150px;background-color:#E6E7E9;}a{text-decoration:none;text-transform:uppercase;color:#3B3E49;padding:10px 0;display:block;font-weight:800;}']);
+
+exports.default = function () {
+  return _react2.default.createElement(
+    Footer,
+    null,
+    _react2.default.createElement('div', { className: 'line' }),
+    _react2.default.createElement(
+      'a',
+      { href: 'mailto:jgatjens@gmail.com' },
+      'Hire me'
+    )
+  );
+};
+
+/***/ }),
+/* 13 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _styledComponents = __webpack_require__(1);
+
+var _styledComponents2 = _interopRequireDefault(_styledComponents);
+
+var _forkme = __webpack_require__(34);
+
+var _forkme2 = _interopRequireDefault(_forkme);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var ForkMe = _styledComponents2.default.a.withConfig({
+    displayName: 'ForkMe',
+    componentId: 'sc-1kd4ieh-0'
+})(['  position:absolute;top:0;right:0;border:0;']);
+
+exports.default = function () {
+    return _react2.default.createElement(
+        ForkMe,
+        { href: 'https://github.com/jgatjens/jgatjens.github.io/tree/develop' },
+        _react2.default.createElement('img', { src: _forkme2.default, alt: 'Fork me on GitHub',
+            datacanonicalsrc: 'https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png' })
+    );
+};
+
+/***/ }),
+/* 14 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -473,23 +665,23 @@ var _styledComponents2 = _interopRequireDefault(_styledComponents);
 
 var _reactStatic = __webpack_require__(2);
 
-var _ShareLinks = __webpack_require__(4);
+var _ShareLinks = __webpack_require__(3);
 
 var _ShareLinks2 = _interopRequireDefault(_ShareLinks);
 
-var _PromoHeader = __webpack_require__(36);
+var _PromoHeader = __webpack_require__(35);
 
 var _PromoHeader2 = _interopRequireDefault(_PromoHeader);
 
-var _Schedule = __webpack_require__(37);
+var _Schedule = __webpack_require__(36);
 
 var _Schedule2 = _interopRequireDefault(_Schedule);
 
-var _sharePromo = __webpack_require__(14);
+var _sharePromo = __webpack_require__(37);
 
 var _sharePromo2 = _interopRequireDefault(_sharePromo);
 
-var _config = __webpack_require__(11);
+var _config = __webpack_require__(15);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -505,6 +697,8 @@ var Desc = _styledComponents2.default.p.withConfig({
   displayName: 'Promo__Desc',
   componentId: 'sc-1chc8xc-1'
 })(['color:#3B3E48;font-size:16px;line-height:1.4;margin-top:0;margin-bottom:25px;']);
+
+var content = 'Ganador ' + _config.winner;
 
 exports.default = function () {
   return _react2.default.createElement(
@@ -523,13 +717,13 @@ exports.default = function () {
       _react2.default.createElement('meta', { name: 'keywords', content: 'Promo, twitch, jgatjens, Lol, League of Legends, Games' }),
       _react2.default.createElement('meta', { name: 'author', content: 'Ganador ' }),
       _react2.default.createElement('meta', { property: 'og:type', content: 'website' }),
-      _react2.default.createElement('meta', { property: 'og:title', content: "Ganador" + _config.winner }),
+      _react2.default.createElement('meta', { property: 'og:title', content: content }),
       _react2.default.createElement('meta', { property: 'og:description', content: 'Estaremos sorteando un skin de League of legends cada semana en el stream de los viernes a las 9:00 pm (-06  CST)' }),
       _react2.default.createElement('meta', { property: 'og:image', content: _sharePromo2.default }),
       _react2.default.createElement('meta', { name: 'twitter:card', content: 'summary_large_image' }),
       _react2.default.createElement('meta', { name: 'twitter:site', content: '@jgatjens' }),
       _react2.default.createElement('meta', { name: 'twitter:creator', content: '@jgatjens' }),
-      _react2.default.createElement('meta', { name: 'twitter:title', content: "Ganador " + _config.winner }),
+      _react2.default.createElement('meta', { name: 'twitter:title', content: content }),
       _react2.default.createElement('meta', { name: 'twitter:description', content: 'Estaremos sorteando un skin de League of legends cada semana en el stream de los viernes a las 9:00 pm (-06  CST)' }),
       _react2.default.createElement('meta', { name: 'twitter:image', content: _sharePromo2.default }),
       _react2.default.createElement('link', { href: 'data:image/x-icon;base64,AAABAAEAEBAAAAAAAABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAACGNwgAxloDAHcTAAAVFRoAWrzFAGkrAABGproAUXaOAClxkgAPO14ADgAAAMVkDwAfWXgAkD4CAB9aewA7a4kAmDsCANqHHQDhiA4AJBogADmUuwA2lsEAiR8AAH4sDAA8dZUAhygAAA9OfAAtX4EAOFxvAJEoAABkhpoAsTsCADFoigBnip0ANQAAAEIgFwCUNAAAy2AEADVmjQA/zP8AQqjTACJYdgAdXn8AzGYNAECv3wCTPRIAOBADAEet2QC1HAAAeSsTADQTFQBXJBoAL2B8AIwkBwCFLgoAMWCFAL0oAACGLxYAxF8CABwQFgAYFBkACF2YALw0AAAiDxMAQKbOAAc/bADcdR8APqnXANJcAgAwcZQABkdyABp+sgAfXX0AUYCcACpVdwAtl88AyDoAADdzkQBBbZEAMxsTACdqiQBqIQAAMmV6ADFjhgBEGxMAx2QAAMpfAwAolMcAdCcAADVrjAA6TU4AskwBADRyhgDDbgwAOWmPAD+r3gDHYRsAJ3qeAJw0AgAkGB0AaSwqAC4VFADLZxsANneVACtZewCLHgAAMBkXAIYmBgA2FRQAhSESACVmhwAHNF8AK2OHAKJJAgBqRS0AKQUAAJAqAABEFg4AjjMAAEEZFwCONgAARxUUABtXdgBEGRcAWXd6AJonAABDHBcALW+QADhKTwDYgxUAMnKHADdojQCbNgAAIxobAHokCgCYPwAAIV98AEWu1gC9SQIAPgsAAC9bcAAjZYUASG6EAKc5AAACNGAAsy0AADl9nwAba6AAzXMlAIcwCgAgi8kATrXiAAEiNAC9LQAAizUHAMchAABZBgMAQ8f0AEYYFQAvcpEANa3vAA9imAA5cpEAUbDCAOqFCgC5VQMAz20dACVmiQBSJycAMGCAAAk1WwA3HBkALmKGANxsEQA7GxYAP6HDADyAoAAgL0AAJA0RAB9YcgCDDwMAgRAGADNvkgA9bn0AfCMAADFzlQBRGhMAhCAAAAArWQA5dZIAL57WACFpigAnHywAKWV+AB5MagAAAAcAohoAAK9FAgDTdicAK6v0AEmkuwAqcZAAMWqNACVWbQCIPBUATKi+AHMmEwAHQ30Akj0PACwUFQB1KxAAOW2WAEBsigDUaAcA0G4HAKQ1AAB8JhMAQXWBACRDUACiOwAANhcVACodJwA1GxgA2HEHAAoyXQAkbY4AVAQAAHYRAgCtPwMAMSItAFu9xwAeERYAxmEFAC5tjgAwq+wADzpjAEOtxQAkERYAJxATAEgdFQBuLggAbygRAEyqvAAudpcAwUQAABpfkgBCLiQAMxMTAAQtWACkMRAAtloMADx+iwAjaIkAhisIAFeKpQAzYncAgv4eIUkYvaJZIMq2RemwXMmo2G21nLTjNWuaAJX5ZAhQsiKYerOMy/+32ftaTM6/4XuZI6FLV76g6scn7Ls5Z/zc9Bm8FRTPQUY9lp1yLU2N7j6R+EDmwwpzLsBHfBduKvebxJCJBIsfrUQdddozSIhsMGlvL6MxQqQSXXbw9gzBVDi465fI8ZTfgRHVik8OUq59JAksBtJmVlXWJddlKRw8UYeqQ/LMxis66AHbasKOAwUN4CjN0KYLpVvFhN6pB4WP/Rpfr4Zg+nEQYnSr1A/R4oBh9ZOxNuR4WBYCP1OD3TITO+ftY3e6736eeeUmStNeTjdoG6xwp3+585+SNAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=', rel: 'icon', type: 'image/x-icon' })
@@ -544,7 +738,7 @@ exports.default = function () {
         'Estaremos sorteando un skin de',
         _react2.default.createElement(
           'a',
-          { href: 'https://lan.leagueoflegends.com/es/', target: '_blank' },
+          { href: 'https://lan.leagueoflegends.com/es/', rel: 'noopener noreferrer', target: '_blank' },
           'League of Legends'
         ),
         ' cada semana.'
@@ -561,10 +755,10 @@ exports.default = function () {
         _react2.default.createElement(
           'li',
           null,
-          'Ser follower del stream ',
+          'Ser follower del stream',
           _react2.default.createElement(
             'a',
-            { href: 'https://www.twitch.tv/jgatjens', target: '_blank' },
+            { href: 'https://www.twitch.tv/jgatjens', rel: 'noopener noreferrer', target: '_blank' },
             'https://www.twitch.tv/jgatjens'
           ),
           '.'
@@ -601,7 +795,7 @@ exports.default = function () {
 };
 
 /***/ }),
-/* 11 */
+/* 15 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -614,25 +808,19 @@ var winner = exports.winner = 'tripyboy';
 var urlWinner = exports.urlWinner = 'https://lol.mobalytics.gg/summoner/lan/tripyboy';
 
 /***/ }),
-/* 12 */
+/* 16 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/header-left.57ece537.png";
 
 /***/ }),
-/* 13 */
+/* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/header-right.9d75552f.png";
 
 /***/ }),
-/* 14 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/share-promo.1de58934.png";
-
-/***/ }),
-/* 15 */
+/* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -652,7 +840,7 @@ var _styledComponents2 = _interopRequireDefault(_styledComponents);
 
 var _reactStatic = __webpack_require__(2);
 
-var _ShareLinks = __webpack_require__(4);
+var _ShareLinks = __webpack_require__(3);
 
 var _ShareLinks2 = _interopRequireDefault(_ShareLinks);
 
@@ -660,11 +848,11 @@ var _PingHeader = __webpack_require__(38);
 
 var _PingHeader2 = _interopRequireDefault(_PingHeader);
 
-var _Button = __webpack_require__(9);
+var _Button = __webpack_require__(11);
 
-var _sharePromo = __webpack_require__(14);
+var _apexPing = __webpack_require__(39);
 
-var _sharePromo2 = _interopRequireDefault(_sharePromo);
+var _apexPing2 = _interopRequireDefault(_apexPing);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -700,13 +888,13 @@ exports.default = function () {
       _react2.default.createElement('meta', { property: 'og:type', content: 'website' }),
       _react2.default.createElement('meta', { property: 'og:title', content: title }),
       _react2.default.createElement('meta', { property: 'og:description', content: desc }),
-      _react2.default.createElement('meta', { property: 'og:image', content: _sharePromo2.default }),
+      _react2.default.createElement('meta', { property: 'og:image', content: _apexPing2.default }),
       _react2.default.createElement('meta', { name: 'twitter:card', content: 'summary_large_image' }),
       _react2.default.createElement('meta', { name: 'twitter:site', content: '@jgatjens' }),
       _react2.default.createElement('meta', { name: 'twitter:creator', content: '@jgatjens' }),
       _react2.default.createElement('meta', { name: 'twitter:title', content: title }),
       _react2.default.createElement('meta', { name: 'twitter:description', content: desc }),
-      _react2.default.createElement('meta', { name: 'twitter:image', content: _sharePromo2.default })
+      _react2.default.createElement('meta', { name: 'twitter:image', content: _apexPing2.default })
     ),
     _react2.default.createElement(_PingHeader2.default, { title: title }),
     _react2.default.createElement(
@@ -738,7 +926,7 @@ exports.default = function () {
 };
 
 /***/ }),
-/* 16 */
+/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -752,24 +940,90 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+var _reactStatic = __webpack_require__(2);
+
+var _styledComponents = __webpack_require__(1);
+
+var _styledComponents2 = _interopRequireDefault(_styledComponents);
+
+var _Profile = __webpack_require__(9);
+
+var _Profile2 = _interopRequireDefault(_Profile);
+
+var _SkillList = __webpack_require__(10);
+
+var _SkillList2 = _interopRequireDefault(_SkillList);
+
+var _ShareLinks = __webpack_require__(3);
+
+var _ShareLinks2 = _interopRequireDefault(_ShareLinks);
+
+var _Footer = __webpack_require__(12);
+
+var _Footer2 = _interopRequireDefault(_Footer);
+
+var _ForkMe = __webpack_require__(13);
+
+var _ForkMe2 = _interopRequireDefault(_ForkMe);
+
+var _jgatjens = __webpack_require__(5);
+
+var _jgatjens2 = _interopRequireDefault(_jgatjens);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-//
+// components
+var Desc = _styledComponents2.default.p.withConfig({
+  displayName: 'sc-404__Desc',
+  componentId: 'sc-155dma4-0'
+})(['margin:0;padding:15px 0 25px 0;line-height:22px;font-weight:200;color:#777777;font-size:13px;text-align:center;']);
+
+var HomePage = _styledComponents2.default.div.withConfig({
+  displayName: 'sc-404__HomePage',
+  componentId: 'sc-155dma4-1'
+})(['display:flex;align-items:center;align-items:center;height:100%;flex-direction:column;justify-content:center;']);
 
 exports.default = function () {
   return _react2.default.createElement(
-    'div',
+    HomePage,
     null,
     _react2.default.createElement(
-      'h1',
+      _reactStatic.Head,
+      null,
+      _react2.default.createElement(
+        'title',
+        null,
+        'Jairo G\xE4tjens - Website'
+      ),
+      _react2.default.createElement('meta', { name: 'description', content: 'I\'m an experienced Full-Stack Developer based in Costa Rica.' }),
+      _react2.default.createElement('meta', { name: 'keywords', content: 'Website, Resume, Profile, Github, HTML, CSS, JavaScript, Nodejs, React, Angular' }),
+      _react2.default.createElement('meta', { name: 'author', content: 'Jairo G\xE4tjens' }),
+      _react2.default.createElement('link', { rel: 'icon', href: '/favicon.ico', type: 'image/x-icon' }),
+      _react2.default.createElement('meta', { property: 'og:type', content: 'website' }),
+      _react2.default.createElement('meta', { property: 'og:url', content: 'http://jgatjens.com/' }),
+      _react2.default.createElement('meta', { property: 'og:title', content: 'Jairo G\xE4tjens' }),
+      _react2.default.createElement('meta', { property: 'og:description', content: 'I\'m an experienced Full-Stack Developer based in Costa Rica.' }),
+      _react2.default.createElement('meta', { property: 'og:image', content: _jgatjens2.default }),
+      _react2.default.createElement('meta', { name: 'twitter:card', content: 'summary_large_image' }),
+      _react2.default.createElement('meta', { name: 'twitter:site', content: '@jgatjens' }),
+      _react2.default.createElement('meta', { name: 'twitter:creator', content: '@jgatjens' }),
+      _react2.default.createElement('meta', { name: 'twitter:title', content: 'Website Jairo Gatjens' }),
+      _react2.default.createElement('meta', { name: 'twitter:description', content: 'Jairo Gatjens has been web developer for 8 years, and is currently a Front End Lead in Costa Rica. He received his degree in Computer Science in 2009. Some of his current responsibilities are: developing quality software, participating in the architecture phase and serving as the platform lead on projects, advising and mentoring fellow developers, assisting in the definition of technology standards and best practices.' }),
+      _react2.default.createElement('meta', { name: 'twitter:image', content: _jgatjens2.default })
+    ),
+    _react2.default.createElement(_ForkMe2.default, null),
+    _react2.default.createElement(
+      Desc,
       null,
       '404 - Oh no\'s! We couldn\'t find that page :('
-    )
+    ),
+    _react2.default.createElement(_ShareLinks2.default, null),
+    _react2.default.createElement(_Footer2.default, null)
   );
 };
 
 /***/ }),
-/* 17 */
+/* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -783,11 +1037,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(18);
+var _reactDom = __webpack_require__(21);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _App = __webpack_require__(19);
+var _App = __webpack_require__(22);
 
 var _App2 = _interopRequireDefault(_App);
 
@@ -812,13 +1066,13 @@ if (typeof document !== 'undefined') {
 }
 
 /***/ }),
-/* 18 */
+/* 21 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-dom");
 
 /***/ }),
-/* 19 */
+/* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -838,13 +1092,13 @@ var _reactStatic = __webpack_require__(2);
 
 var _styledComponents = __webpack_require__(1);
 
-var _styledNormalize = __webpack_require__(20);
+var _styledNormalize = __webpack_require__(23);
 
 var _styledNormalize2 = _interopRequireDefault(_styledNormalize);
 
-var _reactHotLoader = __webpack_require__(21);
+var _reactHotLoader = __webpack_require__(24);
 
-var _reactStaticRoutes = __webpack_require__(22);
+var _reactStaticRoutes = __webpack_require__(25);
 
 var _reactStaticRoutes2 = _interopRequireDefault(_reactStaticRoutes);
 
@@ -865,22 +1119,22 @@ var App = function App() {
 };
 
 exports.default = (0, _reactHotLoader.hot)(module)(App);
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)(module)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
 
 /***/ }),
-/* 20 */
+/* 23 */
 /***/ (function(module, exports) {
 
 module.exports = require("styled-normalize");
 
 /***/ }),
-/* 21 */
+/* 24 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-hot-loader");
 
 /***/ }),
-/* 22 */
+/* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -890,15 +1144,15 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _path2 = __webpack_require__(23);
+var _path2 = __webpack_require__(26);
 
 var _path3 = _interopRequireDefault(_path2);
 
-var _importCss2 = __webpack_require__(24);
+var _importCss2 = __webpack_require__(27);
 
 var _importCss3 = _interopRequireDefault(_importCss2);
 
-var _universalImport2 = __webpack_require__(25);
+var _universalImport2 = __webpack_require__(28);
 
 var _universalImport3 = _interopRequireDefault(_universalImport2);
 
@@ -910,9 +1164,9 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(26);
+var _reactRouterDom = __webpack_require__(29);
 
-var _reactUniversalComponent = __webpack_require__(27);
+var _reactUniversalComponent = __webpack_require__(30);
 
 var _reactUniversalComponent2 = _interopRequireDefault(_reactUniversalComponent);
 
@@ -946,7 +1200,7 @@ var t_0 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
   id: '../src/containers/Home',
   file: '/Users/jgatjens/Desktop/dev/jgatjens.github.io/dist/react-static-routes.js',
   load: function load() {
-    return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 7)), (0, _importCss3.default)('src/containers/Home', {
+    return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 8)), (0, _importCss3.default)('src/containers/Home', {
       disableWarnings: true
     })]).then(function (proms) {
       return proms[0];
@@ -956,7 +1210,7 @@ var t_0 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
     return _path3.default.join(__dirname, '../src/containers/Home');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(7);
+    return /*require.resolve*/(8);
   },
   chunkName: function chunkName() {
     return 'src/containers/Home';
@@ -966,7 +1220,7 @@ var t_1 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
   id: '../src/containers/Promo',
   file: '/Users/jgatjens/Desktop/dev/jgatjens.github.io/dist/react-static-routes.js',
   load: function load() {
-    return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 10)), (0, _importCss3.default)('src/containers/Promo', {
+    return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 14)), (0, _importCss3.default)('src/containers/Promo', {
       disableWarnings: true
     })]).then(function (proms) {
       return proms[0];
@@ -976,7 +1230,7 @@ var t_1 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
     return _path3.default.join(__dirname, '../src/containers/Promo');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(10);
+    return /*require.resolve*/(14);
   },
   chunkName: function chunkName() {
     return 'src/containers/Promo';
@@ -986,7 +1240,7 @@ var t_2 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
   id: '../src/containers/Ping',
   file: '/Users/jgatjens/Desktop/dev/jgatjens.github.io/dist/react-static-routes.js',
   load: function load() {
-    return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 15)), (0, _importCss3.default)('src/containers/Ping', {
+    return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 18)), (0, _importCss3.default)('src/containers/Ping', {
       disableWarnings: true
     })]).then(function (proms) {
       return proms[0];
@@ -996,7 +1250,7 @@ var t_2 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
     return _path3.default.join(__dirname, '../src/containers/Ping');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(15);
+    return /*require.resolve*/(18);
   },
   chunkName: function chunkName() {
     return 'src/containers/Ping';
@@ -1006,7 +1260,7 @@ var t_3 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
   id: '../src/containers/404',
   file: '/Users/jgatjens/Desktop/dev/jgatjens.github.io/dist/react-static-routes.js',
   load: function load() {
-    return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 16)), (0, _importCss3.default)('src/containers/404', {
+    return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 19)), (0, _importCss3.default)('src/containers/404', {
       disableWarnings: true
     })]).then(function (proms) {
       return proms[0];
@@ -1016,7 +1270,7 @@ var t_3 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
     return _path3.default.join(__dirname, '../src/containers/404');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(16);
+    return /*require.resolve*/(19);
   },
   chunkName: function chunkName() {
     return 'src/containers/404';
@@ -1103,31 +1357,31 @@ exports.default = Routes;
 /* WEBPACK VAR INJECTION */}.call(exports, "/"))
 
 /***/ }),
-/* 23 */
+/* 26 */
 /***/ (function(module, exports) {
 
 module.exports = require("path");
 
 /***/ }),
-/* 24 */
+/* 27 */
 /***/ (function(module, exports) {
 
 module.exports = require("babel-plugin-universal-import/importCss");
 
 /***/ }),
-/* 25 */
+/* 28 */
 /***/ (function(module, exports) {
 
 module.exports = require("babel-plugin-universal-import/universalImport");
 
 /***/ }),
-/* 26 */
+/* 29 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-router-dom");
 
 /***/ }),
-/* 27 */
+/* 30 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1142,7 +1396,7 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _requireUniversalModule = __webpack_require__(28);
+var _requireUniversalModule = __webpack_require__(31);
 
 Object.defineProperty(exports, 'CHUNK_NAMES', {
   enumerable: true,
@@ -1157,7 +1411,7 @@ Object.defineProperty(exports, 'MODULE_IDS', {
   }
 });
 
-var _reportChunks = __webpack_require__(29);
+var _reportChunks = __webpack_require__(32);
 
 Object.defineProperty(exports, 'ReportChunks', {
   enumerable: true,
@@ -1170,17 +1424,17 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(6);
+var _propTypes = __webpack_require__(7);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _hoistNonReactStatics = __webpack_require__(30);
+var _hoistNonReactStatics = __webpack_require__(33);
 
 var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 
 var _requireUniversalModule2 = _interopRequireDefault(_requireUniversalModule);
 
-var _utils = __webpack_require__(5);
+var _utils = __webpack_require__(6);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -1471,10 +1725,10 @@ function universal(component) {
   }, _temp;
 }
 exports.default = universal;
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)(module)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
 
 /***/ }),
-/* 28 */
+/* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1486,7 +1740,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.clearChunks = exports.flushModuleIds = exports.flushChunkNames = exports.MODULE_IDS = exports.CHUNK_NAMES = undefined;
 exports.default = requireUniversalModule;
 
-var _utils = __webpack_require__(5);
+var _utils = __webpack_require__(6);
 
 var CHUNK_NAMES = exports.CHUNK_NAMES = new Set();
 var MODULE_IDS = exports.MODULE_IDS = new Set();
@@ -1656,7 +1910,7 @@ var getConfig = function getConfig(isDynamic, universalConfig, options, props) {
 };
 
 /***/ }),
-/* 29 */
+/* 32 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1672,7 +1926,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(6);
+var _propTypes = __webpack_require__(7);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -1719,210 +1973,19 @@ ReportChunks.childContextTypes = {
 exports.default = ReportChunks;
 
 /***/ }),
-/* 30 */
+/* 33 */
 /***/ (function(module, exports) {
 
 module.exports = require("hoist-non-react-statics");
 
 /***/ }),
-/* 31 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _styledComponents = __webpack_require__(1);
-
-var _styledComponents2 = _interopRequireDefault(_styledComponents);
-
-var _jgatjens = __webpack_require__(8);
-
-var _jgatjens2 = _interopRequireDefault(_jgatjens);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var Logo = _styledComponents2.default.img.withConfig({
-  displayName: 'Profile__Logo',
-  componentId: 'sc-9a693q-0'
-})(['margin:0 auto;background-color:#F2F2F2;display:block;width:200px;height:200px;']);
-
-var Title = _styledComponents2.default.h1.withConfig({
-  displayName: 'Profile__Title',
-  componentId: 'sc-9a693q-1'
-})(['margin:0.67em 0;color:#3B3E48;font-size:22px;font-weight:500;word-spacing:2px;small{padding-top:5px;display:block;font-weight:200;color:#777777;font-size:13px;}']);
-
-var Picture = _styledComponents2.default.div.withConfig({
-  displayName: 'Profile__Picture',
-  componentId: 'sc-9a693q-2'
-})(['text-align:center;']);
-
-exports.default = function () {
-  return _react2.default.createElement(
-    Picture,
-    null,
-    _react2.default.createElement(Logo, { src: _jgatjens2.default, alt: 'Jairo Gatjens' }),
-    _react2.default.createElement(
-      Title,
-      null,
-      'Jairo G\xE4tjens ',
-      _react2.default.createElement(
-        'small',
-        null,
-        'Heredia, Costa Rica'
-      )
-    )
-  );
-};
-
-/***/ }),
-/* 32 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _styledComponents = __webpack_require__(1);
-
-var _styledComponents2 = _interopRequireDefault(_styledComponents);
-
-var _Button = __webpack_require__(9);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var SkillList = _styledComponents2.default.div.withConfig({
-  displayName: 'SkillList',
-  componentId: 'sc-1qnmrb0-0'
-})(['padding-top:10px;text-align:center;']);
-
-exports.default = function () {
-  return _react2.default.createElement(
-    SkillList,
-    null,
-    _react2.default.createElement(
-      _Button.Button,
-      { href: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/', target: '_blank' },
-      'Javascript'
-    ),
-    _react2.default.createElement(
-      _Button.Button,
-      { href: 'https://nodejs.org/', target: '_blank' },
-      'Nodejs'
-    ),
-    _react2.default.createElement(
-      _Button.Button,
-      { href: 'https://facebook.github.io/react-native/', target: '_blank' },
-      'Mobile'
-    ),
-    _react2.default.createElement(
-      _Button.Button,
-      { active: true, href: 'https://www.linkedin.com/in/jgatjens?trk=hp-identity-photo#background-skills-container', target: '_blank' },
-      '+10'
-    )
-  );
-};
-
-/***/ }),
-/* 33 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _styledComponents = __webpack_require__(1);
-
-var _styledComponents2 = _interopRequireDefault(_styledComponents);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var Footer = _styledComponents2.default.div.withConfig({
-  displayName: 'Footer',
-  componentId: 'sc-1qy0s7h-0'
-})(['text-decoration:none;text-transform:uppercase;color:#3B3E49;display:inline-block;width:100%;text-align:center;.line{margin:40px auto 20px auto;height:1px;display:block;width:150px;background-color:#E6E7E9;}a{text-decoration:none;text-transform:uppercase;color:#3B3E49;padding:10px 0;display:block;font-weight:800;}']);
-
-exports.default = function () {
-  return _react2.default.createElement(
-    Footer,
-    null,
-    _react2.default.createElement('div', { className: 'line' }),
-    _react2.default.createElement(
-      'a',
-      { href: 'mailto:jgatjens@gmail.com' },
-      'Hire me'
-    )
-  );
-};
-
-/***/ }),
 /* 34 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _styledComponents = __webpack_require__(1);
-
-var _styledComponents2 = _interopRequireDefault(_styledComponents);
-
-var _forkme = __webpack_require__(35);
-
-var _forkme2 = _interopRequireDefault(_forkme);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var ForkMe = _styledComponents2.default.a.withConfig({
-    displayName: 'ForkMe',
-    componentId: 'sc-1kd4ieh-0'
-})(['  position:absolute;top:0;right:0;border:0;']);
-
-exports.default = function () {
-    return _react2.default.createElement(
-        ForkMe,
-        { href: 'https://github.com/jgatjens/jgatjens.github.io/tree/develop' },
-        _react2.default.createElement('img', { src: _forkme2.default, alt: 'Fork me on GitHub',
-            datacanonicalsrc: 'https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png' })
-    );
-};
-
-/***/ }),
-/* 35 */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNy4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iMTQ5cHgiIGhlaWdodD0iMTQ5cHgiIHZpZXdCb3g9IjAgMCAxNDkgMTQ5IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAxNDkgMTQ5OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8Zz4NCgk8cmVjdCBzdHlsZT0iZmlsbDpub25lOyIgd2lkdGg9IjE0OSIgaGVpZ2h0PSIxNDkiLz4NCgkNCgkJPHRleHQgdHJhbnNmb3JtPSJtYXRyaXgoMC43MDcxIDAuNzA3MSAtMC43MDcxIDAuNzA3MSA0My40NzM3IDIyLjM3MykiIHN0eWxlPSJmaWxsOiM3ODc4Nzg7IGZvbnQtZmFtaWx5OidSb2JvdG8tUmVndWxhcic7IGZvbnQtc2l6ZToxNC45MDAxOyI+Rm9yayBtZSBvbiBHaXRIdWI8L3RleHQ+DQoJPGc+DQoJCTxnPg0KCQkJPHBvbHlnb24gc3R5bGU9ImZpbGw6I0NFRDBENDsiIHBvaW50cz0iNDguOTY1LDAgMTQ5LDEwMC4wMzUgMTQ5LDk3LjkyOCA1MS4wNzIsMCAJCQkiLz4NCgkJCTxwb2x5Z29uIHN0eWxlPSJmaWxsOiNDRUQwRDQ7IiBwb2ludHM9IjE0OSwxNDQuMjg2IDQuNzE0LDAgMi42MDcsMCAxNDksMTQ2LjM5MyAJCQkiLz4NCgkJPC9nPg0KCTwvZz4NCjwvZz4NCjwvc3ZnPg0K"
 
 /***/ }),
-/* 36 */
+/* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1938,17 +2001,17 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactStatic = __webpack_require__(2);
 
-var _config = __webpack_require__(11);
+var _config = __webpack_require__(15);
 
 var _styledComponents = __webpack_require__(1);
 
 var _styledComponents2 = _interopRequireDefault(_styledComponents);
 
-var _headerLeft = __webpack_require__(12);
+var _headerLeft = __webpack_require__(16);
 
 var _headerLeft2 = _interopRequireDefault(_headerLeft);
 
-var _headerRight = __webpack_require__(13);
+var _headerRight = __webpack_require__(17);
 
 var _headerRight2 = _interopRequireDefault(_headerRight);
 
@@ -2015,7 +2078,7 @@ exports.default = function () {
 };
 
 /***/ }),
-/* 37 */
+/* 36 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2063,6 +2126,12 @@ exports.default = function () {
 };
 
 /***/ }),
+/* 37 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/share-promo.1de58934.png";
+
+/***/ }),
 /* 38 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2083,11 +2152,11 @@ var _styledComponents = __webpack_require__(1);
 
 var _styledComponents2 = _interopRequireDefault(_styledComponents);
 
-var _headerLeft = __webpack_require__(12);
+var _headerLeft = __webpack_require__(16);
 
 var _headerLeft2 = _interopRequireDefault(_headerLeft);
 
-var _headerRight = __webpack_require__(13);
+var _headerRight = __webpack_require__(17);
 
 var _headerRight2 = _interopRequireDefault(_headerRight);
 
@@ -2136,7 +2205,13 @@ exports.default = function () {
   );
 };
 
+/***/ }),
+/* 39 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/apex-ping.69d8c1ad.jpg";
+
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.8be35292.js.map
+//# sourceMappingURL=static.b30306d8.js.map
