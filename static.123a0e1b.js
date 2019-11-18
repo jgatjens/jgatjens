@@ -70,7 +70,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.p = "/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 12);
+/******/ 	return __webpack_require__(__webpack_require__.s = 17);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -121,6 +121,85 @@ module.exports = function(module) {
 
 /***/ }),
 /* 4 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _styledComponents = __webpack_require__(1);
+
+var _styledComponents2 = _interopRequireDefault(_styledComponents);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Links = _styledComponents2.default.a.withConfig({
+  displayName: 'ShareLinks__Links',
+  componentId: 'hr2vms-0'
+})(['text-decoration:none;text-transform:uppercase;color:#3B3E49;display:inline-block;']);
+
+var Svg = _styledComponents2.default.svg.withConfig({
+  displayName: 'ShareLinks__Svg',
+  componentId: 'hr2vms-1'
+})(['width:auto;height:30px;margin:0 15px;color:#CDCFD4;&:hover{color:#3B3E49;}']);
+
+var ShareLinks = _styledComponents2.default.div.withConfig({
+  displayName: 'ShareLinks',
+  componentId: 'hr2vms-2'
+})(['text-align:center;']);
+
+exports.default = function () {
+  return _react2.default.createElement(
+    ShareLinks,
+    null,
+    _react2.default.createElement(
+      Links,
+      { href: 'https://twitter.com/jgatjens', target: '_blank' },
+      _react2.default.createElement(
+        Svg,
+        { viewBox: '0 0 16 16' },
+        _react2.default.createElement('path', { fill: 'currentColor', d: 'M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z' })
+      )
+    ),
+    _react2.default.createElement(
+      Links,
+      { href: 'https://github.com/jgatjens', target: '_blank' },
+      _react2.default.createElement(
+        Svg,
+        { viewBox: '0 0 16 16' },
+        _react2.default.createElement('path', { fill: 'currentColor', d: 'M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z' })
+      )
+    ),
+    _react2.default.createElement(
+      Links,
+      { href: 'https://www.linkedin.com/in/jgatjens', target: '_blank' },
+      _react2.default.createElement(
+        Svg,
+        { viewBox: '0 0 430.1 430.1' },
+        _react2.default.createElement('path', { fill: 'currentColor', d: 'M430.1 261.5V420.6h-92.2V272.2c0-37.3-13.3-62.7-46.7-62.7 -25.5 0-40.6 17.1-47.3 33.7 -2.4 5.9-3.1 14.2-3.1 22.5V420.6h-92.2c0 0 1.2-251.3 0-277.3h92.2v39.3c-0.2 0.3-0.4 0.6-0.6 0.9h0.6v-0.9c12.3-18.9 34.1-45.8 83.1-45.8C384.6 136.7 430.1 176.4 430.1 261.5zM52.2 9.6C20.6 9.6 0 30.3 0 57.5c0 26.6 20 47.9 51 47.9h0.6c32.2 0 52.2-21.3 52.2-47.9C103.1 30.3 83.7 9.6 52.2 9.6zM5.5 420.6h92.2v-277.3H5.5V420.6z' })
+      )
+    ),
+    _react2.default.createElement(
+      Links,
+      { href: 'https://www.twitch.tv/jgatjens', target: '_blank' },
+      _react2.default.createElement(
+        Svg,
+        { fill: 'currentColor', width: '28', height: '28' },
+        _react2.default.createElement('path', { d: 'M1.969 0L0 4.806v19.642h7V28h3.938l3.718-3.552h5.688L28 17.134V0H1.969zm23.406 15.88L21 20.06h-7l-3.719 3.552V20.06H4.375V2.507h21v13.374zM21 7.314v7.314h-2.625V7.313H21zm-7 0v7.314h-2.625V7.313H14z' })
+      )
+    )
+  );
+};
+
+/***/ }),
+/* 5 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -237,13 +316,13 @@ var cacheProm = exports.cacheProm = function cacheProm(pr, chunkName, props, pro
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)(module)))
 
 /***/ }),
-/* 5 */
+/* 6 */
 /***/ (function(module, exports) {
 
 module.exports = require("prop-types");
 
 /***/ }),
-/* 6 */
+/* 7 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -263,27 +342,27 @@ var _styledComponents = __webpack_require__(1);
 
 var _styledComponents2 = _interopRequireDefault(_styledComponents);
 
-var _Profile = __webpack_require__(26);
+var _Profile = __webpack_require__(31);
 
 var _Profile2 = _interopRequireDefault(_Profile);
 
-var _SkillList = __webpack_require__(27);
+var _SkillList = __webpack_require__(32);
 
 var _SkillList2 = _interopRequireDefault(_SkillList);
 
-var _ShareLinks = __webpack_require__(8);
+var _ShareLinks = __webpack_require__(4);
 
 var _ShareLinks2 = _interopRequireDefault(_ShareLinks);
 
-var _Footer = __webpack_require__(28);
+var _Footer = __webpack_require__(33);
 
 var _Footer2 = _interopRequireDefault(_Footer);
 
-var _ForkMe = __webpack_require__(29);
+var _ForkMe = __webpack_require__(34);
 
 var _ForkMe2 = _interopRequireDefault(_ForkMe);
 
-var _jgatjens = __webpack_require__(7);
+var _jgatjens = __webpack_require__(8);
 
 var _jgatjens2 = _interopRequireDefault(_jgatjens);
 
@@ -343,13 +422,13 @@ exports.default = function () {
 };
 
 /***/ }),
-/* 7 */
+/* 8 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/jgatjens.a21b6ebb.jpg";
 
 /***/ }),
-/* 8 */
+/* 9 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -358,10 +437,7 @@ module.exports = __webpack_require__.p + "static/jgatjens.a21b6ebb.jpg";
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
+exports.PrimaryButton = exports.Button = undefined;
 
 var _styledComponents = __webpack_require__(1);
 
@@ -369,66 +445,22 @@ var _styledComponents2 = _interopRequireDefault(_styledComponents);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var Links = _styledComponents2.default.a.withConfig({
-  displayName: 'ShareLinks__Links',
-  componentId: 'hr2vms-0'
-})(['text-decoration:none;text-transform:uppercase;color:#3B3E49;display:inline-block;']);
+var Button = exports.Button = _styledComponents2.default.a.withConfig({
+  displayName: 'Button',
+  componentId: 's1u2yv-0'
+})(['display:inline-block;font-size:15px;border-radius:20px;padding:7px 18px;border:1px solid #CDCFD4;margin:0 2px 10px;font-weight:200;color:#777777;text-decoration:none;text-transform:uppercase;', ''], function (props) {
+  return props.active && (0, _styledComponents.css)(['background-color:#3B3E49;border-color:#3B3E49;color:white;']);
+});
 
-var Svg = _styledComponents2.default.svg.withConfig({
-  displayName: 'ShareLinks__Svg',
-  componentId: 'hr2vms-1'
-})(['width:auto;height:30px;margin:0 15px;color:#CDCFD4;&:hover{color:#3B3E49;}']);
-
-var ShareLinks = _styledComponents2.default.div.withConfig({
-  displayName: 'ShareLinks',
-  componentId: 'hr2vms-2'
-})(['text-align:center;']);
-
-exports.default = function () {
-  return _react2.default.createElement(
-    ShareLinks,
-    null,
-    _react2.default.createElement(
-      Links,
-      { href: 'https://twitter.com/jgatjens', target: '_blank' },
-      _react2.default.createElement(
-        Svg,
-        { viewBox: '0 0 16 16' },
-        _react2.default.createElement('path', { fill: 'currentColor', d: 'M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z' })
-      )
-    ),
-    _react2.default.createElement(
-      Links,
-      { href: 'https://github.com/jgatjens', target: '_blank' },
-      _react2.default.createElement(
-        Svg,
-        { viewBox: '0 0 16 16' },
-        _react2.default.createElement('path', { fill: 'currentColor', d: 'M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z' })
-      )
-    ),
-    _react2.default.createElement(
-      Links,
-      { href: 'https://www.linkedin.com/in/jgatjens', target: '_blank' },
-      _react2.default.createElement(
-        Svg,
-        { viewBox: '0 0 430.1 430.1' },
-        _react2.default.createElement('path', { fill: 'currentColor', d: 'M430.1 261.5V420.6h-92.2V272.2c0-37.3-13.3-62.7-46.7-62.7 -25.5 0-40.6 17.1-47.3 33.7 -2.4 5.9-3.1 14.2-3.1 22.5V420.6h-92.2c0 0 1.2-251.3 0-277.3h92.2v39.3c-0.2 0.3-0.4 0.6-0.6 0.9h0.6v-0.9c12.3-18.9 34.1-45.8 83.1-45.8C384.6 136.7 430.1 176.4 430.1 261.5zM52.2 9.6C20.6 9.6 0 30.3 0 57.5c0 26.6 20 47.9 51 47.9h0.6c32.2 0 52.2-21.3 52.2-47.9C103.1 30.3 83.7 9.6 52.2 9.6zM5.5 420.6h92.2v-277.3H5.5V420.6z' })
-      )
-    ),
-    _react2.default.createElement(
-      Links,
-      { href: 'https://www.twitch.tv/jgatjens', target: '_blank' },
-      _react2.default.createElement(
-        Svg,
-        { fill: 'currentColor', width: '28', height: '28' },
-        _react2.default.createElement('path', { d: 'M1.969 0L0 4.806v19.642h7V28h3.938l3.718-3.552h5.688L28 17.134V0H1.969zm23.406 15.88L21 20.06h-7l-3.719 3.552V20.06H4.375V2.507h21v13.374zM21 7.314v7.314h-2.625V7.313H21zm-7 0v7.314h-2.625V7.313H14z' })
-      )
-    )
-  );
-};
+var PrimaryButton = exports.PrimaryButton = _styledComponents2.default.button.withConfig({
+  displayName: 'Button__PrimaryButton',
+  componentId: 's1u2yv-1'
+})(['display:inline-block;font-size:15px;border-radius:20px;padding:7px 18px;border:1px solid #CDCFD4;margin:0 2px 10px;font-weight:200;color:#777777;text-decoration:none;text-transform:uppercase;', ''], function (props) {
+  return props.active && (0, _styledComponents.css)(['background-color:#3B3E49;border-color:#3B3E49;color:white;']);
+});
 
 /***/ }),
-/* 9 */
+/* 10 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -448,23 +480,23 @@ var _styledComponents2 = _interopRequireDefault(_styledComponents);
 
 var _reactStatic = __webpack_require__(2);
 
-var _ShareLinks = __webpack_require__(8);
+var _ShareLinks = __webpack_require__(4);
 
 var _ShareLinks2 = _interopRequireDefault(_ShareLinks);
 
-var _PromoHeader = __webpack_require__(31);
+var _PromoHeader = __webpack_require__(36);
 
 var _PromoHeader2 = _interopRequireDefault(_PromoHeader);
 
-var _Schedule = __webpack_require__(34);
+var _Schedule = __webpack_require__(37);
 
 var _Schedule2 = _interopRequireDefault(_Schedule);
 
-var _sharePromo = __webpack_require__(35);
+var _sharePromo = __webpack_require__(14);
 
 var _sharePromo2 = _interopRequireDefault(_sharePromo);
 
-var _config = __webpack_require__(10);
+var _config = __webpack_require__(11);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -495,7 +527,7 @@ exports.default = function () {
         _config.winner
       ),
       _react2.default.createElement('meta', { name: 'description', content: 'Estaremos sorteando un skin de League of legends cada semana en el stream de los viernes a las 9:00 pm (-06  CST)' }),
-      _react2.default.createElement('meta', { name: 'keywords', content: 'Promo, twitch, jgatjens, Lol, League, Legends, Games' }),
+      _react2.default.createElement('meta', { name: 'keywords', content: 'Promo, twitch, jgatjens, Lol, League of Legends, Games' }),
       _react2.default.createElement('meta', { name: 'author', content: 'Ganador ' }),
       _react2.default.createElement('meta', { property: 'og:type', content: 'website' }),
       _react2.default.createElement('meta', { property: 'og:title', content: "Ganador " + _config.winner }),
@@ -576,7 +608,7 @@ exports.default = function () {
 };
 
 /***/ }),
-/* 10 */
+/* 11 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -589,7 +621,134 @@ var winner = exports.winner = 'tripyboy';
 var urlWinner = exports.urlWinner = 'https://lol.mobalytics.gg/summoner/lan/tripyboy';
 
 /***/ }),
-/* 11 */
+/* 12 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/header-left.57ece537.png";
+
+/***/ }),
+/* 13 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/header-right.9d75552f.png";
+
+/***/ }),
+/* 14 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "static/share-promo.1de58934.png";
+
+/***/ }),
+/* 15 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _styledComponents = __webpack_require__(1);
+
+var _styledComponents2 = _interopRequireDefault(_styledComponents);
+
+var _reactStatic = __webpack_require__(2);
+
+var _ShareLinks = __webpack_require__(4);
+
+var _ShareLinks2 = _interopRequireDefault(_ShareLinks);
+
+var _PingHeader = __webpack_require__(38);
+
+var _PingHeader2 = _interopRequireDefault(_PingHeader);
+
+var _Button = __webpack_require__(9);
+
+var _sharePromo = __webpack_require__(14);
+
+var _sharePromo2 = _interopRequireDefault(_sharePromo);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+// import Schedule from '../components/Schedule'
+
+
+// components
+var PromoPage = _styledComponents2.default.div.withConfig({
+  displayName: 'Ping__PromoPage',
+  componentId: 'sc-1oaoljz-0'
+})(['display:block;height:100%;.container{max-width:620px;margin:0 auto;padding-top:35px;padding-left:20px;padding-right:20px;color:#3B3E48;}h2{font-size:20px;font-weight:normal;}ul{font-size:14px;line-height:22px;list-style:disc;padding-left:18px;}div[class*="ShareLinks"]{margin-top:40px;}']);
+
+var Desc = _styledComponents2.default.p.withConfig({
+  displayName: 'Ping__Desc',
+  componentId: 'sc-1oaoljz-1'
+})(['color:#3B3E48;font-size:16px;line-height:1.6;margin-top:0;margin-bottom:25px;']);
+
+var desc = 'PING equality is the struggle to grant fundamental rights to millions of players who currently cannot experience their favorite games with a latency of less than 100 ms';
+var title = 'We deserved better ping';
+
+exports.default = function () {
+  return _react2.default.createElement(
+    PromoPage,
+    null,
+    _react2.default.createElement(
+      _reactStatic.Head,
+      null,
+      _react2.default.createElement(
+        'title',
+        null,
+        title
+      ),
+      _react2.default.createElement('meta', { name: 'description', content: desc }),
+      _react2.default.createElement('meta', { name: 'keywords', content: 'FPS, Apex, COD MW2, twitch, jgatjens, League of Legends, Games' }),
+      _react2.default.createElement('meta', { name: 'author', content: 'jgatjens' }),
+      _react2.default.createElement('meta', { property: 'og:type', content: 'website' }),
+      _react2.default.createElement('meta', { property: 'og:title', content: title }),
+      _react2.default.createElement('meta', { property: 'og:description', content: desc }),
+      _react2.default.createElement('meta', { property: 'og:image', content: _sharePromo2.default }),
+      _react2.default.createElement('meta', { name: 'twitter:card', content: 'summary_large_image' }),
+      _react2.default.createElement('meta', { name: 'twitter:site', content: '@jgatjens' }),
+      _react2.default.createElement('meta', { name: 'twitter:creator', content: '@jgatjens' }),
+      _react2.default.createElement('meta', { name: 'twitter:title', content: title }),
+      _react2.default.createElement('meta', { name: 'twitter:description', content: desc }),
+      _react2.default.createElement('meta', { name: 'twitter:image', content: _sharePromo2.default })
+    ),
+    _react2.default.createElement(_PingHeader2.default, null),
+    _react2.default.createElement(
+      'div',
+      { className: 'container' },
+      _react2.default.createElement(
+        Desc,
+        null,
+        'La igualdad de PING es la lucha por otorgar derechos fundamentales a millones de jugadores que actualmente no pueden experimentar sus juegos favoritos con una latencia menor a los 100 ms Queremos formular una pregunta simple:'
+      ),
+      _react2.default.createElement(
+        'h2',
+        null,
+        'Por que EA, Steam y Battle.net tienen servers en Sur y Norte America pero aqui en America central NO?'
+      ),
+      _react2.default.createElement(
+        Desc,
+        null,
+        'La comunidad gamer latina alza su voz por esta causa, La desigualdad de PING equivale al estancamiento del progreso de nuestra comunidad a nivel competitivo y casual. Ayudanos con un click y tu firma para juntos lograr un cambio.'
+      ),
+      _react2.default.createElement(
+        _Button.PrimaryButton,
+        null,
+        'We need your help here !'
+      ),
+      _react2.default.createElement(_ShareLinks2.default, null)
+    )
+  );
+};
+
+/***/ }),
+/* 16 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -620,7 +779,7 @@ exports.default = function () {
 };
 
 /***/ }),
-/* 12 */
+/* 17 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -634,11 +793,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(13);
+var _reactDom = __webpack_require__(18);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _App = __webpack_require__(14);
+var _App = __webpack_require__(19);
 
 var _App2 = _interopRequireDefault(_App);
 
@@ -663,13 +822,13 @@ if (typeof document !== 'undefined') {
 }
 
 /***/ }),
-/* 13 */
+/* 18 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-dom");
 
 /***/ }),
-/* 14 */
+/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -689,13 +848,13 @@ var _reactStatic = __webpack_require__(2);
 
 var _styledComponents = __webpack_require__(1);
 
-var _styledNormalize = __webpack_require__(15);
+var _styledNormalize = __webpack_require__(20);
 
 var _styledNormalize2 = _interopRequireDefault(_styledNormalize);
 
-var _reactHotLoader = __webpack_require__(16);
+var _reactHotLoader = __webpack_require__(21);
 
-var _reactStaticRoutes = __webpack_require__(17);
+var _reactStaticRoutes = __webpack_require__(22);
 
 var _reactStaticRoutes2 = _interopRequireDefault(_reactStaticRoutes);
 
@@ -719,19 +878,19 @@ exports.default = (0, _reactHotLoader.hot)(module)(App);
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)(module)))
 
 /***/ }),
-/* 15 */
+/* 20 */
 /***/ (function(module, exports) {
 
 module.exports = require("styled-normalize");
 
 /***/ }),
-/* 16 */
+/* 21 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-hot-loader");
 
 /***/ }),
-/* 17 */
+/* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -741,15 +900,15 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _path2 = __webpack_require__(18);
+var _path2 = __webpack_require__(23);
 
 var _path3 = _interopRequireDefault(_path2);
 
-var _importCss2 = __webpack_require__(19);
+var _importCss2 = __webpack_require__(24);
 
 var _importCss3 = _interopRequireDefault(_importCss2);
 
-var _universalImport2 = __webpack_require__(20);
+var _universalImport2 = __webpack_require__(25);
 
 var _universalImport3 = _interopRequireDefault(_universalImport2);
 
@@ -761,9 +920,9 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(21);
+var _reactRouterDom = __webpack_require__(26);
 
-var _reactUniversalComponent = __webpack_require__(22);
+var _reactUniversalComponent = __webpack_require__(27);
 
 var _reactUniversalComponent2 = _interopRequireDefault(_reactUniversalComponent);
 
@@ -795,9 +954,9 @@ var universalOptions = {
 
 var t_0 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
   id: '../src/containers/Home',
-  file: '/Users/jgatjens/Desktop/Dev/jgatjens.github.io/dist/react-static-routes.js',
+  file: '/Users/jgatjens/Desktop/dev/jgatjens.github.io/dist/react-static-routes.js',
   load: function load() {
-    return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 6)), (0, _importCss3.default)('src/containers/Home', {
+    return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 7)), (0, _importCss3.default)('src/containers/Home', {
       disableWarnings: true
     })]).then(function (proms) {
       return proms[0];
@@ -807,7 +966,7 @@ var t_0 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
     return _path3.default.join(__dirname, '../src/containers/Home');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(6);
+    return /*require.resolve*/(7);
   },
   chunkName: function chunkName() {
     return 'src/containers/Home';
@@ -815,9 +974,9 @@ var t_0 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
 }), universalOptions);
 var t_1 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
   id: '../src/containers/Promo',
-  file: '/Users/jgatjens/Desktop/Dev/jgatjens.github.io/dist/react-static-routes.js',
+  file: '/Users/jgatjens/Desktop/dev/jgatjens.github.io/dist/react-static-routes.js',
   load: function load() {
-    return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 9)), (0, _importCss3.default)('src/containers/Promo', {
+    return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 10)), (0, _importCss3.default)('src/containers/Promo', {
       disableWarnings: true
     })]).then(function (proms) {
       return proms[0];
@@ -827,17 +986,37 @@ var t_1 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
     return _path3.default.join(__dirname, '../src/containers/Promo');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(9);
+    return /*require.resolve*/(10);
   },
   chunkName: function chunkName() {
     return 'src/containers/Promo';
   }
 }), universalOptions);
 var t_2 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
-  id: '../src/containers/404',
-  file: '/Users/jgatjens/Desktop/Dev/jgatjens.github.io/dist/react-static-routes.js',
+  id: '../src/containers/Ping',
+  file: '/Users/jgatjens/Desktop/dev/jgatjens.github.io/dist/react-static-routes.js',
   load: function load() {
-    return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 11)), (0, _importCss3.default)('src/containers/404', {
+    return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 15)), (0, _importCss3.default)('src/containers/Ping', {
+      disableWarnings: true
+    })]).then(function (proms) {
+      return proms[0];
+    });
+  },
+  path: function path() {
+    return _path3.default.join(__dirname, '../src/containers/Ping');
+  },
+  resolve: function resolve() {
+    return /*require.resolve*/(15);
+  },
+  chunkName: function chunkName() {
+    return 'src/containers/Ping';
+  }
+}), universalOptions);
+var t_3 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
+  id: '../src/containers/404',
+  file: '/Users/jgatjens/Desktop/dev/jgatjens.github.io/dist/react-static-routes.js',
+  load: function load() {
+    return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 16)), (0, _importCss3.default)('src/containers/404', {
       disableWarnings: true
     })]).then(function (proms) {
       return proms[0];
@@ -847,7 +1026,7 @@ var t_2 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
     return _path3.default.join(__dirname, '../src/containers/404');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(11);
+    return /*require.resolve*/(16);
   },
   chunkName: function chunkName() {
     return 'src/containers/404';
@@ -855,11 +1034,11 @@ var t_2 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
 }), universalOptions);
 
 // Template Map
-global.componentsByTemplateID = global.componentsByTemplateID || [t_0, t_1, t_2];
+global.componentsByTemplateID = global.componentsByTemplateID || [t_0, t_1, t_2, t_3];
 
 // Template Tree
 global.templateIDsByPath = global.templateIDsByPath || {
-  '404': 2
+  '404': 3
 
   // Get template for given path
 };var getComponentForPath = function getComponentForPath(path) {
@@ -934,31 +1113,31 @@ exports.default = Routes;
 /* WEBPACK VAR INJECTION */}.call(exports, "/"))
 
 /***/ }),
-/* 18 */
+/* 23 */
 /***/ (function(module, exports) {
 
 module.exports = require("path");
 
 /***/ }),
-/* 19 */
+/* 24 */
 /***/ (function(module, exports) {
 
 module.exports = require("babel-plugin-universal-import/importCss");
 
 /***/ }),
-/* 20 */
+/* 25 */
 /***/ (function(module, exports) {
 
 module.exports = require("babel-plugin-universal-import/universalImport");
 
 /***/ }),
-/* 21 */
+/* 26 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-router-dom");
 
 /***/ }),
-/* 22 */
+/* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -973,7 +1152,7 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _requireUniversalModule = __webpack_require__(23);
+var _requireUniversalModule = __webpack_require__(28);
 
 Object.defineProperty(exports, 'CHUNK_NAMES', {
   enumerable: true,
@@ -988,7 +1167,7 @@ Object.defineProperty(exports, 'MODULE_IDS', {
   }
 });
 
-var _reportChunks = __webpack_require__(24);
+var _reportChunks = __webpack_require__(29);
 
 Object.defineProperty(exports, 'ReportChunks', {
   enumerable: true,
@@ -1001,17 +1180,17 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(5);
+var _propTypes = __webpack_require__(6);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _hoistNonReactStatics = __webpack_require__(25);
+var _hoistNonReactStatics = __webpack_require__(30);
 
 var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 
 var _requireUniversalModule2 = _interopRequireDefault(_requireUniversalModule);
 
-var _utils = __webpack_require__(4);
+var _utils = __webpack_require__(5);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -1305,7 +1484,7 @@ exports.default = universal;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)(module)))
 
 /***/ }),
-/* 23 */
+/* 28 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1317,7 +1496,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.clearChunks = exports.flushModuleIds = exports.flushChunkNames = exports.MODULE_IDS = exports.CHUNK_NAMES = undefined;
 exports.default = requireUniversalModule;
 
-var _utils = __webpack_require__(4);
+var _utils = __webpack_require__(5);
 
 var CHUNK_NAMES = exports.CHUNK_NAMES = new Set();
 var MODULE_IDS = exports.MODULE_IDS = new Set();
@@ -1487,7 +1666,7 @@ var getConfig = function getConfig(isDynamic, universalConfig, options, props) {
 };
 
 /***/ }),
-/* 24 */
+/* 29 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1503,7 +1682,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _propTypes = __webpack_require__(5);
+var _propTypes = __webpack_require__(6);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -1550,13 +1729,13 @@ ReportChunks.childContextTypes = {
 exports.default = ReportChunks;
 
 /***/ }),
-/* 25 */
+/* 30 */
 /***/ (function(module, exports) {
 
 module.exports = require("hoist-non-react-statics");
 
 /***/ }),
-/* 26 */
+/* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1574,7 +1753,7 @@ var _styledComponents = __webpack_require__(1);
 
 var _styledComponents2 = _interopRequireDefault(_styledComponents);
 
-var _jgatjens = __webpack_require__(7);
+var _jgatjens = __webpack_require__(8);
 
 var _jgatjens2 = _interopRequireDefault(_jgatjens);
 
@@ -1614,7 +1793,7 @@ exports.default = function () {
 };
 
 /***/ }),
-/* 27 */
+/* 32 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1632,6 +1811,8 @@ var _styledComponents = __webpack_require__(1);
 
 var _styledComponents2 = _interopRequireDefault(_styledComponents);
 
+var _Button = __webpack_require__(9);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var SkillList = _styledComponents2.default.div.withConfig({
@@ -1639,34 +1820,27 @@ var SkillList = _styledComponents2.default.div.withConfig({
   componentId: 'sc-1qnmrb0-0'
 })(['padding-top:10px;text-align:center;']);
 
-var Button = _styledComponents2.default.a.withConfig({
-  displayName: 'SkillList__Button',
-  componentId: 'sc-1qnmrb0-1'
-})(['display:inline-block;font-size:15px;border-radius:20px;padding:7px 18px;border:1px solid #CDCFD4;margin:0 2px 10px;font-weight:200;color:#777777;text-decoration:none;text-transform:uppercase;', ''], function (props) {
-  return props.active && (0, _styledComponents.css)(['background-color:#3B3E49;border-color:#3B3E49;color:white;']);
-});
-
 exports.default = function () {
   return _react2.default.createElement(
     SkillList,
     null,
     _react2.default.createElement(
-      Button,
+      _Button.Button,
       { href: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/', target: '_blank' },
       'Javascript'
     ),
     _react2.default.createElement(
-      Button,
+      _Button.Button,
       { href: 'https://nodejs.org/', target: '_blank' },
       'Nodejs'
     ),
     _react2.default.createElement(
-      Button,
+      _Button.Button,
       { href: 'https://facebook.github.io/react-native/', target: '_blank' },
       'Mobile'
     ),
     _react2.default.createElement(
-      Button,
+      _Button.Button,
       { active: true, href: 'https://www.linkedin.com/in/jgatjens?trk=hp-identity-photo#background-skills-container', target: '_blank' },
       '+10'
     )
@@ -1674,7 +1848,7 @@ exports.default = function () {
 };
 
 /***/ }),
-/* 28 */
+/* 33 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1713,7 +1887,7 @@ exports.default = function () {
 };
 
 /***/ }),
-/* 29 */
+/* 34 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1731,7 +1905,7 @@ var _styledComponents = __webpack_require__(1);
 
 var _styledComponents2 = _interopRequireDefault(_styledComponents);
 
-var _forkme = __webpack_require__(30);
+var _forkme = __webpack_require__(35);
 
 var _forkme2 = _interopRequireDefault(_forkme);
 
@@ -1752,13 +1926,13 @@ exports.default = function () {
 };
 
 /***/ }),
-/* 30 */
+/* 35 */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNy4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iMTQ5cHgiIGhlaWdodD0iMTQ5cHgiIHZpZXdCb3g9IjAgMCAxNDkgMTQ5IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAxNDkgMTQ5OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8Zz4NCgk8cmVjdCBzdHlsZT0iZmlsbDpub25lOyIgd2lkdGg9IjE0OSIgaGVpZ2h0PSIxNDkiLz4NCgkNCgkJPHRleHQgdHJhbnNmb3JtPSJtYXRyaXgoMC43MDcxIDAuNzA3MSAtMC43MDcxIDAuNzA3MSA0My40NzM3IDIyLjM3MykiIHN0eWxlPSJmaWxsOiM3ODc4Nzg7IGZvbnQtZmFtaWx5OidSb2JvdG8tUmVndWxhcic7IGZvbnQtc2l6ZToxNC45MDAxOyI+Rm9yayBtZSBvbiBHaXRIdWI8L3RleHQ+DQoJPGc+DQoJCTxnPg0KCQkJPHBvbHlnb24gc3R5bGU9ImZpbGw6I0NFRDBENDsiIHBvaW50cz0iNDguOTY1LDAgMTQ5LDEwMC4wMzUgMTQ5LDk3LjkyOCA1MS4wNzIsMCAJCQkiLz4NCgkJCTxwb2x5Z29uIHN0eWxlPSJmaWxsOiNDRUQwRDQ7IiBwb2ludHM9IjE0OSwxNDQuMjg2IDQuNzE0LDAgMi42MDcsMCAxNDksMTQ2LjM5MyAJCQkiLz4NCgkJPC9nPg0KCTwvZz4NCjwvZz4NCjwvc3ZnPg0K"
 
 /***/ }),
-/* 31 */
+/* 36 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1774,17 +1948,17 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactStatic = __webpack_require__(2);
 
-var _config = __webpack_require__(10);
+var _config = __webpack_require__(11);
 
 var _styledComponents = __webpack_require__(1);
 
 var _styledComponents2 = _interopRequireDefault(_styledComponents);
 
-var _headerLeft = __webpack_require__(32);
+var _headerLeft = __webpack_require__(12);
 
 var _headerLeft2 = _interopRequireDefault(_headerLeft);
 
-var _headerRight = __webpack_require__(33);
+var _headerRight = __webpack_require__(13);
 
 var _headerRight2 = _interopRequireDefault(_headerRight);
 
@@ -1851,19 +2025,7 @@ exports.default = function () {
 };
 
 /***/ }),
-/* 32 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/header-left.57ece537.png";
-
-/***/ }),
-/* 33 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "static/header-right.9d75552f.png";
-
-/***/ }),
-/* 34 */
+/* 37 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1911,12 +2073,80 @@ exports.default = function () {
 };
 
 /***/ }),
-/* 35 */
+/* 38 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "static/share-promo.1de58934.png";
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactStatic = __webpack_require__(2);
+
+var _styledComponents = __webpack_require__(1);
+
+var _styledComponents2 = _interopRequireDefault(_styledComponents);
+
+var _headerLeft = __webpack_require__(12);
+
+var _headerLeft2 = _interopRequireDefault(_headerLeft);
+
+var _headerRight = __webpack_require__(13);
+
+var _headerRight2 = _interopRequireDefault(_headerRight);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var PingHeader = _styledComponents2.default.div.withConfig({
+  displayName: 'PingHeader',
+  componentId: 'batu4c-0'
+})(['display:flex;flex-direction:column;align-items:center;justify-content:center;width:100%;background-color:#202255;min-height:396px;position:relative;color:white;.bg-left,.bg-right{background-size:contain;background-repeat:no-repeat;background-position-y:bottom;position:absolute;height:100%;width:260px;top:0;z-index:0;}.bg-left{background-image:url(', ');background-position-x:left;left:0;}.bg-right{background-image:url(', ');background-position-x:right;right:0;}svg,a,h1,div{z-index:1;}'], _headerLeft2.default, _headerRight2.default);
+
+var Title = _styledComponents2.default.h1.withConfig({
+  displayName: 'PingHeader__Title',
+  componentId: 'batu4c-1'
+})(['font-size:40px;line-height:1;max-width:266px;margin:0 auto;text-align:center;margin-top:30px;margin-bottom:20px;text-transform:capitalize;@media (max-width:480px){font-size:25px;}']);
+
+exports.default = function () {
+  return _react2.default.createElement(
+    PingHeader,
+    null,
+    _react2.default.createElement('div', { className: 'bg-left' }),
+    _react2.default.createElement('div', { className: 'bg-right' }),
+    _react2.default.createElement(
+      _reactStatic.Link,
+      { exact: true, to: '/' },
+      _react2.default.createElement(
+        'svg',
+        { width: '25', height: '14' },
+        _react2.default.createElement(
+          'g',
+          { stroke: '#FFF', strokeWidth: '2', fill: 'currentColor' },
+          _react2.default.createElement('path', { d: 'M23.02 7H2', strokeLinecap: 'square' }),
+          _react2.default.createElement('path', { d: 'M5.5 12.5l-4-5.377 4-5.623' })
+        )
+      )
+    ),
+    _react2.default.createElement(
+      Title,
+      null,
+      'We deserve Better Ping'
+    ),
+    _react2.default.createElement(
+      'svg',
+      { width: '75', height: '43' },
+      _react2.default.createElement('path', { d: 'M46.713 0l-1.038 3.14.026 14.495h3.866v1.932h2.077l2.076-1.932h3.633l6.747-6.281V0H46.713zm15.57 10.388l-2.854 2.657h-4.671l-2.595 2.416v-2.416H48.27V1.69h14.014v8.697zm-4.67-5.557h1.816v4.832h-1.817V4.83zm-4.672 0h1.817v4.832H52.94V4.83zM75 27.298v11.354L68.253 43H64.1v-1.933L60.986 43h-3.633v-1.933L55.017 43H48.27l-2.076-1.933-.52 1.933-5.942-.024-2.362-1.909L37.11 43l-6.747-.024-.26-1.909-1.816 1.909-10.38.024-2.077-.966V43h-5.709l-6.228-3.624L0 35.753V19.809h8.045l3.893 3.624h17.647v-3.624h14.533v3.624h3.633v1.932l2.076-1.932h4.412l3.892-3.624h8.305v3.624h4.412L75 27.298zm-64.879-2.174H6.488V21.5H1.817v13.528l2.854 2.899h5.45v-4.59H6.488v-3.865h3.633v-4.348zm19.464 0h-4.672v8.213h-1.816v-8.213h-4.412v8.213H16.87v-8.213h-4.931v12.803H26.47l3.114-2.899v-9.904zm6.228 0h-4.412v12.803h4.412V25.124zm0-3.624h-4.412v1.933h4.412V21.5zm10.121 3.624h-3.633V21.5H37.63v13.528l2.854 2.899h5.45v-4.59h-3.633v-3.865h3.633v-4.348zm11.938 0h-7.266L47.75 27.78v7.247l3.114 2.899h7.007v-4.59h-5.19v-3.865h5.19v-4.348zm15.311 2.657l-3.114-2.657h-5.45V21.5h-4.93v16.427h4.93v-8.455h3.634v8.455h4.93V27.781z', fill: '#FFF' })
+    )
+  );
+};
 
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.e1eb1c49.js.map
+//# sourceMappingURL=static.123a0e1b.js.map
