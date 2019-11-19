@@ -840,17 +840,19 @@ var _styledComponents2 = _interopRequireDefault(_styledComponents);
 
 var _reactStatic = __webpack_require__(2);
 
+var _reactShare = __webpack_require__(38);
+
 var _ShareLinks = __webpack_require__(3);
 
 var _ShareLinks2 = _interopRequireDefault(_ShareLinks);
 
-var _PingHeader = __webpack_require__(38);
+var _PingHeader = __webpack_require__(39);
 
 var _PingHeader2 = _interopRequireDefault(_PingHeader);
 
 var _Button = __webpack_require__(11);
 
-var _apexPing = __webpack_require__(39);
+var _apexPing = __webpack_require__(40);
 
 var _apexPing2 = _interopRequireDefault(_apexPing);
 
@@ -866,6 +868,11 @@ var Desc = _styledComponents2.default.p.withConfig({
   displayName: 'Ping__Desc',
   componentId: 'sc-1oaoljz-1'
 })(['color:#3B3E48;font-size:16px;line-height:1.6;margin-top:0;margin-bottom:25px;']);
+
+var Inline = _styledComponents2.default.div.withConfig({
+  displayName: 'Ping__Inline',
+  componentId: 'sc-1oaoljz-2'
+})(['display:flex;div{margin-right:2px;cursor:pointer;}']);
 
 var desc = 'La igualdad de PING es la lucha por otorgar derechos fundamentales a millones de jugadores que actualmente no pueden experimentar sus juegos favoritos con una latencia menor a los 100 ms';
 var title = 'Merecemos un mejor PING';
@@ -898,6 +905,31 @@ exports.default = function () {
     _react2.default.createElement(
       'div',
       { className: 'container' },
+      _react2.default.createElement(
+        Inline,
+        null,
+        _react2.default.createElement(
+          _reactShare.FacebookShareButton,
+          { windowWidth: 560,
+            windowHeight: 745,
+            quote: title,
+            url: 'http://jgatjens.com/we-deserve-better-ping/' },
+          _react2.default.createElement(_reactShare.FacebookIcon, { size: 32, round: true })
+        ),
+        _react2.default.createElement(
+          _reactShare.TwitterShareButton,
+          { title: title,
+            hashtags: ['ea', 'battle.net', 'league-of-legends', 'Steam', 'etc'],
+            url: 'http://jgatjens.com/we-deserve-better-ping/' },
+          _react2.default.createElement(_reactShare.TwitterIcon, { size: 32, round: true })
+        ),
+        _react2.default.createElement(
+          _reactShare.EmailShareButton,
+          { url: 'http://jgatjens.com/we-deserve-better-ping/', subject: title, openWindow: true },
+          _react2.default.createElement(_reactShare.EmailIcon, { size: 32, round: true })
+        )
+      ),
+      _react2.default.createElement('br', null),
       _react2.default.createElement(
         Desc,
         null,
@@ -2131,6 +2163,12 @@ module.exports = __webpack_require__.p + "static/share-promo.1de58934.png";
 
 /***/ }),
 /* 38 */
+/***/ (function(module, exports) {
+
+module.exports = require("react-share");
+
+/***/ }),
+/* 39 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2204,7 +2242,7 @@ exports.default = function () {
 };
 
 /***/ }),
-/* 39 */
+/* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "static/apex-ping.69d8c1ad.jpg";
@@ -2212,4 +2250,4 @@ module.exports = __webpack_require__.p + "static/apex-ping.69d8c1ad.jpg";
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.606caddc.js.map
+//# sourceMappingURL=static.25e007de.js.map
