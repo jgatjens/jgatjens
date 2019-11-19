@@ -943,7 +943,7 @@ exports.default = function () {
       _react2.default.createElement(
         Desc,
         null,
-        'La comunidad gamer latina alza su voz por esta causa, La desigualdad de PING equivale al estancamiento del progreso de nuestra comunidad a nivel competitivo y casual. Ayudanos con un click y tu firma para juntos lograr un cambio.'
+        'La comunidad gamer latina alza su voz por esta causa, la desigualdad de PING equivale al estancamiento del progreso de nuestra comunidad a nivel competitivo y casual. Ayudanos con un click y tu firma para juntos lograr un cambio.'
       ),
       _react2.default.createElement(
         _Button.Button,
@@ -2250,4 +2250,4 @@ module.exports = __webpack_require__.p + "static/apex-ping.69d8c1ad.jpg";
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.25e007de.js.map
+//# sourceMappingURL=static.2634ddfa.js.map
