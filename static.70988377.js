@@ -947,7 +947,7 @@ exports.default = function () {
       ),
       _react2.default.createElement(
         _Button.Button,
-        { href: 'https://secure.avaaz.org/es/community_petitions/EA_La_igualdad_de_PING', target: '_blank' },
+        { active: true, href: 'https://secure.avaaz.org/es/community_petitions/EA_La_igualdad_de_PING', target: '_blank' },
         'Necesitamos tu ayuda'
       ),
       _react2.default.createElement(_ShareLinks2.default, null)
@@ -2250,4 +2250,4 @@ module.exports = __webpack_require__.p + "static/apex-ping.69d8c1ad.jpg";
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.2634ddfa.js.map
+//# sourceMappingURL=static.70988377.js.map
