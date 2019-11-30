@@ -735,7 +735,7 @@ exports.default = function () {
       _react2.default.createElement(
         Desc,
         null,
-        'Estaremos sorteando un skin de',
+        'Estaremos sorteando un skin de ',
         _react2.default.createElement(
           'a',
           { href: 'https://lan.leagueoflegends.com/es/', rel: 'noopener noreferrer', target: '_blank' },
@@ -874,13 +874,24 @@ var Inline = _styledComponents2.default.div.withConfig({
   componentId: 'sc-1oaoljz-2'
 })(['display:flex;div{margin-right:2px;cursor:pointer;}']);
 
+var data = {
+  title: 'Merecemos un mejor PING',
+  desc: 'La igualdad de PING es la lucha por otorgar derechos fundamentales a millones \n    de jugadores que actualmente no pueden experimentar sus juegos favoritos con una \n    latencia menor a los 100 ms',
+  url: 'merecemos-un-mejor-ping',
+  body: {
+    desc1: '\n      La igualdad de PING es la lucha por otorgar derechos fundamentales a millones de\n      jugadores que actualmente no pueden experimentar sus juegos favoritos con una latencia\n      menor a los 100 ms, Queremos formular una pregunta simple:\n    ',
+    title: '\n      Por que EA, Steam, Battle.net, etc.. tienen servers en Sur y Norte America pero\n      aqui en America central NO?\n    ',
+    desc2: '\n      La comunidad gamer latina alza su voz por esta causa, la desigualdad de PING\n      equivale al estancamiento del progreso de nuestra comunidad a nivel competitivo\n      y casual. Ayudanos con un click y tu firma para juntos lograr un cambio.\n    '
+  },
+  buttonText: 'Necesitamos tu ayuda'
+};
+
 exports.default = function () {
-  var _useSiteData = useSiteData(),
-      title = _useSiteData.title,
-      desc = _useSiteData.desc,
-      url = _useSiteData.url,
-      body = _useSiteData.body,
-      buttonText = _useSiteData.buttonText;
+  var title = data.title,
+      url = data.url,
+      desc = data.desc,
+      body = data.body,
+      buttonText = data.buttonText;
 
   return _react2.default.createElement(
     PromoPage,
@@ -2254,4 +2265,4 @@ module.exports = __webpack_require__.p + "static/apex-ping.69d8c1ad.jpg";
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.a7366792.js.map
+//# sourceMappingURL=static.25cc9b8e.js.map
