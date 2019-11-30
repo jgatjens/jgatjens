@@ -874,10 +874,14 @@ var Inline = _styledComponents2.default.div.withConfig({
   componentId: 'sc-1oaoljz-2'
 })(['display:flex;div{margin-right:2px;cursor:pointer;}']);
 
-var desc = 'La igualdad de PING es la lucha por otorgar derechos fundamentales a millones de jugadores que actualmente no pueden experimentar sus juegos favoritos con una latencia menor a los 100 ms';
-var title = 'Merecemos un mejor PING';
-
 exports.default = function () {
+  var _useSiteData = useSiteData(),
+      title = _useSiteData.title,
+      desc = _useSiteData.desc,
+      url = _useSiteData.url,
+      body = _useSiteData.body,
+      buttonText = _useSiteData.buttonText;
+
   return _react2.default.createElement(
     PromoPage,
     null,
@@ -913,19 +917,19 @@ exports.default = function () {
           { windowWidth: 560,
             windowHeight: 745,
             quote: title,
-            url: 'http://jgatjens.com/we-deserve-better-ping/' },
+            url: 'https://jgatjens.com/' + url + '/' },
           _react2.default.createElement(_reactShare.FacebookIcon, { size: 32, round: true })
         ),
         _react2.default.createElement(
           _reactShare.TwitterShareButton,
           { title: title,
             hashtags: ['ea', 'battle.net', 'league-of-legends', 'Steam', 'etc'],
-            url: 'http://jgatjens.com/we-deserve-better-ping/' },
+            url: 'https://jgatjens.com/' + url + '/' },
           _react2.default.createElement(_reactShare.TwitterIcon, { size: 32, round: true })
         ),
         _react2.default.createElement(
           _reactShare.EmailShareButton,
-          { url: 'http://jgatjens.com/we-deserve-better-ping/', subject: title, openWindow: true },
+          { url: 'https://jgatjens.com/' + url + '/', subject: title, openWindow: true },
           _react2.default.createElement(_reactShare.EmailIcon, { size: 32, round: true })
         )
       ),
@@ -933,22 +937,22 @@ exports.default = function () {
       _react2.default.createElement(
         Desc,
         null,
-        'La igualdad de PING es la lucha por otorgar derechos fundamentales a millones de jugadores que actualmente no pueden experimentar sus juegos favoritos con una latencia menor a los 100 ms, Queremos formular una pregunta simple:'
+        body.desc1
       ),
       _react2.default.createElement(
         'h2',
         null,
-        'Por que EA, Steam, Battle.net, etc.. tienen servers en Sur y Norte America pero aqui en America central NO?'
+        body.title
       ),
       _react2.default.createElement(
         Desc,
         null,
-        'La comunidad gamer latina alza su voz por esta causa, la desigualdad de PING equivale al estancamiento del progreso de nuestra comunidad a nivel competitivo y casual. Ayudanos con un click y tu firma para juntos lograr un cambio.'
+        body.desc2
       ),
       _react2.default.createElement(
         _Button.Button,
         { active: true, href: 'https://secure.avaaz.org/es/community_petitions/EA_La_igualdad_de_PING', target: '_blank' },
-        'Necesitamos tu ayuda'
+        buttonText
       ),
       _react2.default.createElement(_ShareLinks2.default, null)
     )
@@ -1228,7 +1232,7 @@ var universalOptions = {
 
 var t_0 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
   id: '../src/containers/Home',
-  file: '/Users/jgatjens/Desktop/dev/jgatjens.github.io/dist/react-static-routes.js',
+  file: '/Users/jgatjens/Desktop/dev/jgatjens/jgatjens.github.io/dist/react-static-routes.js',
   load: function load() {
     return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 8)), (0, _importCss3.default)('src/containers/Home', {
       disableWarnings: true
@@ -1248,7 +1252,7 @@ var t_0 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
 }), universalOptions);
 var t_1 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
   id: '../src/containers/Promo',
-  file: '/Users/jgatjens/Desktop/dev/jgatjens.github.io/dist/react-static-routes.js',
+  file: '/Users/jgatjens/Desktop/dev/jgatjens/jgatjens.github.io/dist/react-static-routes.js',
   load: function load() {
     return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 14)), (0, _importCss3.default)('src/containers/Promo', {
       disableWarnings: true
@@ -1268,7 +1272,7 @@ var t_1 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
 }), universalOptions);
 var t_2 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
   id: '../src/containers/Ping',
-  file: '/Users/jgatjens/Desktop/dev/jgatjens.github.io/dist/react-static-routes.js',
+  file: '/Users/jgatjens/Desktop/dev/jgatjens/jgatjens.github.io/dist/react-static-routes.js',
   load: function load() {
     return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 18)), (0, _importCss3.default)('src/containers/Ping', {
       disableWarnings: true
@@ -1288,7 +1292,7 @@ var t_2 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
 }), universalOptions);
 var t_3 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)({
   id: '../src/containers/404',
-  file: '/Users/jgatjens/Desktop/dev/jgatjens.github.io/dist/react-static-routes.js',
+  file: '/Users/jgatjens/Desktop/dev/jgatjens/jgatjens.github.io/dist/react-static-routes.js',
   load: function load() {
     return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 19)), (0, _importCss3.default)('src/containers/404', {
       disableWarnings: true
@@ -2250,4 +2254,4 @@ module.exports = __webpack_require__.p + "static/apex-ping.69d8c1ad.jpg";
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.70988377.js.map
+//# sourceMappingURL=static.a7366792.js.map
