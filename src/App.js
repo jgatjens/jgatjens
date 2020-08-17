@@ -10,7 +10,7 @@ injectGlobal`
   ${styledNormalize}
   
   body, html {
-    font-family: 'Roboto';
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     margin: 0;
     padding: 0;

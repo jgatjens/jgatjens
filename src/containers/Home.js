@@ -3,18 +3,18 @@ import { Head } from 'react-static'
 import styled from 'styled-components'
 // components
 import Profile from '../components/Profile'
-import SkillList from '../components/SkillList'
 import ShareLinks from '../components/ShareLinks'
-import Footer from '../components/Footer'
-import ForkMe from '../components/ForkMe'
+import HireMe from '../components/HireMe'
+import Background from '../components/Background'
+// import ForkMe from '../components/ForkMe'
 import img from '../assets/jgatjens.jpg';
 
 const Desc = styled.p`
   margin: 0;
-  padding: 15px 0 25px 0;
+  padding: 30px 0 0 0;
   line-height: 22px;
   font-weight: 200;
-  color: #777777;
+  color: #020218;
   font-size: 13px;
   text-align: center;
 `
@@ -33,7 +33,7 @@ export default () => (
 
     <Head>
       <title>Jairo Gätjens - Website</title>
-      <meta name="description" content="I'm an experienced Full-Stack Developer based in Costa Rica." />
+      <meta name="description" content="I'm an experienced Developer based in Costa Rica." />
       <meta name="keywords" content="Website, Resume, Profile, Github, HTML, CSS, JavaScript" />
       <meta name="author" content="Jairo Gätjens" />
       <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
@@ -49,15 +49,14 @@ export default () => (
       <meta name="twitter:image" content={img} /> 
     </Head>
 
-    <ForkMe />
-    
+    {/* <ForkMe /> */}
+    <Background />
     <Profile />
-    <SkillList />
+    <HireMe />
     <Desc>
       Experienced Software  <br />
-      Full-Stack Developer based in Costa Rica..
+      Developer based in Costa Rica.
     </Desc>
     <ShareLinks />
-    <Footer />
   </HomePage>
 )

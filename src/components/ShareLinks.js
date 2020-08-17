@@ -6,16 +6,17 @@ const Links = styled.a`
   text-transform: uppercase;
   color: #3B3E49;
   display: inline-block;
+  margin-top: 25px;
 `
 
 const Svg = styled.svg`
   width: auto;
   height: 30px;
   margin: 0 15px;
-  color: #CDCFD4;
+  color: #020218;
 
   &:hover {
-    color: #3B3E49;
+    color: #FF2F4A;
   }
 `
 
