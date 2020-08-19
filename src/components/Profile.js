@@ -6,22 +6,21 @@ const Logo = styled.img`
   margin: 0 auto;
   background-color: #F2F2F2;
   display: block;
-  width: 200px;
-  height: 200px;
+  width: 142px;
+  height: 142px;
 `
 
 const Title = styled.h1`
-  margin: 0.67em 0;
-  color: #3B3E48;
-  font-size: 22px;
-  font-weight: 500;
+  margin: 20px 0 0 0;
+  color: #020218;
+  font-size: 34px;
+  font-weight: 600;
   word-spacing: 2px;
 
   small {
-    padding-top: 5px;
+    padding-top: 10px;
     display: block;
-    font-weight: 200;
-    color: #777777;
+    font-weight: 500;
     font-size: 13px;
   }
 `
