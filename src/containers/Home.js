@@ -8,7 +8,7 @@ import ShareLinks from "../components/ShareLinks";
 import HireMe from "../components/HireMe";
 import Background from "../components/Background";
 // import ForkMe from '../components/ForkMe'
-import img from "../assets/jgatjens.jpg";
+import img from "../assets/share-jgatjens.jpg";
 
 const Desc = styled.p`
   margin: 0;
